@@ -1,4 +1,4 @@
-# LocalScore leaderboard analysis
+# LocalScore leaderboard insights
 
 LocalScore leaderboard: [LocalScore](https://www.localscore.ai/latest)
 
