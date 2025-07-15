@@ -44,7 +44,7 @@ Data: [localscore_leaderboard.q4_k_med.1.5B.sorted_by_pp_tps.csv](localscore_lea
 
 ### GPUs
 
-The following are the best among the GPUs:
+These are the best GPUs:
 
 -   NVIDIA RTX PRO 6000 Blackwell Workstation Edition 95 GB
 -   NVIDIA RTX 6000 Ada Generation 47 GB
@@ -63,7 +63,7 @@ The following GPUs are good value and perform really well:
 -   NVIDIA GeForce RTX 3090 24 GB
 -   NVIDIA GeForce RTX 3080 Ti 12 GB
 
-There are only a few AMD GPUs which show notable performance in these benchmarks:
+There are only a few AMD GPUs which show notable performance in the current benchmarks:
 
 -   AMD Radeon RX 6900 XT 16 GB
 -   AMD Radeon PRO V620 30 GB
@@ -126,6 +126,6 @@ In the CPU-only case, the prompt processing throughput is uniformly around 30–
 
 The situation is reversed for token generation. The CPU-only method produces output at a rate of 5-6 tokens/s -- around 1.6 faster than the GPU+CPU method.
 
-The slow token generation of the GPU+CPU method may be caused by the extra time needed to move the model weights from the system RAM into the VRAM again and again for each generated token. For prompt processing, the required time is determined by the size of the input prompt and dominated by the computational demand rather than the memory bandwidth.
+The slow token generation of the GPU+CPU method may be attributed to the extra time needed to move the model weights from the system RAM into the VRAM again and again for each generated token. For prompt processing, the required time is determined by the size of the input prompt and dominated by the computational demand rather than the memory bandwidth.
 
-In conclusion, a GPU with even a small amount of VRAM can contribute to the overall system performance.
+In conclusion, a GPU with even a small amount of VRAM can contribute positively to the overall system performance.
