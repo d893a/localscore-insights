@@ -90,7 +90,7 @@ Note that even these processors are an order of magnitude slower at prompt proce
 
 ### Hybrid system
 
-The benchmark results show a hybrid system, too. [Test #337](https://www.localscore.ai/result/337) features an AMD Ryzen 7 7800X3D 8-Core Processor (znver4) with 32 GB of system RAM, plus an NVIDIA GeForce RTX 4060 Ti with 8 GB VRAM. The model under test is Qwen2.5 14B Instruct Q4_K - Medium with 14.8B parameters. The file size is 8,988,110,976 bytes, which does not fit into the GPU memory.
+The benchmark results show a hybrid system, too. [Test #337](https://www.localscore.ai/result/337) features an AMD Ryzen 7 7800X3D 8-Core Processor (znver4) with 32 GB of system RAM, plus an NVIDIA GeForce RTX 4060 Ti with 8 GB VRAM. The model under test is *Qwen2.5 14B Instruct Q4_K - Medium* with 14.8B parameters. The file size is 8,988,110,976 bytes, which does not fit into the GPU memory.
 
 The results are shown in the following table:
 
@@ -126,6 +126,6 @@ In the CPU-only case, the prompt processing throughput is uniformly around 30–
 
 The situation is reversed for token generation. The CPU-only method produces output at a rate of 5-6 tokens/s -- around 1.6 faster than the GPU+CPU method.
 
-The slow token generation of the GPU+CPU method may be attributed to the extra time needed to move the model weights from the system RAM into the VRAM again and again for each generated token. For prompt processing, the required time is determined by the size of the input prompt and dominated by the computational demand rather than the memory bandwidth.
+The slow token generation of the GPU+CPU method may be attributed to the extra time needed to move the model weights from the system RAM into the VRAM again and again for each generated token. For prompt processing, the required time is determined by the size of the input prompt and dominated by the available computational power rather than the memory bandwidth.
 
 In conclusion, a GPU with even a small amount of VRAM can contribute positively to the overall system performance.
