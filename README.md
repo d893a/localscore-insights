@@ -1,4 +1,4 @@
-# LocalScore leaderboard analytics
+# LocalScore leaderboard analysis
 
 LocalScore leaderboard: [LocalScore](https://www.localscore.ai/latest)
 
@@ -6,11 +6,11 @@ All benchmark results: [localscore_leaderboard.csv](localscore_leaderboard.csv) 
 
 ## Time to first token
 
-The performance is primarily determined by the memory bandwidth of the GPU/CPU. GPUs have an order of magnitude larger memory bandwidth. A few GPU's VRAM is almost as slow as CPUs' system RAM.
+Performance is primarily determined by the memory bandwidth of the GPU/CPU. GPUs have an order of magnitude larger memory bandwidth. A few GPUs' VRAM is almost as slow as CPUs' system RAM.
 
 ### 14 B parameter model
 
-The figure below shows the benchmarks results for the 14 B parameter model, ordered by time-to-first-token values. GPUs: 146 to 2720 ms (~19x span). CPUs: 5560 to 298,080 ms (~54x span; 1 outlier removed from the data).  \
+The figure below shows the benchmark results for the 14 B parameter model, ordered by time-to-first-token values. GPUs: 146 to 2720 ms (~19x span). CPUs: 5560 to 298,080 ms (~54x span; 1 outlier removed from the data).  \
 Data: [localscore_leaderboard.q4_k_med.14B.sorted_by_ttft.csv](localscore_leaderboard.q4_k_med.14B.sorted_by_ttft.csv)
 
 ![ttft_vs_value_index.14B.png](ttft_vs_value_index.14B.png)
@@ -35,7 +35,7 @@ Data: [localscore_leaderboard.q4_k_med.8B.llama3.1.sorted_by_pp_tps.csv](localsc
 
 ### 1.5 B parameter model
 
-Prompt processing throughput for the 1.5 B parameter model. GPUs: 30,896 down to 1470 tokens/s (~20x span). CPUs: 1738 to 2 token/s. \
+Prompt processing throughput for the 1.5 B parameter model. GPUs: 30,896 down to 1470 tokens/s (~20x span). CPUs: 1738 to 2 tokens/s. \
 Data: [localscore_leaderboard.q4_k_med.1.5B.sorted_by_pp_tps.csv](localscore_leaderboard.q4_k_med.1.5B.sorted_by_pp_tps.csv)
 
 ![pp_tps_vs_value_index.1.5B.png](pp_tps_vs_value_index.1.5B.png)
@@ -53,7 +53,7 @@ The following are the best among the GPUs:
 -   NVIDIA GeForce RTX 4090 D 47 GB
 -   NVIDIA RTX 6000 Ada Generation 48 GB
 
-The following GPUs are good value, and perform really well:
+The following GPUs are good value and perform really well:
 
 -   NVIDIA GeForce RTX 5070 Ti 15 GB
 -   NVIDIA GeForce RTX 4080 SUPER 16 GB
@@ -63,7 +63,7 @@ The following GPUs are good value, and perform really well:
 -   NVIDIA GeForce RTX 3090 24 GB
 -   NVIDIA GeForce RTX 3080 Ti 12 GB
 
-There are only a few AMD GPUs which show notabele performance in these benchmarks:
+There are only a few AMD GPUs which show notable performance in these benchmarks:
 
 -   AMD Radeon RX 6900 XT 16 GB
 -   AMD Radeon PRO V620 30 GB
@@ -86,7 +86,7 @@ Some processors can approach the performance of weaker GPUs:
 -   AMD Ryzen 9 9950X3D 16-Core Processor
 -   AMD Ryzen 9 7950X 16-Core Processor (znver4)
 
-Note that even these processors are an order of magnitude slower at prompt processing than the average GPUs.
+Note that even these processors are an order of magnitude slower at prompt processing than the average GPU.
 
 ### Hybrid system
 
@@ -120,12 +120,12 @@ The results are shown in the following table:
 | pp64+tg1024    |               37  |                  5.9  | 1.87 sec  |
 | pp16+tg1536    |               32  |                  5.8  | 670 ms    |
 
-In the case of the hybrid GPU+CPU setup the prompt processing throughput varies between 49 and 545 token/s, mostly around 2-500 tokens/s. The time to first token falls between 578 ms and 7.82 seconds -- the only exception is the simulated RAG operation (pp4096+tg256), in which case it takes 47.96 sec to generate the first token. The output is generated at a rate of 3-4 tokens/s.
+In the case of the hybrid GPU+CPU setup, the prompt processing throughput varies between 49 and 545 tokens/s, mostly around 200–500 tokens/s. The time to first token falls between 578 ms and 7.82 seconds -- the only exception is the simulated RAG operation (pp4096+tg256), in which case it takes 47.96 sec to generate the first token. The output is generated at a rate of 3–4 tokens/s.
 
-In the CPU-only case the prompt processing throughput is uniformly around 30-40 tokens/s. The time to getting the first token depends on the length of the input, ranging from 670 ms to 52.12 seconds. Again the notable exception is the (pp4096+tg256) case, which takes 120.12 seconds to produce the first token. The CPU-only method takes 8-12 times more time to generate the first token (with the exception of pp4096+tg256, which takes 2.5 times as long).
+In the CPU-only case, the prompt processing throughput is uniformly around 30–40 tokens/s. The time to get the first token depends on the length of the input, ranging from 670 ms to 52.12 seconds. Again, the notable exception is the (pp4096+tg256) case, which takes 120.12 seconds to produce the first token. The CPU-only method takes 8–12 times more time to generate the first token (with the exception of pp4096+tg256, which takes 2.5 times as long).
 
-The situation is reversed for token generation. The CPU-only method produces output at a rate of 5-6 tokens/s -- around 1.6 faster than does the GPU+CPU method.
+The situation is reversed for token generation. The CPU-only method produces output at a rate of 5-6 tokens/s -- around 1.6 faster than the GPU+CPU method.
 
-The slow token generation of the GPU+CPU method may be caused by the extra time needed to move the model weights from the system RAM into the VRAM again and again for each generated token. For prompt processing, the required time is determined by the size of the input prompt, and dominated by the computational demand rather than the memory bandwidth.
+The slow token generation of the GPU+CPU method may be caused by the extra time needed to move the model weights from the system RAM into the VRAM again and again for each generated token. For prompt processing, the required time is determined by the size of the input prompt and dominated by the computational demand rather than the memory bandwidth.
 
 In conclusion, a GPU with even a small amount of VRAM can contribute to the overall system performance.
