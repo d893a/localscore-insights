@@ -1,0 +1,428 @@
+test_num	test_date	gen_tps	ttft	ttft_unit	prompt_tps	localscore	model_name	model_quant	model_params	model_params_unit	accel_name	accel_type	accel_ram	accel_ram_unit	system_cpu	system_ram	system_ram_unit	system_os
+937	2025.05.24 01:35	374	43	ms	30896	6431	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX PRO 6000 Blackwell Workstation Edition	GPU	95	GB	AMD Ryzen Threadripper 3970X 32-Core Processor (znver2)	125.6	GB	Linux
+684	2025.04.10 19:39	416	53	ms	27892	6030	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX 6000 Ada Generation	GPU	47	GB	AMD Ryzen Threadripper PRO 5975WX 32-Cores (znver3)	503.5	GB	Linux
+163	2025.03.30 19:43	275	56	ms	27681	5136	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5090	GPU	31	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	125.7	GB	Linux
+167	2025.03.30 20:07	276	2130	ms	27559	1527	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5090	GPU	31	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	125.7	GB	Linux
+531	2025.04.07 21:28	282	56	ms	25807	5079	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4090	GPU	24	GB	13th Gen Intel Core i7-13700K (alderlake)	63.8	GB	Windows
+141	2025.03.28 22:19	396	65	ms	25164	5354	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4090	GPU	24	GB	AMD EPYC 7B13 64-Core Processor (znver3)	2003.9	GB	Linux
+972	2025.06.02 04:59	359	57	ms	24549	5380	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4090 D	GPU	47	GB	Intel Xeon Gold 5218 CPU @ 2.30GHz (cascadelake)	503.7	GB	Linux
+77	2025.03.28 21:11	144	68	ms	19804	3464	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4090	GPU	24	GB	AMD Ryzen 9 7950X 16-Core Processor (znver4)	125	GB	Linux
+86	2025.03.28 21:21	131	68	ms	19620	3350	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX 6000 Ada Generation	GPU	48	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.5	GB	Linux
+69	2025.03.28 21:01	335	68	ms	18590	4512	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA H100 PCIe	GPU	79	GB	Intel Xeon Platinum 8352Y CPU @ 2.20GHz (icelake-server)	2015.5	GB	Linux
+155	2025.03.28 22:58	102	73	ms	18337	2953	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5090	GPU	31	GB	AMD EPYC 9554 64-Core Processor (znver4)	377.4	GB	Linux
+84	2025.03.28 21:19	121	75	ms	18255	3088	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA L40S	GPU	45	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.6	GB	Linux
+82	2025.03.28 21:16	118	77	ms	17686	3000	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA L40	GPU	44	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.6	GB	Linux
+136	2025.03.28 22:17	342	83	ms	17080	4130	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4070 Ti SUPER	GPU	16	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.7	GB	Linux
+102	2025.03.28 21:38	141	81	ms	16736	3077	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4080 SUPER	GPU	16	GB	AMD Ryzen 5 7600 6-Core Processor (znver4)	30.6	GB	Linux
+161	2025.03.29 04:20	240	92	ms	16482	3506	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5070 Ti	GPU	15	GB	Intel Core i5-14600KF (alderlake)	62.6	GB	Linux
+160	2025.03.29 04:19	240	1240	ms	16447	1471	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5070 Ti	GPU	15	GB	Intel Core i5-14600KF (alderlake)	62.6	GB	Linux
+558	2025.04.08 06:23	201	89	ms	16292	3323	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4070 Ti SUPER	GPU	16	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	127.9	GB	Windows
+174	2025.03.30 20:13	238	94	ms	16125	3439	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5070 Ti	GPU	15	GB	Intel Core i5-14600KF (alderlake)	62.6	GB	Linux
+165	2025.03.30 20:04	238	1490	ms	16091	1371	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5070 Ti	GPU	15	GB	Intel Core i5-14600KF (alderlake)	62.6	GB	Linux
+1133	2025.06.27 01:34	372	91	ms	15575	3998	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090 Ti	GPU	24	GB	Intel Core i9-14900KS (alderlake)	244.2	GB	Linux
+61	2025.03.28 20:53	308	80	ms	15370	3892	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA A100-SXM4-80GB	GPU	79	GB	AMD EPYC 7713 64-Core Processor (znver3)	1007.7	GB	Linux
+355	2025.04.06 05:53	99	84	ms	15261	2617	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA H200	GPU	140	GB	AMD EPYC 9554 64-Core Processor (znver4)	1511.5	GB	Linux
+407	2025.04.06 19:09	368	88	ms	15252	3992	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux
+127	2025.03.28 22:08	346	87	ms	15175	3928	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090 Ti	GPU	24	GB	Intel Xeon CPU E5-2699 v3 @ 2.30GHz (haswell)	125.8	GB	Linux
+138	2025.03.28 22:17	309	99	ms	15156	3615	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4070 Ti	GPU	12	GB	AMD EPYC 7542 32-Core Processor (znver2)	125.7	GB	Linux
+508	2025.04.07 18:37	200	101	ms	15093	3099	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4070 Ti	GPU	12	GB	13th Gen Intel Core i7-13700K (alderlake)	63.7	GB	Windows
+507	2025.04.07 18:24	189	103	ms	14676	2997	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4070 Ti	GPU	12	GB	13th Gen Intel Core i7-13700K (alderlake)	63.7	GB	Windows
+644	2025.04.09 16:55	96.6	93	ms	14632	2481	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA H100 80GB HBM3	GPU	79	GB	Intel Xeon Platinum 8468 (sapphirerapids)	196.6	GB	Linux
+192	2025.04.03 19:48	343	92	ms	14610	3798	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090 Ti	GPU	24	GB	11th Gen Intel Core i5-11400F @ 2.60GHz (rocketlake)	62.7	GB	Linux
+713	2025.04.14 04:36	339	91	ms	14601	3789	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD EPYC 7302P 16-Core Processor (znver2)	62.7	GB	Linux
+87	2025.03.28 21:21	95.8	90	ms	14584	2498	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA H100 80GB HBM3	GPU	79	GB	Intel Xeon Platinum 8470 (sapphirerapids)	1007.3	GB	Linux
+131	2025.03.28 22:13	332	92	ms	14470	3738	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3080 Ti	GPU	12	GB	Intel Xeon CPU E5-2690 v4 @ 2.60GHz (broadwell)	125.7	GB	Linux
+120	2025.03.28 22:00	321	95	ms	14233	3638	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3080 Ti	GPU	12	GB	Intel Xeon CPU E5-2690 v4 @ 2.60GHz (broadwell)	62.7	GB	Linux
+443	2025.04.06 23:42	199	104	ms	14206	3006	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4070 Ti	GPU	12	GB	13th Gen Intel Core i7-13700K (alderlake)	63.7	GB	Windows
+461	2025.04.07 03:20	328	95	ms	14169	3659	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	Intel Core i5-4670 CPU @ 3.40GHz (haswell)	15.5	GB	Linux
+1090	2025.06.23 08:55	193	94	ms	14107	3073	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	53.6	GB	Linux
+3	2025.03.19 21:54	330	95	ms	14061	3662	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux
+1136	2025.06.27 09:45	331	96	ms	13990	3638	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	188.3	GB	Linux
+1093	2025.06.23 09:21	194	97	ms	13974	3037	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	53.6	GB	Linux
+656	2025.04.09 23:59	340	95	ms	13805	3676	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	31.2	GB	Linux
+481	2025.04.07 09:29	238	106	ms	13799	3138	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4070 SUPER	GPU	12	GB	13th Gen Intel Core i5-13600K (alderlake)	31.8	GB	Windows
+753	2025.04.22 00:00	103	96	ms	13606	2447	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5080	GPU	15	GB	AMD Ryzen 9 9950X 16-Core Processor	60.4	GB	Linux
+94	2025.03.28 21:27	97.8	98	ms	13517	2379	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA H200	GPU	140	GB	INTEL XEON PLATINUM 8558 (sapphirerapids)	3023.5	GB	Linux
+878	2025.05.15 05:15	321	99	ms	13357	3510	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.6	GB	Linux
+185	2025.04.02 17:27	300	100	ms	13357	3428	Llama 3.2 1B Instruct	Q6_K	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.6	GB	Linux
+691	2025.04.11 19:52	186	102	ms	13196	2888	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	31.9	GB	Windows
+50	2025.03.28 20:42	315	102	ms	13191	3438	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX A6000	GPU	48	GB	AMD EPYC 7543 32-Core Processor (znver3)	503.7	GB	Linux
+219	2025.04.04 00:31	136	108	ms	13164	2549	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4070 Ti SUPER	GPU	16	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	63.9	GB	Windows
+78	2025.03.28 21:11	83.9	99	ms	13164	2232	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA H100 NVL	GPU	93	GB	AMD EPYC 9374F 32-Core Processor (znver4)	1448.6	GB	Linux
+989	2025.06.04 04:54	319	99	ms	13125	3482	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	Intel Xeon CPU E5-2697A v4 @ 2.60GHz (broadwell)	125.7	GB	Linux
+1182	2025.07.05 04:32	137	104	ms	12969	2571	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4070 SUPER	GPU	12	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	61.9	GB	Linux
+905	2025.05.19 01:29	301	105	ms	12964	3342	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	62.7	GB	Linux
+1198	2025.07.08 19:28	176	104	ms	12960	2801	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD Ryzen Threadripper 3970X 32-Core Processor (znver2)	63.9	GB	Windows
+315	2025.04.05 23:46	138	105	ms	12894	2574	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4070 SUPER	GPU	12	GB	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	61.9	GB	Linux
+523	2025.04.07 20:37	66.1	107	ms	12782	1990	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4090	GPU	24	GB	AMD Ryzen 7 9800X3D 8-Core Processor	47.6	GB	Windows
+147	2025.03.28 22:24	283	112	ms	12717	3179	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4070	GPU	12	GB	Intel Xeon CPU E5-2690 v2 @ 3.00GHz (ivybridge)	62.8	GB	Linux
+132	2025.03.28 22:14	315	107	ms	12562	3329	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3080	GPU	10	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	31.3	GB	Linux
+23	2025.03.27 22:21	308	106	ms	12344	3294	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	Intel Xeon CPU E5-2660 v3 @ 2.60GHz (haswell)	62.8	GB	Linux
+26	2025.03.27 23:39	310	110	ms	12253	3257	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX A5000	GPU	24	GB	AMD EPYC 7H12 64-Core Processor (znver2)	503.5	GB	Linux
+37	2025.03.28 18:08	112	112	ms	12246	2305	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD EPYC 7352 24-Core Processor (znver2)	127.9	GB	Windows
+953	2025.05.29 21:07	285	113	ms	12204	3136	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA A40	GPU	44	GB	Intel Xeon Gold 6338N CPU @ 2.20GHz (icelake-server)	503.4	GB	Linux
+49	2025.03.28 20:41	283	113	ms	12108	3117	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA A40	GPU	44	GB	Intel Xeon Gold 6342 CPU @ 2.80GHz (icelake-server)	503.5	GB	Linux
+1080	2025.06.20 00:16	205	113	ms	11930	2787	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3080	GPU	10	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	63.9	GB	Windows
+53	2025.03.28 20:43	313	110	ms	11835	3229	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX A5000	GPU	24	GB	AMD EPYC 7B13 64-Core Processor (znver3)	251.5	GB	Linux
+36	2025.03.28 18:02	105	121	ms	11674	2167	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD EPYC 7352 24-Core Processor (znver2)	127.9	GB	Windows
+763	2025.04.24 23:02	185	116	ms	11628	2641	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3080	GPU	10	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	63.9	GB	Windows
+486	2025.04.07 09:58	114	114	ms	11568	2263	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD Ryzen 9 9900X 12-Core Processor	185.8	GB	Linux
+484	2025.04.07 09:50	115	115	ms	11478	2256	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD Ryzen 9 9900X 12-Core Processor	185.8	GB	Linux
+154	2025.03.28 22:54	273	117	ms	11451	2992	Llama 3.2 1B Instruct	Q6_K	1500	M	NVIDIA RTX A5000	GPU	24	GB	AMD EPYC 7302 16-Core Processor (znver2)	251.6	GB	Linux
+1196	2025.07.08 19:07	151	118	ms	11382	2445	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD Ryzen Threadripper 3970X 32-Core Processor (znver2)	63.9	GB	Windows
+15	2025.03.24 18:27	130	179	ms	11035	2001	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4080	GPU	16	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	62.72	GB	Linux
+64	2025.03.28 20:55	81.9	117	ms	10806	1964	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA A100 80GB PCIe	GPU	79	GB	AMD EPYC 9374F 32-Core Processor (znver4)	1511.6	GB	Linux
+357	2025.04.06 06:08	161	126	ms	10794	2395	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3080	GPU	10	GB	AMD Ryzen Threadripper PRO 3955WX 16-Cores (znver2)	127.8	GB	Windows
+358	2025.04.06 06:13	162	126	ms	10791	2402	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3080	GPU	10	GB	AMD Ryzen Threadripper PRO 3955WX 16-Cores (znver2)	127.8	GB	Windows
+76	2025.03.28 21:10	237	142	ms	10703	2616	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX 4000 Ada Generation	GPU	20	GB	AMD EPYC 7352 24-Core Processor (znver2)	251.6	GB	Linux
+1013	2025.06.07 01:37	43.4	134	ms	10569	1509	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4090	GPU	24	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	63.6	GB	Windows
+1125	2025.06.25 21:10	41.5	135	ms	10392	1474	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5090	GPU	32	GB	AMD Ryzen 9 9950X3D 16-Core Processor	63.6	GB	Windows
+51	2025.03.28 20:43	285	131	ms	10328	2820	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX A4500	GPU	20	GB	AMD EPYC 7352 24-Core Processor (znver2)	251.6	GB	Linux
+1130	2025.06.26 21:19	41.4	136	ms	10144	1457	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5090	GPU	32	GB	AMD Ryzen 9 9950X3D 16-Core Processor	63.6	GB	Windows
+122	2025.03.28 22:03	297	137	ms	10074	2795	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3070 Ti	GPU	8	GB	AMD Ryzen 5 5500 (znver3)	86.3	GB	Linux
+861	2025.05.13 08:13	236	148	ms	9991	2515	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5060 Ti	GPU	15	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	62.7	GB	Linux
+920	2025.05.19 15:16	249	129	ms	9892	2672	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Tesla V100-SXM2-32GB	GPU	32	GB	Intel Xeon Gold 6152 CPU @ 2.10GHz (skylake-avx512)	503.5	GB	Linux
+775	2025.04.26 21:31	250	131	ms	9743	2647	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Tesla V100-SXM2-16GB	GPU	16	GB	Intel Core Ultra 9 185H (alderlake)	93.8	GB	Linux
+1120	2025.06.25 20:10	41.7	144	ms	9611	1406	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5080	GPU	16	GB	AMD Ryzen 9 9950X3D 16-Core Processor	63.6	GB	Windows
+1131	2025.06.27 01:32	189	169	ms	9573	2204	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA L4	GPU	22	GB	Intel Core i9-14900KS (alderlake)	244.2	GB	Linux
+451	2025.04.07 00:43	188	168	ms	9571	2205	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA L4	GPU	22	GB	AMD EPYC 7713P 64-Core Processor (znver3)	125.4	GB	Linux
+1121	2025.06.25 20:33	41.2	143	ms	9533	1400	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5080	GPU	16	GB	AMD Ryzen 9 9950X3D 16-Core Processor	63.6	GB	Windows
+1119	2025.06.25 19:59	41.1	144	ms	9524	1395	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5080	GPU	16	GB	AMD Ryzen 9 9950X3D 16-Core Processor	63.6	GB	Windows
+24	2025.03.27 22:53	216	164	ms	9463	2318	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4060 Ti	GPU	16	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.6	GB	Linux
+1055	2025.06.14 22:54	219	166	ms	9424	2317	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4060 Ti	GPU	16	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux
+570	2025.04.08 09:12	250	141	ms	9356	2550	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Quadro RTX 8000	GPU	47	GB	QEMU Virtual CPU version 2.5+	295	GB	Linux
+1132	2025.06.27 01:33	185	172	ms	9351	2156	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA L4	GPU	22	GB	Intel Core i9-14900KS (alderlake)	244.2	GB	Linux
+7	2025.03.19 22:16	218	161	ms	9337	2328	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4060 Ti	GPU	16	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux
+1122	2025.06.25 20:40	41	145	ms	9253	1377	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5080	GPU	16	GB	AMD Ryzen 9 9950X3D 16-Core Processor	63.6	GB	Windows
+442	2025.04.06 23:33	214	173	ms	9161	2246	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4060 Ti	GPU	16	GB	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	94.1	GB	Linux
+135	2025.03.28 22:17	218	167	ms	9134	2284	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4060 Ti	GPU	16	GB	AMD EPYC 7K62 48-Core Processor (znver2)	503.5	GB	Linux
+22	2025.03.27 21:40	248	135	ms	8984	2545	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Tesla V100-PCIE-16GB	GPU	16	GB	Intel Xeon CPU E5-2690 v4 @ 2.60GHz (broadwell)	688.5	GB	Linux
+759	2025.04.23 03:16	263	161	ms	8943	2445	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3070	GPU	8	GB	Intel Core Ultra 9 185H (alderlake)	93.8	GB	Linux
+671	2025.04.10 15:09	202	149	ms	8883	2294	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 2080 Ti	GPU	11	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	95.9	GB	Windows
+1073	2025.06.18 16:06	180	156	ms	8826	2167	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3070	GPU	8	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	31.9	GB	Windows
+363	2025.04.06 12:22	93.5	153	ms	8777	1750	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA A10	GPU	22	GB	AMD EPYC 9554 64-Core Processor (znver4)	43	GB	Linux
+466	2025.04.07 04:00	191	181	ms	8762	2100	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX 4000 SFF Ada Generation	GPU	20	GB	AMD Ryzen Threadripper PRO 3975WX 32-Cores (znver2)	251.5	GB	Linux
+346	2025.04.06 02:31	55	154	ms	8761	1464	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4070 Ti	GPU	12	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	63.1	GB	Windows
+157	2025.03.28 23:09	188	177	ms	8712	2098	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX 4000 SFF Ada Generation	GPU	20	GB	Intel Xeon CPU E5-2690 v4 @ 2.60GHz (broadwell)	251.8	GB	Linux
+112	2025.03.28 21:50	242	153	ms	8708	2396	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 2080 Ti	GPU	11	GB	AMD Ryzen 5 3600 6-Core Processor (znver2)	62.7	GB	Linux
+839	2025.05.07 18:51	171	177	ms	8699	2033	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4060 Ti	GPU	16	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows
+435	2025.04.06 21:49	254	166	ms	8609	2361	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3070	GPU	8	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	31.3	GB	Linux
+63	2025.03.28 20:54	190	174	ms	8579	2110	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA L4	GPU	22	GB	AMD EPYC 7713 64-Core Processor (znver3)	503.5	GB	Linux
+348	2025.04.06 03:20	106	162	ms	8549	1777	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4060 Ti	GPU	8	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31	GB	Linux
+44	2025.03.28 18:56	241	168	ms	8404	2296	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX A4000	GPU	16	GB	AMD EPYC 7702 64-Core Processor (znver2)	503.5	GB	Linux
+168	2025.03.30 20:07	101	371	ms	8328	1312	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 5070	GPU	12	GB	AMD Ryzen 7 9800X3D 8-Core Processor	123.5	GB	Linux
+375	2025.04.06 14:08	185	157	ms	8285	2137	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 2080 Ti	GPU	11	GB	Intel Core i7-7700K CPU @ 4.20GHz (skylake)	31.3	GB	Linux
+467	2025.04.07 04:03	218	167	ms	8237	2205	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3070	GPU	8	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	31.9	GB	Windows
+633	2025.04.09 08:39	181	161	ms	8206	2099	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX 3500 Ada Generation Laptop GPU	GPU	12	GB	13th Gen Intel Core i9-13980HX (alderlake)	191.7	GB	Windows
+225	2025.04.04 04:24	182	169	ms	8050	2055	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060 Ti	GPU	8	GB	AMD Ryzen 5 5600 6-Core Processor (znver3)	63.9	GB	Windows
+126	2025.03.28 22:07	235	172	ms	7901	2208	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3070	GPU	8	GB	Intel Xeon CPU E5-2650 v4 @ 2.20GHz (broadwell)	62.6	GB	Linux
+107	2025.03.28 21:45	232	159	ms	7853	2252	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA TITAN V	GPU	12	GB	AMD EPYC 7K62 48-Core Processor (znver2)	125.6	GB	Linux
+661	2025.04.10 00:23	153	180	ms	7662	1868	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060 Ti	GPU	8	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	15.6	GB	Linux
+121	2025.03.28 22:03	244	181	ms	7658	2176	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060 Ti	GPU	8	GB	Intel Xeon CPU E5-2630 v4 @ 2.20GHz (broadwell)	31.2	GB	Linux
+411	2025.04.06 19:18	173	185	ms	7408	1907	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060 Ti	GPU	8	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	31.9	GB	Windows
+137	2025.03.28 22:17	190	208	ms	7201	1874	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4060	GPU	8	GB	Intel Xeon CPU E5-2699 v4 @ 2.20GHz (broadwell)	1007.7	GB	Linux
+408	2025.04.06 19:09	169	191	ms	7163	1851	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060 Ti	GPU	8	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	31.9	GB	Windows
+618	2025.04.08 21:09	22.3	268	ms	6976	834	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4090	GPU	24	GB	AMD Ryzen Threadripper PRO 7995WX (znver4)	503.1	GB	Linux
+328	2025.04.06 00:36	52.6	204	ms	6655	1197	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4060 Ti	GPU	8	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows
+338	2025.04.06 01:35	52.5	205	ms	6597	1190	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4060 Ti	GPU	8	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows
+614	2025.04.08 20:34	34.6	216	ms	6502	1013	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Radeon RX 7900 XT	GPU	20	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.1	GB	Linux
+119	2025.03.28 21:59	214	222	ms	6358	1830	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060	GPU	12	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	31.3	GB	Linux
+101	2025.03.28 21:37	212	216	ms	6350	1840	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 2070 SUPER	GPU	8	GB	Intel Xeon CPU E5-2690 0 @ 2.90GHz (sandybridge)	503.8	GB	Linux
+321	2025.04.06 00:17	103	259	ms	6338	1359	Llama 3.2 1B Instruct	Q8_0	1500	M	AMD Radeon RX 6900 XT	GPU	16	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+529	2025.04.07 21:12	97.3	223	ms	6259	1397	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4060 Laptop GPU	GPU	8	GB	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	30.5	GB	Linux
+663	2025.04.10 02:17	95.6	225	ms	6191	1380	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4060 Laptop GPU	GPU	8	GB	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	30.5	GB	Linux
+62	2025.03.28 20:54	173	244	ms	6151	1634	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX 2000 Ada Generation	GPU	16	GB	AMD EPYC 7443 24-Core Processor (znver3)	251.5	GB	Linux
+43	2025.03.28 18:54	206	238	ms	6119	1743	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060	GPU	12	GB	AMD EPYC 7402P 24-Core Processor (znver2)	251.6	GB	Linux
+718	2025.04.14 07:40	168	253	ms	6085	1590	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX 2000 Ada Generation	GPU	16	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	47	GB	Linux
+716	2025.04.14 07:27	165	256	ms	6025	1572	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX 2000 Ada Generation	GPU	16	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	47	GB	Linux
+798	2025.05.03 14:21	201	236	ms	6022	1725	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060	GPU	12	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+817	2025.05.04 12:08	169	227	ms	6019	1650	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060	GPU	12	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows
+473	2025.04.07 04:49	202	236	ms	5800	1706	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060	GPU	12	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	62.7	GB	Linux
+323	2025.04.06 00:21	110	281	ms	5591	1299	Llama 3.2 1B Instruct	Q5_K - Medium	1500	M	AMD Radeon RX 6900 XT	GPU	16	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+111	2025.03.28 21:50	195	287	ms	5553	1558	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 2060 SUPER	GPU	8	GB	Intel Xeon CPU E5-2687W 0 @ 3.10GHz (sandybridge)	503.8	GB	Linux
+325	2025.04.06 00:23	113	296	ms	5176	1256	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6900 XT	GPU	16	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+322	2025.04.06 00:20	109	298	ms	5147	1234	Llama 3.2 1B Instruct	Q6_K	1500	M	AMD Radeon RX 6900 XT	GPU	16	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+874	2025.05.14 22:57	126	268	ms	5096	1339	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060 Laptop GPU	GPU	6	GB	11th Gen Intel Core i7-11800H @ 2.30GHz (tigerlake)	15.8	GB	Windows
+598	2025.04.08 12:28	114	286	ms	4979	1255	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4050 Laptop GPU	GPU	6	GB	13th Gen Intel Core i5-13450HX (alderlake)	15.7	GB	Windows
+865	2025.05.14 08:32	135	280	ms	4908	1332	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060 Laptop GPU	GPU	6	GB	11th Gen Intel Core i7-11800H @ 2.30GHz (tigerlake)	15.8	GB	Windows
+858	2025.05.11 17:36	136	276	ms	4902	1340	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060 Laptop GPU	GPU	6	GB	11th Gen Intel Core i7-11800H @ 2.30GHz (tigerlake)	15.8	GB	Windows
+1192	2025.07.07 18:02	168	284	ms	4875	1422	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 2060	GPU	6	GB	QEMU Virtual CPU version 2.5+	11.7	GB	Linux
+1209	2025.07.11 20:26	102	327	ms	4609	1128	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon PRO V620	GPU	30	GB	Intel Xeon W-2150B CPU @ 3.00GHz (skylake-avx512)	125.4	GB	Linux
+491	2025.04.07 11:52	152	278	ms	4587	1357	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 7900 XTX	GPU	24	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	31.9	GB	Windows
+477	2025.04.07 05:36	110	331	ms	4585	1150	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6800 XT	GPU	16	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux
+999	2025.06.04 20:15	133	284	ms	4439	1276	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Radeon RX 7900 XTX	GPU	24	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.3	GB	Linux
+514	2025.04.07 19:08	144	330	ms	4363	1241	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX A2000 12GB	GPU	12	GB	12th Gen Intel Core i7-12700 (alderlake)	62.5	GB	Linux
+108	2025.03.28 21:47	160	301	ms	4298	1317	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA TITAN Xp	GPU	12	GB	Intel Xeon CPU E5-1650 v3 @ 3.50GHz (haswell)	31.2	GB	Linux
+955	2025.05.30 04:42	142	356	ms	4094	1177	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3050 Ti Laptop GPU	GPU	4	GB	12th Gen Intel Core i7-12700H (alderlake)	15.3	GB	Linux
+367	2025.04.06 13:34	122	355	ms	4089	1122	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3050 Ti Laptop GPU	GPU	4	GB	12th Gen Intel Core i7-12700H (alderlake)	31.7	GB	Windows
+366	2025.04.06 13:15	126	352	ms	4078	1134	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3050 Ti Laptop GPU	GPU	4	GB	12th Gen Intel Core i7-12700H (alderlake)	31.7	GB	Windows
+1029	2025.06.11 04:39	146	317	ms	4075	1233	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce GTX 1080 Ti	GPU	11	GB	AMD FX(tm)-8320 Eight-Core Processor (bdver2)	7.5	GB	Linux
+103	2025.03.28 21:39	144	320	ms	4047	1221	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce GTX 1080 Ti	GPU	11	GB	Intel Xeon CPU E7-8867 v4 @ 2.40GHz (broadwell)	188.7	GB	Linux
+616	2025.04.08 21:06	101	392	ms	3829	997	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6800	GPU	16	GB	AMD Ryzen Threadripper 2970WX 24-Core Processor	31.9	GB	Windows
+542	2025.04.07 23:04	16	417	ms	3734	523	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 7900 XTX	GPU	24	GB	AMD Ryzen 9 7950X 16-Core Processor (znver4)	62.2	GB	Linux
+1068	2025.06.17 19:36	86.4	322	ms	3700	997	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3060 Laptop GPU	GPU	6	GB	12th Gen Intel Core i7-12700H (alderlake)	15.5	GB	Linux
+927	2025.05.22 06:25	16.6	418	ms	3681	527	Llama-3.2-1B-Instruct	Q4_0	1500	M	Radeon RX 7900 XTX	GPU	24	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	61.9	GB	Linux
+651	2025.04.09 19:07	12.3	522	ms	3646	442	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6900 XT	GPU	16	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows
+880	2025.05.15 10:38	16.4	424	ms	3644	520	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Radeon RX 7900 XTX	GPU	24	GB	AMD Ryzen 9 7900X 12-Core Processor (znver4)	124.9	GB	Linux
+731	2025.04.17 08:26	109	416	ms	3399	962	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX A2000 8GB Laptop GPU	GPU	8	GB	12th Gen Intel Core i7-12700H (alderlake)	31.6	GB	Windows
+979	2025.06.03 02:46	98	423	ms	3355	920	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 3050	GPU	6	GB	Intel Core i5-4590 CPU @ 3.30GHz (haswell)	31.9	GB	Windows
+639	2025.04.09 16:00	12.1	557	ms	3324	417	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6800 XT	GPU	16	GB	AMD Ryzen 7 7700X 8-Core Processor (znver4)	31.6	GB	Windows
+319	2025.04.06 00:13	55.5	414	ms	3235	757	Llama 3.2 1B Instruct	F16	1500	M	AMD Radeon RX 6900 XT	GPU	16	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+967	2025.06.01 20:44	103	489	ms	3192	875	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6700 XT	GPU	12	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	15.9	GB	Windows
+976	2025.06.02 17:46	105	431	ms	3091	911	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX A2000 Laptop GPU	GPU	4	GB	11th Gen Intel Core i9-11950H @ 2.60GHz (tigerlake)	62.5	GB	Linux
+975	2025.06.02 17:37	106	432	ms	3077	909	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA RTX A2000 Laptop GPU	GPU	4	GB	11th Gen Intel Core i9-11950H @ 2.60GHz (tigerlake)	62.5	GB	Linux
+605	2025.04.08 15:03	92.5	510	ms	3054	821	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6700 XT	GPU	12	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.3	GB	Linux
+12	2025.03.19 22:54	109	443	ms	3031	907	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6650 XT	GPU	8	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux
+30	2025.03.28 00:15	117	438	ms	3003	928	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce GTX 1070 Ti	GPU	8	GB	Intel Xeon CPU E5-2680 v2 @ 2.80GHz (ivybridge)	251.6	GB	Linux
+97	2025.03.28 21:33	116	438	ms	2993	926	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce GTX 1070 Ti	GPU	8	GB	Intel Xeon CPU E5-2680 v2 @ 2.80GHz (ivybridge)	251.6	GB	Linux
+25	2025.03.27 22:54	114	445	ms	2944	911	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce GTX 1070 Ti	GPU	8	GB	Intel Xeon CPU E5-2680 v2 @ 2.80GHz (ivybridge)	251.6	GB	Linux
+600	2025.04.08 12:40	165	455	ms	2750	999	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 9070 XT	GPU	16	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux
+588	2025.04.08 11:23	160	468	ms	2665	969	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 9070 XT	GPU	16	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux
+18	2025.03.25 17:55	83.9	617	ms	2606	708	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6650 XT	GPU	8	GB	AMD EPYC 7352 24-Core Processor (znver2)	127.87	GB	Windows
+40	2025.03.28 18:20	82.2	623	ms	2600	700	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6650 XT	GPU	8	GB	AMD EPYC 7352 24-Core Processor (znver2)	127.9	GB	Windows
+19	2025.03.25 18:17	82.9	620	ms	2592	703	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6650 XT	GPU	8	GB	AMD EPYC 7352 24-Core Processor (znver2)	127.87	GB	Windows
+701	2025.04.12 15:34	10	657	ms	2563	339	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6800	GPU	16	GB	AMD Ryzen 5 8500G w/ Radeon 740M Graphics (znver4)	31.1	GB	Windows
+913	2025.05.19 05:05	12.8	644	ms	2552	371	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6700 XT	GPU	12	GB	AMD Ryzen 9 7900X 12-Core Processor (znver4)	62	GB	Linux
+100	2025.03.28 21:35	124	477	ms	2516	868	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Tesla P100-SXM2-16GB	GPU	16	GB	Intel Xeon Gold 6138 CPU @ 2.00GHz (skylake-avx512)	376.5	GB	Linux
+1004	2025.06.06 05:05	121	490	ms	2512	852	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD  Radeon RX 7800 XT	GPU	16	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	31.9	GB	Windows
+39	2025.03.28 18:16	84	621	ms	2494	696	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6650 XT	GPU	8	GB	AMD EPYC 7352 24-Core Processor (znver2)	127.9	GB	Windows
+21	2025.03.27 19:14	82.3	620	ms	2475	690	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6650 XT	GPU	8	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.6	GB	Linux
+926	2025.05.22 06:23	13.9	615	ms	2435	380	Llama-3.2-1B-Instruct	Q4_0	1500	M	AMD Radeon RX 7800 XT	GPU	16	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	61.9	GB	Linux
+98	2025.03.28 21:33	97	543	ms	2378	752	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce GTX 1070	GPU	8	GB	Intel Xeon CPU E5-2620 0 @ 2.00GHz (sandybridge)	503.8	GB	Linux
+1078	2025.06.19 19:17	72.9	768	ms	2052	580	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 6600	GPU	8	GB	Intel Xeon W-2150B CPU @ 3.00GHz (skylake-avx512)	251.3	GB	Linux
+736	2025.04.18 14:22	47.9	967	ms	1770	444	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 2050	GPU	4	GB	AMD Ryzen 5 7535HS with Radeon Graphics (znver3)	14.9	GB	Linux
+619	2025.04.08 21:13	118	849	ms	1738	623	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen Threadripper PRO 7995WX (znver4)	CPU	503.1	GB	AMD Ryzen Threadripper PRO 7995WX (znver4)	503.1	GB	Linux
+783	2025.04.29 17:57	149	906	ms	1609	641	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD EPYC 9454P 48-Core Processor (znver4)	CPU	251.4	GB	AMD EPYC 9454P 48-Core Processor (znver4)	251.4	GB	Linux
+1050	2025.06.14 02:42	57.1	903	ms	1502	456	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon RX 7600 XT	GPU	8	GB	13th Gen Intel Core i5-13500HX (alderlake)	31.7	GB	Windows
+755	2025.04.22 04:35	47.8	1180	ms	1233	369	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Orin	GPU	7	GB	ARMv8 Processor rev 1 (v8l)	7.4	GB	Linux
+957	2025.05.31 13:20	71.2	1230	ms	1195	410	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 9950X 16-Core Processor	CPU	59.4	GB	AMD Ryzen 9 9950X 16-Core Processor	59.4	GB	Linux
+110	2025.03.28 21:50	46.9	1220	ms	1057	343	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce GTX 1080	GPU	8	GB	Intel Xeon CPU E5-2687W 0 @ 3.10GHz (sandybridge)	188.8	GB	Linux
+1009	2025.06.06 15:06	44.5	1330	ms	1013	324	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce GTX 1050 Ti	GPU	4	GB	Intel Core i7 CPU         870  @ 2.93GHz (nehalem)	15.5	GB	Linux
+304	2025.04.05 22:35	58.1	1610	ms	898	319	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	CPU	61.9	GB	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	61.9	GB	Linux
+742	2025.04.19 21:20	24.4	1830	ms	814	221	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce GTX 1070 with Max-Q Design	GPU	8	GB	Intel Core i7-8750H CPU @ 2.20GHz (skylake)	31.2	GB	Linux
+602	2025.04.08 12:57	35	1580	ms	792	260	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce GTX 1050	GPU	4	GB	Intel Core i5-8300H CPU @ 2.30GHz (skylake)	23.9	GB	Windows
+278	2025.04.05 12:11	42	2150	ms	695	239	Llama 3.2 1B Instruct	Q6_K	1500	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+653	2025.04.09 21:55	54.7	2180	ms	690	259	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+314	2025.04.05 23:44	11.7	1880	ms	690	162	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon 780M	GPU	27	GB	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	54.7	GB	Linux
+645	2025.04.09 17:24	54.1	2200	ms	688	257	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 7945HX with Radeon Graphics (znver4)	CPU	23.3	GB	AMD Ryzen 9 7945HX with Radeon Graphics (znver4)	23.3	GB	Linux
+942	2025.05.24 18:59	70.3	2140	ms	687	282	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 9900X 12-Core Processor	CPU	31.6	GB	AMD Ryzen 9 9900X 12-Core Processor	31.6	GB	Windows
+410	2025.04.06 19:15	51.6	2220	ms	677	251	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	62.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux
+279	2025.04.05 12:14	46.2	2240	ms	668	240	Llama 3.2 1B Instruct	Q5_K - Medium	1500	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+1071	2025.06.18 14:58	11.8	1960	ms	666	159	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon 780M Graphics	GPU	14	GB	AMD Ryzen 7 8845HS w/ Radeon 780M Graphics (znver4)	27.8	GB	Windows
+1189	2025.07.07 10:57	74.4	2240	ms	663	280	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen Threadripper 3960X 24-Core Processor (znver2)	CPU	62.7	GB	AMD Ryzen Threadripper 3960X 24-Core Processor (znver2)	62.7	GB	Linux
+280	2025.04.05 12:18	51.2	2280	ms	656	245	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+1116	2025.06.25 17:37	72.6	2210	ms	599	270	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Radeon Graphics	GPU	32	GB	Intel Core i9-14900K (alderlake)	94	GB	Linux
+914	2025.05.19 05:10	47	2460	ms	596	225	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 7900X 12-Core Processor (znver4)	CPU	62	GB	AMD Ryzen 9 7900X 12-Core Processor (znver4)	62	GB	Linux
+212	2025.04.03 23:44	73.2	2430	ms	577	259	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	CPU	94.3	GB	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	94.3	GB	Linux
+374	2025.04.06 14:03	20.7	2580	ms	567	166	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce GTX 1650 Ti	GPU	4	GB	Intel Core i7-10750H CPU @ 2.60GHz (skylake)	31.8	GB	Windows
+349	2025.04.06 03:26	59.3	2530	ms	566	237	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	CPU	31	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31	GB	Linux
+722	2025.04.14 16:00	67	2530	ms	551	244	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	CPU	26.5	GB	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	26.5	GB	Linux
+889	2025.05.16 19:31	21	2610	ms	540	163	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA T1200 Laptop GPU	GPU	4	GB	11th Gen Intel Core i7-11850H @ 2.50GHz (tigerlake)	62.5	GB	Linux
+1039	2025.06.12 22:37	72.6	2660	ms	525	243	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon w5-3425 (sapphirerapids)	CPU	63.3	GB	Intel Xeon w5-3425 (sapphirerapids)	63.3	GB	Windows
+620	2025.04.08 21:13	81.6	2770	ms	524	249	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i9-14900K (alderlake)	CPU	62.5	GB	Intel Core i9-14900K (alderlake)	62.5	GB	Linux
+249	2025.04.04 22:59	21.3	2700	ms	515	160	Llama 3.2 1B Instruct	BF16	1500	M	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	CPU	54.7	GB	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	54.7	GB	Linux
+728	2025.04.15 19:29	60	2850	ms	513	221	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 5 7600X 6-Core Processor (znver4)	CPU	60.9	GB	AMD Ryzen 5 7600X 6-Core Processor (znver4)	60.9	GB	Linux
+377	2025.04.06 14:19	52.7	2870	ms	509	211	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen Threadripper 3970X 32-Core Processor (znver2)	CPU	251.5	GB	AMD Ryzen Threadripper 3970X 32-Core Processor (znver2)	251.5	GB	Linux
+1200	2025.07.08 20:56	68.6	2830	ms	501	230	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	CPU	47.6	GB	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	47.6	GB	Windows
+250	2025.04.04 23:06	51.1	2990	ms	496	204	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	CPU	54.7	GB	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	54.7	GB	Linux
+660	2025.04.10 00:10	51.6	3200	ms	489	199	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 5900X 12-Core Processor (znver3)	CPU	31.9	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	31.9	GB	Windows
+253	2025.04.04 23:30	42.5	2900	ms	484	192	Llama 3.2 1B Instruct	Q6_K	1500	M	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	CPU	54.7	GB	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	54.7	GB	Linux
+465	2025.04.07 03:52	64.7	3020	ms	479	217	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i9-14900K (alderlake)	CPU	125.5	GB	Intel Core i9-14900K (alderlake)	125.5	GB	Linux
+833	2025.05.06 07:45	82	2990	ms	477	236	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Ultra 9 285K (arrowlake-s)	CPU	47.5	GB	Intel Core Ultra 9 285K (arrowlake-s)	47.5	GB	Windows
+966	2025.06.01 18:50	81.1	3150	ms	470	230	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon w5-3435X (sapphirerapids)	CPU	255.5	GB	Intel Xeon w5-3435X (sapphirerapids)	255.5	GB	Windows
+254	2025.04.04 23:34	46.6	3170	ms	465	190	Llama 3.2 1B Instruct	Q5_K - Medium	1500	M	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	CPU	54.7	GB	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	54.7	GB	Linux
+276	2025.04.05 12:07	35.1	3160	ms	462	172	Llama 3.2 1B Instruct	Q8_0	1500	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+1117	2025.06.25 17:45	61.4	3230	ms	461	206	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i9-14900K (alderlake)	CPU	94	GB	Intel Core i9-14900K (alderlake)	94	GB	Linux
+859	2025.05.13 00:11	51.9	3000	ms	451	198	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	CPU	31	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31	GB	Linux
+417	2025.04.06 20:03	22.2	3180	ms	447	146	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon CPU E5-2699 v3 @ 2.30GHz (haswell)	CPU	377.8	GB	Intel Xeon CPU E5-2699 v3 @ 2.30GHz (haswell)	377.8	GB	Linux
+627	2025.04.09 02:13	54.6	3380	ms	436	192	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics (znver4)	CPU	61.5	GB	AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics (znver4)	61.5	GB	Linux
+586	2025.04.08 11:08	55.5	3550	ms	431	189	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 7840U w/ Radeon  780M Graphics (znver4)	CPU	58.7	GB	AMD Ryzen 7 7840U w/ Radeon  780M Graphics (znver4)	58.7	GB	Windows
+310	2025.04.05 23:24	55.8	3510	ms	418	188	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	CPU	31.6	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows
+510	2025.04.07 18:55	61	3630	ms	415	191	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	12th Gen Intel Core i7-12700 (alderlake)	CPU	62.5	GB	12th Gen Intel Core i7-12700 (alderlake)	62.5	GB	Linux
+1023	2025.06.09 13:23	51.5	3500	ms	409	182	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 7900 12-Core Processor (znver4)	CPU	63.1	GB	AMD Ryzen 9 7900 12-Core Processor (znver4)	63.1	GB	Windows
+802	2025.05.03 15:52	42.1	3640	ms	400	167	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+521	2025.04.07 20:24	40.9	3570	ms	400	166	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 7840HS w/ Radeon 780M Graphics (znver4)	CPU	30.7	GB	AMD Ryzen 7 7840HS w/ Radeon 780M Graphics (znver4)	30.7	GB	Linux
+275	2025.04.05 12:02	19.6	3610	ms	386	128	Llama 3.2 1B Instruct	F16	1500	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+539	2025.04.07 22:31	52.5	3930	ms	380	172	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 3900X 12-Core Processor (znver2)	CPU	15.5	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	15.5	GB	Linux
+881	2025.05.15 16:05	35.1	3990	ms	370	148	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 7840U w/ Radeon 780M Graphics (znver4)	CPU	23.3	GB	AMD Ryzen 7 7840U w/ Radeon 780M Graphics (znver4)	23.3	GB	Linux
+737	2025.04.18 17:42	35.2	3660	ms	369	152	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon CPU E5-2695 v4 @ 2.10GHz (broadwell)	CPU	251.8	GB	Intel Xeon CPU E5-2695 v4 @ 2.10GHz (broadwell)	251.8	GB	Linux
+274	2025.04.05 11:53	19.7	3820	ms	362	123	Llama 3.2 1B Instruct	BF16	1500	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+760	2025.04.23 15:38	49.4	3950	ms	361	165	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 5900X 12-Core Processor (znver3)	CPU	63.9	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	63.9	GB	Windows
+971	2025.06.02 04:29	71.1	4010	ms	357	185	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon Gold 5218 CPU @ 2.30GHz (cascadelake)	CPU	754.5	GB	Intel Xeon Gold 5218 CPU @ 2.30GHz (cascadelake)	754.5	GB	Linux
+345	2025.04.06 02:13	51.7	3910	ms	354	167	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	CPU	63.1	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	63.1	GB	Windows
+1072	2025.06.18 15:05	48.7	3900	ms	350	163	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 8845HS w/ Radeon 780M Graphics (znver4)	CPU	27.8	GB	AMD Ryzen 7 8845HS w/ Radeon 780M Graphics (znver4)	27.8	GB	Windows
+666	2025.04.10 09:45	44.8	3910	ms	350	159	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 3900X 12-Core Processor (znver2)	CPU	62.7	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	62.7	GB	Linux
+251	2025.04.04 23:17	21	4010	ms	341	121	Llama 3.2 1B Instruct	F16	1500	M	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	CPU	54.7	GB	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	54.7	GB	Linux
+478	2025.04.07 06:09	30.8	4320	ms	340	134	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 3900X 12-Core Processor (znver2)	CPU	31.3	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	31.3	GB	Windows
+252	2025.04.04 23:26	36.8	4280	ms	336	142	Llama 3.2 1B Instruct	Q8_0	1500	M	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	CPU	54.7	GB	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	54.7	GB	Linux
+413	2025.04.06 19:32	52.7	4410	ms	335	159	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	CPU	31.1	GB	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	31.1	GB	Windows
+352	2025.04.06 05:00	55.5	4420	ms	328	160	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen Threadripper PRO 3955WX 16-Cores (znver2)	CPU	127.8	GB	AMD Ryzen Threadripper PRO 3955WX 16-Cores (znver2)	127.8	GB	Windows
+359	2025.04.06 06:17	55.2	4420	ms	325	159	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen Threadripper PRO 3955WX 16-Cores (znver2)	CPU	127.8	GB	AMD Ryzen Threadripper PRO 3955WX 16-Cores (znver2)	127.8	GB	Windows
+194	2025.04.03 19:52	48.7	4590	ms	323	151	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	12th Gen Intel Core i7-12700H (alderlake)	CPU	15.3	GB	12th Gen Intel Core i7-12700H (alderlake)	15.3	GB	Linux
+231	2025.04.04 15:56	43.2	4620	ms	321	144	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 PRO 3900 12-Core Processor (znver2)	CPU	31.2	GB	AMD Ryzen 9 PRO 3900 12-Core Processor (znver2)	31.2	GB	Linux
+1019	2025.06.08 23:03	43.9	4160	ms	316	149	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	CPU	47.9	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	47.9	GB	Windows
+739	2025.04.18 18:02	58.1	4270	ms	313	162	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon W-2255 CPU @ 3.70GHz (cascadelake)	CPU	62.5	GB	Intel Xeon W-2255 CPU @ 3.70GHz (cascadelake)	62.5	GB	Linux
+234	2025.04.04 17:58	13.5	4059	ms	311	101	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce MX150	GPU	2	GB	Intel Core i7-8550U CPU @ 1.80GHz (skylake)	15.5	GB	Linux
+615	2025.04.08 20:58	59.3	4670	ms	308	157	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	13th Gen Intel Core i9-13900KS (alderlake)	CPU	95.8	GB	13th Gen Intel Core i9-13900KS (alderlake)	95.8	GB	Windows
+368	2025.04.06 13:37	40.1	4620	ms	305	138	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 9 5900HX with Radeon Graphics (znver3)	CPU	27.3	GB	AMD Ryzen 9 5900HX with Radeon Graphics (znver3)	27.3	GB	Linux
+403	2025.04.06 18:35	37.5	5180	ms	303	130	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	12th Gen Intel Core i7-12700T (alderlake)	CPU	15.3	GB	12th Gen Intel Core i7-12700T (alderlake)	15.3	GB	Linux
+1018	2025.06.07 22:20	32.4	4930	ms	302	126	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 5 5600X 6-Core Processor (znver3)	CPU	31.3	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	31.3	GB	Linux
+511	2025.04.07 18:56	40.1	4270	ms	292	140	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	CPU	30.5	GB	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	30.5	GB	Linux
+1011	2025.06.06 23:17	42.9	5130	ms	280	133	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	CPU	31.9	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows
+425	2025.04.06 21:12	40.6	5330	ms	280	129	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 3700X 8-Core Processor (znver2)	CPU	31.3	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	31.3	GB	Windows
+990	2025.06.04 07:09	52.5	4830	ms	278	145	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon CPU E5-2697A v4 @ 2.60GHz (broadwell)	CPU	125.7	GB	Intel Xeon CPU E5-2697A v4 @ 2.60GHz (broadwell)	125.7	GB	Linux
+1070	2025.06.18 14:49	44.2	5220	ms	277	133	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 5800X 8-Core Processor (znver3)	CPU	31.9	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	31.9	GB	Windows
+538	2025.04.07 22:30	48	5150	ms	275	137	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	CPU	63.9	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	63.9	GB	Windows
+215	2025.04.03 23:55	57.2	5310	ms	273	143	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	CPU	31.3	GB	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	31.3	GB	Linux
+1017	2025.06.07 17:16	42.5	5310	ms	273	130	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 PRO 5750G with Radeon Graphics (znver3)	CPU	32	GB	AMD Ryzen 7 PRO 5750G with Radeon Graphics (znver3)	32	GB	Windows
+1035	2025.06.12 01:28	38.7	5370	ms	272	125	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i7-11700K @ 3.60GHz (rocketlake)	CPU	63.8	GB	11th Gen Intel Core i7-11700K @ 3.60GHz (rocketlake)	63.8	GB	Windows
+580	2025.04.08 10:25	41.6	5380	ms	270	128	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 3700X 8-Core Processor (znver2)	CPU	62.7	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	62.7	GB	Linux
+430	2025.04.06 21:34	41	5370	ms	269	127	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 3700X 8-Core Processor (znver2)	CPU	31.3	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	31.3	GB	Linux
+5	2025.03.19 22:07	14.3	5580	ms	266	88	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD EPYC 7352 24-Core Processor (znver2)	CPU	125.64	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux
+692	2025.04.11 19:58	43.7	5390	ms	260	128	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	CPU	31.9	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	31.9	GB	Windows
+735	2025.04.18 13:56	44.3	5750	ms	255	125	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 5 7535HS with Radeon Graphics (znver3)	CPU	14.9	GB	AMD Ryzen 5 7535HS with Radeon Graphics (znver3)	14.9	GB	Linux
+786	2025.04.30 03:19	46.6	5710	ms	254	128	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Ultra 9 185H (alderlake)	CPU	93.8	GB	Intel Core Ultra 9 185H (alderlake)	93.8	GB	Linux
+612	2025.04.08 17:22	31.5	6170	ms	246	108	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 3700X 8-Core Processor (znver2)	CPU	31.3	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	31.3	GB	Linux
+535	2025.04.07 21:56	33.5	6050	ms	244	111	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 PRO 4750G with Radeon Graphics (znver2)	CPU	46.4	GB	AMD Ryzen 7 PRO 4750G with Radeon Graphics (znver2)	46.4	GB	Linux
+1046	2025.06.13 23:07	37.9	6310	ms	242	113	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 4800U with Radeon Graphics (znver2)	CPU	30.3	GB	AMD Ryzen 7 4800U with Radeon Graphics (znver2)	30.3	GB	Linux
+758	2025.04.23 03:04	48.2	6070	ms	241	124	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Ultra 9 185H (alderlake)	CPU	93.8	GB	Intel Core Ultra 9 185H (alderlake)	93.8	GB	Linux
+1016	2025.06.07 12:21	39.7	6000	ms	239	116	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 7730U with Radeon Graphics (znver3)	CPU	62.2	GB	AMD Ryzen 7 7730U with Radeon Graphics (znver3)	62.2	GB	Linux
+997	2025.06.04 19:09	30.8	6630	ms	236	103	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 4800H with Radeon Graphics (znver2)	CPU	15	GB	AMD Ryzen 7 4800H with Radeon Graphics (znver2)	15	GB	Linux
+1002	2025.06.04 21:02	30.7	6640	ms	235	103	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 4800H with Radeon Graphics (znver2)	CPU	15	GB	AMD Ryzen 7 4800H with Radeon Graphics (znver2)	15	GB	Linux
+998	2025.06.04 19:54	30.6	6660	ms	234	102	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 4800H with Radeon Graphics (znver2)	CPU	15	GB	AMD Ryzen 7 4800H with Radeon Graphics (znver2)	15	GB	Linux
+757	2025.04.23 02:10	46.8	6120	ms	233	121	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Ultra 9 185H (alderlake)	CPU	93.8	GB	Intel Core Ultra 9 185H (alderlake)	93.8	GB	Linux
+996	2025.06.04 18:05	30.6	6690	ms	233	102	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 4800H with Radeon Graphics (znver2)	CPU	15	GB	AMD Ryzen 7 4800H with Radeon Graphics (znver2)	15	GB	Linux
+851	2025.05.10 14:34	16.7	5530	ms	232	89	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon CPU E5-2667 v3 @ 3.20GHz (haswell)	CPU	62.8	GB	Intel Xeon CPU E5-2667 v3 @ 3.20GHz (haswell)	62.8	GB	Windows
+669	2025.04.10 14:11	40.7	6290	ms	226	114	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 5 5600X 6-Core Processor (znver3)	CPU	95.9	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	95.9	GB	Windows
+609	2025.04.08 16:43	50	5910	ms	225	124	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	13th Gen Intel Core i7-13700H (alderlake)	CPU	31.1	GB	13th Gen Intel Core i7-13700H (alderlake)	31.1	GB	Linux
+901	2025.05.18 19:43	36.6	6750	ms	223	107	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 5 5600U with Radeon Graphics (znver3)	CPU	62.1	GB	AMD Ryzen 5 5600U with Radeon Graphics (znver3)	62.1	GB	Linux
+450	2025.04.07 00:40	45.2	6790	ms	220	113	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	CPU	94.1	GB	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	94.1	GB	Linux
+1210	2025.07.11 20:37	32	6950	ms	216	100	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon W-2150B CPU @ 3.00GHz (skylake-avx512)	CPU	125.4	GB	Intel Xeon W-2150B CPU @ 3.00GHz (skylake-avx512)	125.4	GB	Linux
+795	2025.05.02 09:12	41.1	6800	ms	214	109	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD EPYC 9634 84-Core Processor (znver4)	CPU	7.8	GB	AMD EPYC 9634 84-Core Processor (znver4)	7.8	GB	Linux
+808	2025.05.04 09:20	40.3	7280	ms	208	105	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	CPU	31.9	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows
+453	2025.04.07 01:33	35	7750	ms	202	97	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 PRO 6860Z with Radeon Graphics (znver3)	CPU	30.6	GB	AMD Ryzen 7 PRO 6860Z with Radeon Graphics (znver3)	30.6	GB	Windows
+217	2025.04.04 00:10	42.5	7700	ms	197	103	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	DO-Premium-Intel (skylake-avx512)	CPU	31.3	GB	DO-Premium-Intel (skylake-avx512)	31.3	GB	Linux
+464	2025.04.07 03:32	43.2	7280	ms	196	105	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 5 5600X 6-Core Processor (znver3)	CPU	31.9	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	31.9	GB	Windows
+186	2025.04.03 17:14	40.1	7100	ms	195	103	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon CPU E5-2697 v2 @ 2.70GHz (ivybridge)	CPU	251.8	GB	Intel Xeon CPU E5-2697 v2 @ 2.70GHz (ivybridge)	251.8	GB	Linux
+1111	2025.06.25 10:05	33.6	7190	ms	195	97	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i7-11700 @ 2.50GHz (rocketlake)	CPU	31.8	GB	11th Gen Intel Core i7-11700 @ 2.50GHz (rocketlake)	31.8	GB	Windows
+719	2025.04.14 08:17	33	7460	ms	195	95	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-8700K CPU @ 3.70GHz (skylake)	CPU	61.7	GB	Intel Core i7-8700K CPU @ 3.70GHz (skylake)	61.7	GB	Linux
+932	2025.05.22 11:27	31.7	7500	ms	195	94	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	12th Gen Intel Core i7-1280P (alderlake)	CPU	15.3	GB	12th Gen Intel Core i7-1280P (alderlake)	15.3	GB	Linux
+636	2025.04.09 09:57	34.7	7610	ms	188	95	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	13th Gen Intel Core i9-13980HX (alderlake)	CPU	191.7	GB	13th Gen Intel Core i9-13980HX (alderlake)	191.7	GB	Windows
+994	2025.06.04 10:47	29.9	7950	ms	187	89	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 4800H with Radeon Graphics (znver2)	CPU	15	GB	AMD Ryzen 7 4800H with Radeon Graphics (znver2)	15	GB	Linux
+517	2025.04.07 19:43	42.1	8220	ms	183	98	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 4700U with Radeon Graphics (znver2)	CPU	14.9	GB	AMD Ryzen 7 4700U with Radeon Graphics (znver2)	14.9	GB	Linux
+1045	2025.06.13 14:00	37.7	7780	ms	181	96	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon CPU E5-2630 v3 @ 2.40GHz (haswell)	CPU	62.9	GB	Intel Xeon CPU E5-2630 v3 @ 2.40GHz (haswell)	62.9	GB	Linux
+533	2025.04.07 21:45	41.2	8010	ms	180	97	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 4700U with Radeon Graphics (znver2)	CPU	15	GB	AMD Ryzen 7 4700U with Radeon Graphics (znver2)	15	GB	Linux
+781	2025.04.29 13:42	18.6	8640	ms	180	73	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-10870H CPU @ 2.20GHz (skylake)	CPU	15.8	GB	Intel Core i7-10870H CPU @ 2.20GHz (skylake)	15.8	GB	Windows
+545	2025.04.07 23:31	42.6	7580	ms	178	100	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 5800H with Radeon Graphics (znver3)	CPU	31.3	GB	AMD Ryzen 7 5800H with Radeon Graphics (znver3)	31.3	GB	Windows
+1077	2025.06.19 18:23	39.2	8029	ms	175	95	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon W-2150B CPU @ 3.00GHz (skylake-avx512)	CPU	251.3	GB	Intel Xeon W-2150B CPU @ 3.00GHz (skylake-avx512)	251.3	GB	Linux
+1076	2025.06.19 14:08	39.3	8070	ms	174	95	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon W-2150B CPU @ 3.00GHz (skylake-avx512)	CPU	251.3	GB	Intel Xeon W-2150B CPU @ 3.00GHz (skylake-avx512)	251.3	GB	Linux
+995	2025.06.04 14:23	19.6	8710	ms	171	73	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-10700 CPU @ 2.90GHz (skylake)	CPU	31.7	GB	Intel Core i7-10700 CPU @ 2.90GHz (skylake)	31.7	GB	Windows
+1095	2025.06.23 15:38	37.9	8730	ms	161	89	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	CPU	63.7	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	63.7	GB	Windows
+734	2025.04.17 21:57	23.3	8490	ms	158	76	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 5700U with Radeon Graphics (znver2)	CPU	11	GB	AMD Ryzen 7 5700U with Radeon Graphics (znver2)	11	GB	Linux
+623	2025.04.08 21:27	28.7	9380	ms	157	78	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-10710U CPU @ 1.10GHz (skylake)	CPU	62.5	GB	Intel Core i7-10710U CPU @ 1.10GHz (skylake)	62.5	GB	Linux
+497	2025.04.07 14:06	28.1	9520	ms	157	77	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i5-11400H @ 2.70GHz (tigerlake)	CPU	15.8	GB	11th Gen Intel Core i5-11400H @ 2.70GHz (tigerlake)	15.8	GB	Windows
+965	2025.06.01 13:01	32.7	9240	ms	156	82	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	CPU	7.6	GB	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	7.6	GB	Linux
+730	2025.04.16 21:06	12.1	9670	ms	154	58	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-10850H CPU @ 2.70GHz (skylake)	CPU	62.6	GB	Intel Core i7-10850H CPU @ 2.70GHz (skylake)	62.6	GB	Linux
+575	2025.04.08 09:57	33.6	9140	ms	153	83	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	13th Gen Intel Core i5-13450HX (alderlake)	CPU	15.7	GB	13th Gen Intel Core i5-13450HX (alderlake)	15.7	GB	Windows
+793	2025.05.02 00:43	26.7	9840	ms	153	75	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-7700 CPU @ 3.60GHz (skylake)	CPU	15.6	GB	Intel Core i7-7700 CPU @ 3.60GHz (skylake)	15.6	GB	Linux
+207	2025.04.03 22:44	40.6	9860	ms	145	84	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	DO-Premium-AMD (znver2)	CPU	31.3	GB	DO-Premium-AMD (znver2)	31.3	GB	Linux
+1172	2025.07.02 03:56	37.1	10450	ms	142	79	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i7-1165G7 @ 2.80GHz (tigerlake)	CPU	31.1	GB	11th Gen Intel Core i7-1165G7 @ 2.80GHz (tigerlake)	31.1	GB	Linux
+541	2025.04.07 22:53	23.4	9770	ms	141	70	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 7 4700U with Radeon Graphics (znver2)	CPU	15	GB	AMD Ryzen 7 4700U with Radeon Graphics (znver2)	15	GB	Linux
+924	2025.05.21 21:40	22.9	10580	ms	139	67	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	CPU	31.1	GB	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	31.1	GB	Linux
+495	2025.04.07 12:16	38.8	10140	ms	138	81	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	13th Gen Intel Core i7-13850HX (alderlake)	CPU	63.8	GB	13th Gen Intel Core i7-13850HX (alderlake)	63.8	GB	Windows
+819	2025.05.04 12:24	28.8	11290	ms	138	71	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	12th Gen Intel Core i7-1280P (alderlake)	CPU	31	GB	12th Gen Intel Core i7-1280P (alderlake)	31	GB	Linux
+599	2025.04.08 12:30	33.9	10840	ms	133	75	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	CPU	15.3	GB	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	15.3	GB	Linux
+1213	2025.07.13 12:22	16.8	11520	ms	132	58	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-7700T CPU @ 2.90GHz (skylake)	CPU	27.4	GB	Intel Core i7-7700T CPU @ 2.90GHz (skylake)	27.4	GB	Linux
+796	2025.05.03 06:26	26.9	10800	ms	130	69	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	12th Gen Intel Core i7-1280P (alderlake)	CPU	31	GB	12th Gen Intel Core i7-1280P (alderlake)	31	GB	Linux
+365	2025.04.06 13:08	25.8	11950	ms	126	65	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-10750H CPU @ 2.60GHz (skylake)	CPU	31.8	GB	Intel Core i7-10750H CPU @ 2.60GHz (skylake)	31.8	GB	Windows
+988	2025.06.03 13:42	27.3	13620	ms	125	63	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i7-11800H @ 2.30GHz (tigerlake)	CPU	15.4	GB	11th Gen Intel Core i7-11800H @ 2.30GHz (tigerlake)	15.4	GB	Linux
+1089	2025.06.23 08:28	25.2	11870	ms	123	64	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-6600K CPU @ 3.50GHz (skylake)	CPU	62.8	GB	Intel Core i5-6600K CPU @ 3.50GHz (skylake)	62.8	GB	Linux
+1171	2025.07.02 03:42	34.4	11550	ms	122	71	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i7-1165G7 @ 2.80GHz (tigerlake)	CPU	31.1	GB	11th Gen Intel Core i7-1165G7 @ 2.80GHz (tigerlake)	31.1	GB	Linux
+537	2025.04.07 22:20	24.5	12180	ms	121	63	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-6700HQ CPU @ 2.60GHz (skylake)	CPU	31.2	GB	Intel Core i7-6700HQ CPU @ 2.60GHz (skylake)	31.2	GB	Linux
+549	2025.04.08 01:33	29.9	12400	ms	118	66	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Ultra 7 155U (alderlake)	CPU	15.1	GB	Intel Core Ultra 7 155U (alderlake)	15.1	GB	Windows
+960	2025.05.31 18:42	24.3	12350	ms	118	62	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon CPU E3-1260L v5 @ 2.90GHz (skylake)	CPU	46.9	GB	Intel Xeon CPU E3-1260L v5 @ 2.90GHz (skylake)	46.9	GB	Linux
+1074	2025.06.18 16:39	17.7	12990	ms	115	54	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	CPU	15.7	GB	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	15.7	GB	Windows
+354	2025.04.06 05:35	35.9	12400	ms	113	69	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	CPU	15.7	GB	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	15.7	GB	Windows
+1212	2025.07.13 11:48	32.9	12860	ms	110	66	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	CPU	7.5	GB	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	7.5	GB	Linux
+1015	2025.06.07 11:58	33.4	12990	ms	108	65	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	CPU	15.3	GB	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	15.3	GB	Linux
+565	2025.04.08 07:48	24.4	13100	ms	108	59	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-6920HQ CPU @ 2.90GHz (skylake)	CPU	15.5	GB	Intel Core i7-6920HQ CPU @ 2.90GHz (skylake)	15.5	GB	Linux
+788	2025.04.30 15:53	29.1	13100	ms	106	62	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i5-11400 @ 2.60GHz (rocketlake)	CPU	31.6	GB	11th Gen Intel Core i5-11400 @ 2.60GHz (rocketlake)	31.6	GB	Windows
+548	2025.04.08 00:59	22.8	13950	ms	106	56	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-10710U CPU @ 1.10GHz (skylake)	CPU	31.2	GB	Intel Core i7-10710U CPU @ 1.10GHz (skylake)	31.2	GB	Linux
+536	2025.04.07 21:58	23	13580	ms	105	56	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-6500T CPU @ 2.50GHz (skylake)	CPU	15.4	GB	Intel Core i5-6500T CPU @ 2.50GHz (skylake)	15.4	GB	Linux
+890	2025.05.16 19:36	16	14390	ms	105	49	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-8550U CPU @ 1.80GHz (skylake)	CPU	15.4	GB	Intel Core i7-8550U CPU @ 1.80GHz (skylake)	15.4	GB	Linux
+559	2025.04.08 06:24	30.5	15480	ms	103	59	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	CPU	15	GB	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	15	GB	Linux
+723	2025.04.14 18:22	13.7	15010	ms	103	45	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-8350U CPU @ 1.70GHz (skylake)	CPU	15.5	GB	Intel Core i5-8350U CPU @ 1.70GHz (skylake)	15.5	GB	Linux
+426	2025.04.06 21:16	34	14460	ms	101	62	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Ultra 7 258V (arrowlake-s)	CPU	30.3	GB	Intel Core Ultra 7 258V (arrowlake-s)	30.3	GB	Linux
+433	2025.04.06 21:44	1.5	12520	ms	101	23	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	13th Gen Intel Core i7-13700K (alderlake)	CPU	63.7	GB	13th Gen Intel Core i7-13700K (alderlake)	63.7	GB	Windows
+462	2025.04.07 03:21	23.1	14970	ms	99	53	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	CPU	31.2	GB	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	31.2	GB	Windows
+445	2025.04.06 23:47	25	15020	ms	98	55	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	CPU	31.2	GB	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	31.2	GB	Windows
+749	2025.04.21 11:32	27.2	14500	ms	97	57	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	CPU	14.8	GB	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	14.8	GB	Linux
+886	2025.05.16 12:55	24.1	14170	ms	96	55	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Custom APU 0932 (znver2)	CPU	11.5	GB	AMD Custom APU 0932 (znver2)	11.5	GB	Linux
+341	2025.04.06 01:50	20.6	14960	ms	96	51	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Processor (Haswell, no TSX) (haswell)	CPU	15.2	GB	Intel Core Processor (Haswell, no TSX) (haswell)	15.2	GB	Linux
+638	2025.04.09 15:35	19.6	15530	ms	96	49	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-4570 CPU @ 3.20GHz (haswell)	CPU	7.7	GB	Intel Core i5-4570 CPU @ 3.20GHz (haswell)	7.7	GB	Linux
+780	2025.04.29 11:40	24.5	14850	ms	95	54	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-7700HQ CPU @ 2.80GHz (skylake)	CPU	15.5	GB	Intel Core i7-7700HQ CPU @ 2.80GHz (skylake)	15.5	GB	Linux
+637	2025.04.09 15:23	18.8	15540	ms	95	49	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-4570 CPU @ 3.20GHz (haswell)	CPU	7.7	GB	Intel Core i5-4570 CPU @ 3.20GHz (haswell)	7.7	GB	Linux
+641	2025.04.09 16:37	27.9	14830	ms	91	56	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-1065G7 CPU @ 1.30GHz (icelake-client)	CPU	15.3	GB	Intel Core i7-1065G7 CPU @ 1.30GHz (icelake-client)	15.3	GB	Linux
+821	2025.05.04 14:12	20.2	15870	ms	91	49	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-6770HQ CPU @ 2.60GHz (skylake)	CPU	15.9	GB	Intel Core i7-6770HQ CPU @ 2.60GHz (skylake)	15.9	GB	Windows
+761	2025.04.23 16:52	23.6	16500	ms	90	50	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Ultra 7 155H (alderlake)	CPU	30.8	GB	Intel Core Ultra 7 155H (alderlake)	30.8	GB	Linux
+205	2025.04.03 22:12	25.7	16110	ms	89	52	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	DO-Premium-AMD (znver2)	CPU	7.8	GB	DO-Premium-AMD (znver2)	7.8	GB	Linux
+592	2025.04.08 11:50	20.6	15980	ms	88	48	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-8300H CPU @ 2.30GHz (skylake)	CPU	23.9	GB	Intel Core i5-8300H CPU @ 2.30GHz (skylake)	23.9	GB	Windows
+199	2025.04.03 20:26	21.5	17940	ms	87	47	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	DO-Premium-Intel (skylake-avx512)	CPU	7.8	GB	DO-Premium-Intel (skylake-avx512)	7.8	GB	Linux
+594	2025.04.08 12:14	21.4	16970	ms	86	48	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-8650U CPU @ 1.90GHz (skylake)	CPU	31.2	GB	Intel Core i7-8650U CPU @ 1.90GHz (skylake)	31.2	GB	Linux
+1167	2025.07.01 17:13	29.5	20900	ms	84	49	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon CPU E5-1620 v4 @ 3.50GHz (broadwell)	CPU	31.9	GB	Intel Xeon CPU E5-1620 v4 @ 3.50GHz (broadwell)	31.9	GB	FreeBSD
+1043	2025.06.13 02:41	18.9	17580	ms	82	45	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-4790 CPU @ 3.60GHz (haswell)	CPU	15.6	GB	Intel Core i7-4790 CPU @ 3.60GHz (haswell)	15.6	GB	Linux
+836	2025.05.06 14:46	18.9	19350	ms	82	43	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	CPU	15.3	GB	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	15.3	GB	Linux
+610	2025.04.08 16:54	24.5	16440	ms	76	48	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M		CPU	7.3	GB		7.3	GB	Linux
+725	2025.04.15 05:04	25.7	19030	ms	75	47	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Ultra 7 155U (alderlake)	CPU	62.3	GB	Intel Core Ultra 7 155U (alderlake)	62.3	GB	Linux
+1032	2025.06.11 11:47	22.5	20390	ms	73	43	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Ultra 7 165U (alderlake)	CPU	30.8	GB	Intel Core Ultra 7 165U (alderlake)	30.8	GB	Linux
+959	2025.05.31 18:38	20.4	20310	ms	72	42	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon CPU E3-1240L v3 @ 2.00GHz (haswell)	CPU	31.3	GB	Intel Xeon CPU E3-1240L v3 @ 2.00GHz (haswell)	31.3	GB	Linux
+568	2025.04.08 08:13	21.6	21580	ms	70	41	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i7-1165G7 @ 2.80GHz (tigerlake)	CPU	31.1	GB	11th Gen Intel Core i7-1165G7 @ 2.80GHz (tigerlake)	31.1	GB	Linux
+463	2025.04.07 03:24	15.6	20260	ms	70	38	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	13th Gen Intel Core i9-13900HX (alderlake)	CPU	31.7	GB	13th Gen Intel Core i9-13900HX (alderlake)	31.7	GB	Windows
+720	2025.04.14 11:09	23.9	21740	ms	66	42	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Ultra 7 258V (arrowlake-s)	CPU	31.5	GB	Intel Core Ultra 7 258V (arrowlake-s)	31.5	GB	Windows
+611	2025.04.08 17:09	21.3	20380	ms	66	41	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M		CPU	7.3	GB		7.3	GB	Linux
+794	2025.05.02 01:21	24.5	23480	ms	62	40	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx (znver2)	CPU	13.6	GB	AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx (znver2)	13.6	GB	Linux
+1010	2025.06.06 18:29	16.5	23300	ms	61	35	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	CPU	15.4	GB	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	15.4	GB	Linux
+738	2025.04.18 17:42	25.3	26310	ms	59	38	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	12th Gen Intel Core i7-1265U (alderlake)	CPU	31.6	GB	12th Gen Intel Core i7-1265U (alderlake)	31.6	GB	Windows
+1214	2025.07.13 20:47	12.7	30050	ms	57	29	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-10310U CPU @ 1.70GHz (skylake)	CPU	30.7	GB	Intel Core i5-10310U CPU @ 1.70GHz (skylake)	30.7	GB	Linux
+547	2025.04.08 00:44	16.4	26510	ms	55	32	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-7600U CPU @ 2.80GHz (skylake)	CPU	38.9	GB	Intel Core i7-7600U CPU @ 2.80GHz (skylake)	38.9	GB	Linux
+622	2025.04.08 21:17	20.6	26900	ms	54	35	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen Threadripper 2970WX 24-Core Processor	CPU	4.1	GB	AMD Ryzen Threadripper 2970WX 24-Core Processor	4.1	GB	FreeBSD
+1185	2025.07.07 02:52	10.5	29550	ms	52	26	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Raspberry Pi 5 Model B Rev 1.0	CPU	7.9	GB	Raspberry Pi 5 Model B Rev 1.0	7.9	GB	Linux
+553	2025.04.08 02:38	11.2	27720	ms	51	27	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Raspberry Pi 5 Model B Rev 1.1	CPU	15.6	GB	Raspberry Pi 5 Model B Rev 1.1	15.6	GB	Linux
+918	2025.05.19 10:15	7.7	25680	ms	50	25	Llama 3.2 1B Instruct	Q8_0	1500	M	HUAWEI Kirin 990	CPU	7.6	GB	HUAWEI Kirin 990	7.6	GB	Linux
+643	2025.04.09 16:54	9.8	31700	ms	47	24	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Raspberry Pi 5 Model B Rev 1.0	CPU	7.8	GB	Raspberry Pi 5 Model B Rev 1.0	7.8	GB	Linux
+236	2025.04.04 18:53	9.5	33260	ms	47	24	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Raspberry Pi 5 Model B Rev 1.0	CPU	7.9	GB	Raspberry Pi 5 Model B Rev 1.0	7.9	GB	Linux
+1163	2025.06.30 20:29	15.8	36020	ms	41	26	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-4600M CPU @ 2.90GHz (haswell)	CPU	15.8	GB	Intel Core i7-4600M CPU @ 2.90GHz (haswell)	15.8	GB	FreeBSD
+640	2025.04.09 16:10	15.4	36850	ms	41	26	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-4200M CPU @ 2.50GHz (haswell)	CPU	15.3	GB	Intel Core i5-4200M CPU @ 2.50GHz (haswell)	15.3	GB	Linux
+190	2025.04.03 19:10	10.8	36490	ms	40	23	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	DO-Premium-Intel (skylake-avx512)	CPU	3.8	GB	DO-Premium-Intel (skylake-avx512)	3.8	GB	Linux
+891	2025.05.16 19:43	10.8	36620	ms	39	23	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M		CPU	3.7	GB		3.7	GB	Linux
+1164	2025.06.30 20:48	10.3	38000	ms	39	22	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-6600U CPU @ 2.60GHz (skylake)	CPU	15.7	GB	Intel Core i7-6600U CPU @ 2.60GHz (skylake)	15.7	GB	FreeBSD
+903	2025.05.19 01:04	4.7	31440	ms	39	18	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	HUAWEI Kirin 990	CPU	7.6	GB	HUAWEI Kirin 990	7.6	GB	Linux
+951	2025.05.28 16:52	13.3	37090	ms	38	24	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-7Y54 CPU @ 1.20GHz (skylake)	CPU	7.5	GB	Intel Core i5-7Y54 CPU @ 1.20GHz (skylake)	7.5	GB	Linux
+915	2025.05.19 06:12	5.4	33390	ms	38	18	Llama 3.2 1B Instruct	Q5_K - Medium	1500	M	HUAWEI Kirin 990	CPU	7.6	GB	HUAWEI Kirin 990	7.6	GB	Linux
+700	2025.04.12 10:29	16.8	38840	ms	37	25	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon CPU E3-1245 V2 @ 3.40GHz (ivybridge)	CPU	16	GB	Intel Xeon CPU E3-1245 V2 @ 3.40GHz (ivybridge)	16	GB	Windows
+919	2025.05.19 10:55	4.9	35100	ms	36	17	Llama 3.2 1B Instruct	Q6_K	1500	M	HUAWEI Kirin 990	CPU	7.6	GB	HUAWEI Kirin 990	7.6	GB	Linux
+648	2025.04.09 17:51	13.8	42440	ms	35	22	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel N100 (alderlake)	CPU	15.4	GB	Intel N100 (alderlake)	15.4	GB	Linux
+584	2025.04.08 10:57	13.1	42960	ms	35	22	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-4250U CPU @ 1.30GHz (haswell)	CPU	15.5	GB	Intel Core i5-4250U CPU @ 1.30GHz (haswell)	15.5	GB	Linux
+896	2025.05.17 09:34	5	42730	ms	35	16	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-6200U CPU @ 2.30GHz (skylake)	CPU	7.4	GB	Intel Core i5-6200U CPU @ 2.30GHz (skylake)	7.4	GB	Windows
+1202	2025.07.09 04:52	11.8	38980	ms	34	22	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	13th Gen Intel Core i5-1335U (alderlake)	CPU	63.2	GB	13th Gen Intel Core i5-1335U (alderlake)	63.2	GB	Windows
+556	2025.04.08 04:59	10.3	43280	ms	34	20	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD FX-8370 Eight-Core Processor (bdver2)	CPU	31.2	GB	AMD FX-8370 Eight-Core Processor (bdver2)	31.2	GB	Windows
+882	2025.05.15 19:15	12.5	43990	ms	33	21	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-5300U CPU @ 2.30GHz (broadwell)	CPU	7.6	GB	Intel Core i5-5300U CPU @ 2.30GHz (broadwell)	7.6	GB	Linux
+1028	2025.06.11 03:07	11.8	43680	ms	33	21	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD FX(tm)-8320 Eight-Core Processor (bdver2)	CPU	7.5	GB	AMD FX(tm)-8320 Eight-Core Processor (bdver2)	7.5	GB	Linux
+694	2025.04.11 22:45	12.2	46910	ms	31	20	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core M-5Y71 CPU @ 1.20GHz (broadwell)	CPU	7.2	GB	Intel Core M-5Y71 CPU @ 1.20GHz (broadwell)	7.2	GB	Linux
+235	2025.04.04 18:28	7.7	49200	ms	30	17	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-8550U CPU @ 1.80GHz (skylake)	CPU	15.5	GB	Intel Core i7-8550U CPU @ 1.80GHz (skylake)	15.5	GB	Linux
+647	2025.04.09 17:32	11.7	67430	ms	29	17	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-2500 CPU @ 3.30GHz (sandybridge)	CPU	7.6	GB	Intel Core i5-2500 CPU @ 3.30GHz (sandybridge)	7.6	GB	Linux
+958	2025.05.31 17:31	10.9	50330	ms	29	18	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD FX(tm)-8320 Eight-Core Processor (bdver2)	CPU	7.9	GB	AMD FX(tm)-8320 Eight-Core Processor (bdver2)	7.9	GB	Windows
+593	2025.04.08 11:52	8.1	70230	ms	25	14	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-7200U CPU @ 2.50GHz (skylake)	CPU	31.8	GB	Intel Core i5-7200U CPU @ 2.50GHz (skylake)	31.8	GB	Windows
+1187	2025.07.07 06:32	11.6	72520	ms	24	16	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-3720QM CPU @ 2.60GHz (ivybridge)	CPU	15	GB	Intel Core i7-3720QM CPU @ 2.60GHz (ivybridge)	15	GB	Linux
+379	2025.04.06 15:05	3.3	54290	ms	24	11	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M		CPU	7.4	GB		7.4	GB	Linux
+604	2025.04.08 14:34	4.7	55640	ms	23	13	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M		CPU	5.4	GB		5.4	GB	Linux
+516	2025.04.07 19:33	8.8	65910	ms	22	14	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Ryzen Embedded R1505G with Radeon Vega Gfx (znver2)	CPU	13.5	GB	AMD Ryzen Embedded R1505G with Radeon Vega Gfx (znver2)	13.5	GB	Linux
+849	2025.05.10 08:52	4.5	100320	ms	14	9	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M		CPU	15.6	GB		15.6	GB	Linux
+904	2025.05.19 01:05	6.6	106410	ms	13	9	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	ZHAOXIN KaiXian KX-U6780A@2.7GHz	CPU	7.3	GB	ZHAOXIN KaiXian KX-U6780A@2.7GHz	7.3	GB	Linux
+460	2025.04.07 03:17	6	153690	ms	10	7	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Xeon CPU           X5675  @ 3.07GHz (westmere)	CPU	23.5	GB	Intel Xeon CPU           X5675  @ 3.07GHz (westmere)	23.5	GB	Linux
+1186	2025.07.07 05:28	2.5	168140	ms	9	5	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Raspberry Pi 400 Rev 1.0	CPU	3.7	GB	Raspberry Pi 400 Rev 1.0	3.7	GB	Linux
+1218	2025.07.14 13:28	3.8	239540	ms	7	5	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Phenom(tm) II X4 955 Processor (amdfam10)	CPU	15.6	GB	AMD Phenom(tm) II X4 955 Processor (amdfam10)	15.6	GB	Linux
+564	2025.04.08 07:02	2.4	203650	ms	7	4	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Raspberry Pi 4 Model B Rev 1.1	CPU	3.7	GB	Raspberry Pi 4 Model B Rev 1.1	3.7	GB	Linux
+941	2025.05.24 03:45	3.8	254640	ms	6	4	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Pentium Gold G6405 CPU @ 4.10GHz (skylake)	CPU	15	GB	Intel Pentium Gold G6405 CPU @ 4.10GHz (skylake)	15	GB	Linux
+362	2025.04.06 12:00	3.6	268040	ms	6	4	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Pentium CPU G4600 @ 3.60GHz (skylake)	CPU	31	GB	Intel Pentium CPU G4600 @ 3.60GHz (skylake)	31	GB	Linux
+554	2025.04.08 03:18	1.3	728450	ms	2	2	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core2 Duo CPU     L9400  @ 1.86GHz	CPU	3.7	GB	Intel Core2 Duo CPU     L9400  @ 1.86GHz	3.7	GB	Linux
