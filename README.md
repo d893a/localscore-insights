@@ -42,6 +42,8 @@ Data: [localscore_leaderboard.q4_k_med.1.5B.sorted_by_pp_tps.csv](localscore_lea
 
 ## Observations
 
+### GPUs
+
 The following are the best among the GPUs:
 
 -   NVIDIA RTX PRO 6000 Blackwell Workstation Edition 95 GB
@@ -73,23 +75,57 @@ There are only a few AMD GPUs which show notabele performance in these benchmark
 -   AMD Radeon RX 7800 XT 16 GB
 -   AMD Radeon RX 6600 8 GB
 
+### CPUs
+
 Some processors can approach the performance of weaker GPUs:
 
-AMD Ryzen Threadripper PRO 7995WX (znver4)
-AMD EPYC 9454P 48-Core Processor (znver4)
-AMD Ryzen 9 9950X 16-Core Processor
-AMD Ryzen 9 7950X3D 16-Core Processor (znver4)
+-   AMD Ryzen Threadripper PRO 7995WX (znver4)
+-   AMD EPYC 9454P 48-Core Processor (znver4)
+-   AMD Ryzen 9 9950X 16-Core Processor
+-   AMD Ryzen 9 7950X3D 16-Core Processor (znver4)
+-   AMD Ryzen 9 9950X3D 16-Core Processor
+-   AMD Ryzen 9 7950X 16-Core Processor (znver4)
 
-AMD EPYC 9454P 48-Core Processor (znver4)
-AMD EPYC 9135 16-Core Processor
-AMD Ryzen 9 9950X3D 16-Core Processor
-AMD Ryzen 9 7950X3D 16-Core Processor (znver4)
+Note that even these processors are an order of magnitude slower at prompt processing than the average GPUs.
 
+### Hybrid system
 
-AMD Ryzen Threadripper PRO 7995WX (znver4)
-AMD EPYC 9454P 48-Core Processor (znver4)
-AMD Radeon RX 7600 XT
-AMD Ryzen 9 9950X 16-Core Processor
-AMD Ryzen 9 7950X3D 16-Core Processor (znver4)
-AMD Ryzen 9 5950X 16-Core Processor (znver3)
-AMD Ryzen 9 5950X 16-Core Processor (znver3)
+The benchmark results show a hybrid system, too. [Test #337](https://www.localscore.ai/result/337) features an AMD Ryzen 7 7800X3D 8-Core Processor (znver4) with 32 GB of system RAM, plus an NVIDIA GeForce RTX 4060 Ti with 8 GB VRAM. The model under test is Qwen2.5 14B Instruct Q4_K - Medium with 14.8B parameters. The file size is 8,988,110,976 bytes, which does not fit into the GPU memory.
+
+The results are shown in the following table:
+
+| TEST NAME      | PROMPT (tokens/s) | GENERATION (tokens/s) | TTFT       |
+|----------------|------------------:|----------------------:|------------|
+| pp1024+tg16    |               136 |                   3.9 | 7.82 sec   |
+| pp4096+tg256   |                86 |                   2.9 | 47.96 sec  |
+| pp2048+tg256   |               545 |                   3.6 | 4.03 sec   |
+| pp2048+tg768   |               527 |                   3.4 | 4.17 sec   |
+| pp1024+tg1024  |               538 |                   3.6 | 2.18 sec   |
+| pp1280+tg3072  |               426 |                   3.0 | 3.33 sec   |
+| pp384+tg1152   |               430 |                   3.7 | 1.22 sec   |
+| pp64+tg1024    |               205 |                   3.8 | 578 ms     |
+| pp16+tg1536    |                49 |                   3.6 | 606 ms     |
+
+[Test #320](https://www.localscore.ai/result/320) runs the same model on the same system, but this time without the GPU. Only the CPU is used for prompt processing and token generation. The results are shown below:
+
+| TEST NAME      | PROMPT (tokens/s) | GENERATION (tokens/s) | TTFT      |
+|----------------|------------------:|----------------------:|-----------|
+| pp1024+tg16    |               38  |                  5.8  | 27.08 sec |
+| pp4096+tg256   |               34  |                  5.1  | 120.12 sec|
+| pp2048+tg256   |               40  |                  5.6  | 52.01 sec |
+| pp2048+tg768   |               39  |                  5.5  | 52.12 sec |
+| pp1024+tg1024  |               41  |                  5.7  | 25.01 sec |
+| pp1280+tg3072  |               39  |                  5.4  | 32.66 sec |
+| pp384+tg1152   |               40  |                  5.8  | 9.74 sec  |
+| pp64+tg1024    |               37  |                  5.9  | 1.87 sec  |
+| pp16+tg1536    |               32  |                  5.8  | 670 ms    |
+
+In the case of the hybrid GPU+CPU setup the prompt processing throughput varies between 49 and 545 token/s, mostly around 2-500 tokens/s. The time to first token falls between 578 ms and 7.82 seconds -- the only exception is the simulated RAG operation (pp4096+tg256), in which case it takes 47.96 sec to generate the first token. The output is generated at a rate of 3-4 tokens/s.
+
+In the CPU-only case the prompt processing throughput is uniformly around 30-40 tokens/s. The time to getting the first token depends on the length of the input, ranging from 670 ms to 52.12 seconds. Again the notable exception is the (pp4096+tg256) case, which takes 120.12 seconds to produce the first token. The CPU-only method takes 8-12 times more time to generate the first token (with the exception of pp4096+tg256, which takes 2.5 times as long).
+
+The situation is reversed for token generation. The CPU-only method produces output at a rate of 5-6 tokens/s -- around 1.6 faster than does the GPU+CPU method.
+
+The slow token generation of the GPU+CPU method may be caused by the extra time needed to move the model weights from the system RAM into the VRAM again and again for each generated token. For prompt processing, the required time is determined by the size of the input prompt, and dominated by the computational demand rather than the memory bandwidth.
+
+In conclusion, a GPU with even a small amount of VRAM can contribute to the overall system performance.
