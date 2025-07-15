@@ -1,5 +1,5 @@
-''' Iterate over all local html files and extract tables in csv format, using
-    TAB as separator. Save result into a single csv file.'''
+''' Iterate over all local html files and extract tables in tsv format, using
+    TAB as separator. Save result into a single tsv file.'''
 import re
 import csv
 import glob
@@ -220,12 +220,12 @@ def main():
 
     all_data.sort(key=lambda x: int(x['test_num']))
 
-    # Write to CSV file
+    # Write to TSV file
     if all_data:
-        output_file = 'localscore_leaderboard.csv'
-        with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
+        output_file = 'localscore_leaderboard.tsv'
+        with open(output_file, 'w', newline='', encoding='utf-8') as tsvfile:
             fieldnames = all_data[0].keys()
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter='\t')
+            writer = csv.DictWriter(tsvfile, fieldnames=fieldnames, delimiter='\t')
             writer.writeheader()
             writer.writerows(all_data)
         print(f"\rSuccessfully extracted {len(all_data)} test results")
