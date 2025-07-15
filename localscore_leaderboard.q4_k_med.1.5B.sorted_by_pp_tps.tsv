@@ -358,7 +358,7 @@ test_num	test_date	gen_tps	ttft	ttft_unit	prompt_tps	localscore	model_name	model
 445	2025.04.06 23:47	25	15020	ms	98	55	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	CPU	31.2	GB	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	31.2	GB	Windows
 749	2025.04.21 11:32	27.2	14500	ms	97	57	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	CPU	14.8	GB	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	14.8	GB	Linux
 886	2025.05.16 12:55	24.1	14170	ms	96	55	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	AMD Custom APU 0932 (znver2)	CPU	11.5	GB	AMD Custom APU 0932 (znver2)	11.5	GB	Linux
-341	2025.04.06 01:50	20.6	14960	ms	96	51	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Processor (Haswell, no TSX) (haswell)	CPU	15.2	GB	Intel Core Processor (Haswell, no TSX) (haswell)	15.2	GB	Linux
+341	2025.04.06 01:50	20.6	14960	ms	96	51	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Processor (Haswell no TSX) (haswell)	CPU	15.2	GB	Intel Core Processor (Haswell no TSX) (haswell)	15.2	GB	Linux
 638	2025.04.09 15:35	19.6	15530	ms	96	49	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-4570 CPU @ 3.20GHz (haswell)	CPU	7.7	GB	Intel Core i5-4570 CPU @ 3.20GHz (haswell)	7.7	GB	Linux
 780	2025.04.29 11:40	24.5	14850	ms	95	54	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i7-7700HQ CPU @ 2.80GHz (skylake)	CPU	15.5	GB	Intel Core i7-7700HQ CPU @ 2.80GHz (skylake)	15.5	GB	Linux
 637	2025.04.09 15:23	18.8	15540	ms	95	49	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core i5-4570 CPU @ 3.20GHz (haswell)	CPU	7.7	GB	Intel Core i5-4570 CPU @ 3.20GHz (haswell)	7.7	GB	Linux
