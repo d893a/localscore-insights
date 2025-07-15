@@ -35,7 +35,7 @@ Data: [localscore_leaderboard.q4_k_med.8B.llama3.1.sorted_by_pp_tps.tsv](localsc
 
 ### 1.5 B parameter model
 
-Prompt processing throughput for the 1.5 B parameter model. GPUs: 30,896 down to 1470 tokens/s (~20x span). CPUs: 1738 to 2 tokens/s. \
+Prompt processing throughput for the 1.5 B parameter model. GPUs: 30,896 down to 1770 tokens/s (~20x span). CPUs: 1738 to 2 tokens/s. \
 Data: [localscore_leaderboard.q4_k_med.1.5B.sorted_by_pp_tps.tsv](localscore_leaderboard.q4_k_med.1.5B.sorted_by_pp_tps.tsv)
 
 ![pp_tps_vs_value_index.1.5B.png](pp_tps_vs_value_index.1.5B.png)
