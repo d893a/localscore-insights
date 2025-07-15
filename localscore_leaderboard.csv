@@ -339,7 +339,7 @@ test_num	test_date	gen_tps	ttft	ttft_unit	prompt_tps	localscore	model_name	model
 338	2025.04.06 01:35:00	52.5	205	ms	6597	1190	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	NVIDIA GeForce RTX 4060 Ti	GPU	8	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows
 339	2025.04.06 01:37:00	20.7	1670	ms	832	218	Mistral Nemo Instruct 2407	Q8_0	12200	M	AMD Radeon RX 6900 XT	GPU	16	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
 340	2025.04.06 01:45:00	23.8	2060	ms	647	195	Mistral Nemo Instruct 2407	Q6_K	12200	M	AMD Radeon RX 6900 XT	GPU	16	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
-341	2025.04.06 01:50:00	20.6	14960	ms	96	51	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Processor (Haswell, no TSX) (haswell)	CPU	15.2	GB	Intel Core Processor (Haswell, no TSX) (haswell)	15.2	GB	Linux
+341	2025.04.06 01:50:00	20.6	14960	ms	96	51	Llama 3.2 1B Instruct	Q4_K - Medium	1500	M	Intel Core Processor (Haswell no TSX) (haswell)	CPU	15.2	GB	Intel Core Processor (Haswell no TSX) (haswell)	15.2	GB	Linux
 342	2025.04.06 01:53:00	25.3	1870	ms	717	213	Mistral Nemo Instruct 2407	Q5_K - Medium	12200	M	AMD Radeon RX 6900 XT	GPU	16	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
 343	2025.04.06 01:57:00	4.2	58230	ms	23	12	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 3900X 12-Core Processor (znver2)	CPU	64	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	64	GB	Windows
 344	2025.04.06 02:00:00	27.1	1900	ms	746	220	Mistral Nemo Instruct 2407	Q4_K - Medium	12200	M	AMD Radeon RX 6900 XT	GPU	16	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
