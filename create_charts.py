@@ -9,10 +9,10 @@ models = [
     ("Qwen2.5 14B Instruct", "14B") ]
 
 metrics = [
-    ("ttft", "Time to first token", "[ms]"),
-    ("prompt_tps", "Prompt processing", "[tokens/s]"),
-    ("gen_tps", "Token generation", "[tokens/s]"),
-    ("localscore", "LocalScore", "") ]
+    ("ttft", "Time to first token", "[ms]", "ascending"),
+    ("prompt_tps", "Prompt processing", "[tokens/s]", "descending"),
+    ("gen_tps", "Token generation", "[tokens/s]", "descending"),
+    ("localscore", "LocalScore", "", "descending"), ]
 
 @dataclass
 class ChartInfo:
@@ -21,6 +21,7 @@ class ChartInfo:
     metric_name: str = field(default="")
     metric_label: str = field(default="")
     metric_unit: str = field(default="")
+    metric_sort_dir: str = field(default="ascending")
 
 accel_group_colors = {
     "NVIDIA GPU":   "#76b900",
@@ -52,10 +53,11 @@ def get_accel_group(accel_type, accel_name) -> str:
             return 'Intel CPU'
     return 'Other'
 
-def create_chart(chart: ChartInfo):
+def create_chart(df_all, chart: ChartInfo):
     df_model = df_all[df_all['model_name'] == chart.model_name]
     df = df_model[[chart.metric_name, 'accel_group']]
-    df = df.sort_values(by=chart.metric_name, ascending=False)
+    df = df.sort_values(by=chart.metric_name,
+                        ascending=chart.metric_sort_dir == "ascending")
     value_indexes = range(len(df))
 
     colors = [
@@ -86,10 +88,8 @@ def create_chart(chart: ChartInfo):
                 dpi=300, bbox_inches='tight')
 
 if __name__ == "__main__":
-    # Read the data into a pandas DataFrame, empty cells will be ''
     df_all = pd.read_csv("localscore_leaderboard.tsv", sep='\t', na_filter=False)
-
-    # add accelerator group
+    df_all = df_all[df_all['ttft'] < 1_000_000] # remove outliers
     df_all['accel_group'] = df_all.apply(
         lambda row: get_accel_group(row['accel_type'], row['accel_name']), axis=1)
 
@@ -99,9 +99,10 @@ if __name__ == "__main__":
             model_size=model[1],
             metric_name=metric[0],
             metric_label=metric[1],
-            metric_unit=metric[2])
+            metric_unit=metric[2],
+            metric_sort_dir=metric[3])
         for model in models for metric in metrics]
 
     for chart in charts:
-        create_chart(chart)
+        create_chart(df_all, chart)
 
