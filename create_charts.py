@@ -4,24 +4,27 @@ from dataclasses import dataclass, field
 from matplotlib.patches import Patch
 
 models = [
-    ("Llama 3.2 1B Instruct", "1B"),
-    ("Meta Llama 3.1 8B Instruct", "8B"),
-    ("Qwen2.5 14B Instruct", "14B") ]
+    ("Llama 3.2 1B Instruct", "Q4_K - Medium", "1B"),
+    ("Meta Llama 3.1 8B Instruct", "Q4_K - Medium", "8B"),
+    ("Qwen2.5 14B Instruct", "Q4_K - Medium", "14B")]
 
 metrics = [
-    ("ttft", "Time to first token", "[ms]", "ascending"),
-    ("prompt_tps", "Prompt processing", "[tokens/s]", "descending"),
-    ("gen_tps", "Token generation", "[tokens/s]", "descending"),
-    ("localscore", "LocalScore", "", "descending"), ]
+    ("ttft", "Time to first token", "[ms]", "ascending", 3000),
+    ("prompt_tps", "Prompt processing", "[tokens/s]", "descending", 0),
+    ("gen_tps", "Token generation", "[tokens/s]", "descending", 0),
+    ("localscore", "LocalScore", "", "descending", 0),
+    ]
 
 @dataclass
 class ChartInfo:
     model_name: str = field(default="")
+    model_quant: str = field(default="")
     model_size: str = field(default="")
     metric_name: str = field(default="")
     metric_label: str = field(default="")
     metric_unit: str = field(default="")
     metric_sort_dir: str = field(default="ascending")
+    metric_threshold: int = field(default=0)
 
 accel_group_colors = {
     "NVIDIA GPU":   "#76b900",
@@ -54,26 +57,35 @@ def get_accel_group(accel_type, accel_name) -> str:
     return 'Other'
 
 def create_chart(df_all, chart: ChartInfo):
-    df_model = df_all[df_all['model_name'] == chart.model_name]
-    df = df_model[[chart.metric_name, 'accel_group']]
-    df = df.sort_values(by=chart.metric_name,
+    df_model = df_all[(df_all['model_name'] == chart.model_name) &
+                      (df_all['model_quant'] == chart.model_quant)]
+    df_model = df_model.sort_values(by=chart.metric_name,
                         ascending=chart.metric_sort_dir == "ascending")
-    value_indexes = range(len(df))
-
-    colors = [
-        accel_group_colors.get(accel, accel_group_colors['Other'])
-        for accel in df['accel_group']]
+    df = df_model[[chart.metric_name, 'accel_group']]
+    df_model.to_csv(f'localscore.{chart.metric_name}.{chart.model_size}.tsv',
+                    sep='\t', index=False)
 
     # Create the bar chart
     plt.figure(figsize=(15, 8))
+    value_indexes = range(len(df))
+    colors = [
+        accel_group_colors.get(accel, accel_group_colors['Other'])
+        for accel in df['accel_group']]
     bars = plt.bar(value_indexes, df[chart.metric_name], color=colors, alpha=0.7)
 
     # Customize the chart
     plt.xlabel('Value Index')
     plt.ylabel(f"{chart.metric_label} {chart.metric_unit}")
     plt.yscale('log')
-    plt.title(f'{chart.model_name} {chart.metric_label} by Accelerator Type')
+    smaller_or_larger = "smaller" if chart.metric_sort_dir == "ascending" else "larger"
+    plt.title(f'{chart.model_name} {chart.model_quant}: {chart.metric_label} '
+              f'by accelerator type {smaller_or_larger} is better)')
     plt.grid(True, which='both', axis='both', alpha=0.3, ls="-")
+
+    # add threshold line if applicable
+    if chart.metric_threshold > 0:
+        plt.axhline(y=chart.metric_threshold, color='red', linestyle='-', linewidth=0.5,
+                    label=f'Threshold ({chart.metric_threshold})')
 
     # Create legend matching the accel_group_colors used in the plot
     used_groups = df['accel_group'].unique()
@@ -96,11 +108,13 @@ if __name__ == "__main__":
     charts = [
         ChartInfo(
             model_name=model[0],
-            model_size=model[1],
+            model_quant=model[1],
+            model_size=model[2],
             metric_name=metric[0],
             metric_label=metric[1],
             metric_unit=metric[2],
-            metric_sort_dir=metric[3])
+            metric_sort_dir=metric[3],
+            metric_threshold=metric[4])
         for model in models for metric in metrics]
 
     for chart in charts:
