@@ -1,10 +1,26 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+from dataclasses import dataclass, field
+from matplotlib.patches import Patch
 
 models = [
-    "Llama 3.2 1B Instruct",
-    "Meta Llama 3.1 8B Instruct",
-    "Qwen2.5 14B Instruct"]
+    ("Llama 3.2 1B Instruct", "1B"),
+    ("Meta Llama 3.1 8B Instruct", "8B"),
+    ("Qwen2.5 14B Instruct", "14B") ]
+
+metrics = [
+    ("ttft", "Time to first token", "[ms]"),
+    ("prompt_tps", "Prompt processing", "[tokens/s]"),
+    ("gen_tps", "Token generation", "[tokens/s]"),
+    ("localscore", "LocalScore", "") ]
+
+@dataclass
+class ChartInfo:
+    model_name: str = field(default="")
+    model_size: str = field(default="")
+    metric_name: str = field(default="")
+    metric_label: str = field(default="")
+    metric_unit: str = field(default="")
 
 accel_group_colors = {
     "NVIDIA GPU":   "#76b900",
@@ -36,35 +52,28 @@ def get_accel_group(accel_type, accel_name) -> str:
             return 'Intel CPU'
     return 'Other'
 
-def create_chart(model_name):
-    # filter models[2]
-    df_model = df_all[df_all['model_name'] == model_name]
-
-    # filter 'prompt_tps', 'accel_group'
-    df = df_model[['prompt_tps', 'accel_group']]
-
-    # sort by 'prompt_tps'
-    df = df.sort_values(by='prompt_tps', ascending=False)
-
-    # Create value indexes (0 to len(df)-1)
+def create_chart(chart: ChartInfo):
+    df_model = df_all[df_all['model_name'] == chart.model_name]
+    df = df_model[[chart.metric_name, 'accel_group']]
+    df = df.sort_values(by=chart.metric_name, ascending=False)
     value_indexes = range(len(df))
 
-    colors = [accel_group_colors.get(accel, 'lightgray') for accel in df['accel_group']]
+    colors = [
+        accel_group_colors.get(accel, accel_group_colors['Other'])
+        for accel in df['accel_group']]
 
     # Create the bar chart
     plt.figure(figsize=(15, 8))
-    bars = plt.bar(value_indexes, df['prompt_tps'], color=colors, alpha=0.7)
+    bars = plt.bar(value_indexes, df[chart.metric_name], color=colors, alpha=0.7)
 
     # Customize the chart
     plt.xlabel('Value Index')
-    plt.ylabel('Prompt processing [tokens/s]')
+    plt.ylabel(f"{chart.metric_label} {chart.metric_unit}")
     plt.yscale('log')
-    plt.title('14B Prompt Processing vs Value Index by Accelerator Type')
+    plt.title(f'{chart.model_name} {chart.metric_label} by Accelerator Type')
     plt.grid(True, which='both', axis='both', alpha=0.3, ls="-")
 
-
     # Create legend matching the accel_group_colors used in the plot
-    from matplotlib.patches import Patch
     used_groups = df['accel_group'].unique()
     legend_elements = [
         Patch(facecolor=accel_group_colors[group], alpha=0.7, label=group)
@@ -72,13 +81,9 @@ def create_chart(model_name):
     ]
     plt.legend(handles=legend_elements)
 
-
-    # Adjust layout and show
     plt.tight_layout()
-    # plt.show()
-
-    #save result to png file
-    plt.savefig('localscore.pp_tps.14B.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'localscore.{chart.metric_name}.{chart.model_size}.png',
+                dpi=300, bbox_inches='tight')
 
 if __name__ == "__main__":
     # Read the data into a pandas DataFrame, empty cells will be ''
@@ -88,5 +93,15 @@ if __name__ == "__main__":
     df_all['accel_group'] = df_all.apply(
         lambda row: get_accel_group(row['accel_type'], row['accel_name']), axis=1)
 
-    create_chart(models[2])  # Create chart for the 14B model
+    charts = [
+        ChartInfo(
+            model_name=model[0],
+            model_size=model[1],
+            metric_name=metric[0],
+            metric_label=metric[1],
+            metric_unit=metric[2])
+        for model in models for metric in metrics]
+
+    for chart in charts:
+        create_chart(chart)
 
