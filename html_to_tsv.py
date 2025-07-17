@@ -222,7 +222,7 @@ def main():
 
     # Write to TSV file
     if all_data:
-        output_file = 'localscore_leaderboard.tsv'
+        output_file = 'localscore_results.tsv'
         with open(output_file, 'w', newline='', encoding='utf-8') as tsvfile:
             fieldnames = all_data[0].keys()
             writer = csv.DictWriter(tsvfile, fieldnames=fieldnames, delimiter='\t')

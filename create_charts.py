@@ -100,7 +100,7 @@ def create_chart(df_all, chart: ChartInfo):
                 dpi=300, bbox_inches='tight')
 
 if __name__ == "__main__":
-    df_all = pd.read_csv("localscore_leaderboard.tsv", sep='\t', na_filter=False)
+    df_all = pd.read_csv("localscore_results.tsv", sep='\t', na_filter=False)
     df_all = df_all[df_all['ttft'] < 1_000_000] # remove outliers
     df_all['accel_group'] = df_all.apply(
         lambda row: get_accel_group(row['accel_type'], row['accel_name']), axis=1)
