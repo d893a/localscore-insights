@@ -32,7 +32,7 @@ The Apple GPUs seem to aim to fill the gap between the performance of NVIDIA GPU
 
     -   Top performers (ttft < 500 ms):
         | ttft [ms] | accel_name                                         | VRAM [GB] |
-        |-----------|----------------------------------------------------|-----------|
+        |-----------|----------------------------------------------------|----------:|
         | 245       | NVIDIA RTX PRO 6000 Blackwell Workstation Edition  | 95.0      |
         | 279       | NVIDIA GeForce RTX 5090                            | 31.0      |
         | 322       | NVIDIA GeForce RTX 4090                            | 24.0      |
@@ -45,7 +45,7 @@ The Apple GPUs seem to aim to fill the gap between the performance of NVIDIA GPU
 
     -   Mid-tier NVIDIA GPUs (500 ms <= ttft < 2 seconds):
         | ttft [ms] | accel_name                                   | VRAM [GB] |
-        |-----------|----------------------------------------------|-----------|
+        |-----------|----------------------------------------------|----------:|
         | 513       | NVIDIA L40                                   | 44.0      |
         | 521       | NVIDIA GeForce RTX 4070 Ti SUPER             | 16.0      |
         | 529       | NVIDIA H100 NVL                              | 93.0      |
@@ -85,7 +85,7 @@ The Apple GPUs seem to aim to fill the gap between the performance of NVIDIA GPU
 
     -   NVIDIA GPUs an par with other hardware:
         | ttft [ms] | accel_name                      | VRAM [GB] |
-        |-----------|---------------------------------|-----------|
+        |-----------|---------------------------------|----------:|
         | 2410      | NVIDIA RTX A2000 12GB           | 12.0      |
         | 2760      | Tesla T4                        | 15.0      |
         | 2820      | NVIDIA GeForce GTX 1080 Ti      | 11.0      |
@@ -98,7 +98,7 @@ The Apple GPUs seem to aim to fill the gap between the performance of NVIDIA GPU
     `cat localscore.ttft.14B.tsv | grep "Apple GPU" | awk -F"\t" "!seen[$12]++" | cut -f4,12,14`
 
     | ttft [ms] | accel_name                      | VRAM [GB] |
-    |-----------|---------------------------------|-----------|
+    |-----------|---------------------------------|----------:|
     | 2029      | Apple M3 Ultra 24P+8E+80GPU     | 512.0     |
     | 2670      | Apple M3 Ultra 20P+8E+60GPU     | 96.0      |
     | 3100      | Apple M1 Ultra 16P+4E+64GPU     | 128.0     |
@@ -111,7 +111,7 @@ The Apple GPUs seem to aim to fill the gap between the performance of NVIDIA GPU
     `cat localscore.ttft.14B.tsv | grep "AMD GPU" | awk -F"\t" "!seen[$12]++" | cut -f4,12,14`
 
     | ttft [ms] | accel_name                      | VRAM [GB] |
-    |-----------|---------------------------------|-----------|
+    |-----------|---------------------------------|----------:|
     | 2400      | AMD Radeon RX 6900 XT           | 16.0      |
     | 2570      | Radeon RX 7900 XTX              | 24.0      |
     | 2670      | AMD Radeon RX 7900 XTX          | 24.0      |
@@ -125,7 +125,7 @@ The Apple GPUs seem to aim to fill the gap between the performance of NVIDIA GPU
     `cat localscore.ttft.14B.tsv | grep "AMD CPU" | awk -F"\t" "!seen[$12]++" | cut -f4,12,14`
 
     | ttft [ms] | accel_name                                             | VRAM [GB] |
-    |-----------|--------------------------------------------------------|-----------|
+    |-----------|--------------------------------------------------------|----------:|
     |  8170     | AMD EPYC 9454P 48-Core Processor (znver4)              | 251.4     |
     | 10270     | AMD EPYC 9135 16-Core Processor                        | 251.3     |
     | 11600     | AMD Ryzen 9 9950X3D 16-Core Processor                  | 92.0      |
@@ -140,7 +140,7 @@ The Apple GPUs seem to aim to fill the gap between the performance of NVIDIA GPU
     `cat localscore.ttft.14B.tsv | grep "Intel CPU" | awk -F"\t" "!seen[$12]++" | cut -f4,12,14`
 
     | ttft [ms] | accel_name                                             | VRAM [GB] |
-    |-----------|--------------------------------------------------------|-----------|
+    |-----------|--------------------------------------------------------|----------:|
     | 24120     | Intel Xeon w5-3425 (sapphirerapids)                    | 63.3      |
     | 27050     | Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)   | 94.3      |
     | 30790     | Intel Xeon CPU E5-2680 v4 @ 2.40GHz (broadwell)        | 125.8     |
@@ -163,7 +163,7 @@ Observations:
     `cat localscore.ttft.8B.tsv | grep "Apple GPU" | awk -F"\t" "!seen[$12]++" | cut -f4,12,14`
 
     | ttft [ms] | accel_name                      | VRAM [GB] |
-    |-----------|---------------------------------|-----------|
+    |-----------|---------------------------------|----------:|
     | 1800      | Apple M4 Max 12P+4E+40GPU       | 48.0      |
     | 2029      | Apple M3 Max 12P+4E+40GPU       | 128.0     |
     | 2150      | Apple M1 Ultra 16P+4E+48GPU     | 128.0     |
@@ -175,7 +175,7 @@ Observations:
     `cat localscore.ttft.8B.tsv | grep "AMD CPU" | awk -F"\t" "!seen[$12]++" | cut -f4,12,14`
 
     | ttft [ms] | accel_name                                     | VRAM [GB] |
-    |-----------|------------------------------------------------|-----------|
+    |-----------|------------------------------------------------|----------:|
     |  5560     | AMD Ryzen 9 9950X3D 16-Core Processor          | 60.4      |
     |  8050     | AMD Ryzen 9 7950X 16-Core Processor (znver4)   | 124.8     |
     |  8510     | AMD Ryzen 9 7950X3D 16-Core Processor (znver4) | 61.9      |
@@ -196,7 +196,7 @@ Observations:
     `cat localscore.ttft.1B.tsv | grep "AMD CPU" | awk -F"\t" "!seen[$12]++" | cut -f4,12,14`
 
     | ttft [ms] | accel_name                                             | VRAM [GB] |
-    |-----------|--------------------------------------------------------|-----------|
+    |-----------|--------------------------------------------------------|----------:|
     |   849     | AMD Ryzen Threadripper PRO 7995WX (znver4)             | 503.1     |
     |   906     | AMD EPYC 9454P 48-Core Processor (znver4)              | 251.4     |
     |  1230     | AMD Ryzen 9 9950X 16-Core Processor                    | 59.4      |
@@ -358,7 +358,7 @@ KV cache size [B] = (batch_size) * (sequence_length) * 2 * (num_layers) * (hidde
 For "Qwen2.5 14B Instruct Q4_K - Medium", the [model configuration](https://arxiv.org/html/2409.12186v2#S2) is:
 
 | Configuration         | 14B      |
-|-----------------------|----------|
+|-----------------------|---------:|
 | Hidden Size           | 5,120    |
 | Number of Layers      | 48       |
 | Number of Query Heads | 40       |
@@ -372,7 +372,7 @@ The size of the KV cache for a single-batch 4096-token prompt will be 1 * 4096 *
 The LocalScore results are shown in the following table:
 
 | TEST NAME      | PROMPT (tokens/s) | GENERATION (tokens/s) | TTFT       |
-|----------------|------------------:|----------------------:|------------|
+|----------------|------------------:|----------------------:|-----------:|
 | pp1024+tg16    |               136 |                   3.9 | 7.82 sec   |
 | pp4096+tg256   |                86 |                   2.9 | 47.96 sec  |
 | pp2048+tg256   |               545 |                   3.6 | 4.03 sec   |
@@ -386,7 +386,7 @@ The LocalScore results are shown in the following table:
 [Test #320](https://www.localscore.ai/result/320) runs the same model on the same system, but this time without the GPU. Only the CPU is used for prompt processing and token generation. The results are shown below:
 
 | TEST NAME      | PROMPT (tokens/s) | GENERATION (tokens/s) | TTFT      |
-|----------------|------------------:|----------------------:|-----------|
+|----------------|------------------:|----------------------:|----------:|
 | pp1024+tg16    |               38  |                  5.8  | 27.08 sec |
 | pp4096+tg256   |               34  |                  5.1  | 120.12 sec|
 | pp2048+tg256   |               40  |                  5.6  | 52.01 sec |
@@ -412,7 +412,7 @@ In conclusion, a GPU with even a small amount of VRAM can contribute positively 
 Here is the list of some of the hardware used in the benchmark, with their prices as of 2025.07.14:
 
 | GPU                                 | Price (USD) |
-|-------------------------------------|-------------|
+|-------------------------------------|------------:|
 | H100 80 GB HBM3                     | 30970       |
 | NVIDIA H100 PCIe                    | 27000       |
 | H100 NVL (94 GB)                    | 27000       |
