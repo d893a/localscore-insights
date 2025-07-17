@@ -1,3 +1,0 @@
-test_num	test_date	gen_tps	ttft	ttft_unit	prompt_tps	localscore	model_name	model_quant	model_params	model_params_unit	accel_name	accel_type	accel_ram	accel_ram_unit	system_cpu	system_ram	system_ram_unit	system_os
-869	2025.05.14 16:51	43.2	1400	ms	814	293	Qwen3 30B A3B	Q4_K - Medium	30500	M	NVIDIA GeForce RTX 3090	GPU	24	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.6	GB	Linux
-902	2025.05.18 21:38	14.0	24610	ms	61	33	Qwen3-30B-A3B	Q4_K - Medium	30500	M	AMD Ryzen 5 5600U with Radeon Graphics (znver3)	CPU	62.1	GB	AMD Ryzen 5 5600U with Radeon Graphics (znver3)	62.1	GB	Linux
