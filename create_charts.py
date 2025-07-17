@@ -88,10 +88,10 @@ def create_chart(df_all, chart: ChartInfo):
                     label=f'Threshold ({chart.metric_threshold})')
 
     # Create legend matching the accel_group_colors used in the plot
-    used_groups = df['accel_group'].unique()
+    #used_groups = df['accel_group'].unique()
     legend_elements = [
         Patch(facecolor=accel_group_colors[group], alpha=0.7, label=group)
-        for group in used_groups
+        for group in accel_group_colors.keys()
     ]
     plt.legend(handles=legend_elements)
 
