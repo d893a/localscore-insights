@@ -79,7 +79,7 @@ def create_chart(df_all, chart: ChartInfo):
     plt.yscale('log')
     smaller_or_larger = "smaller" if chart.metric_sort_dir == "ascending" else "larger"
     plt.title(f'{chart.model_name} {chart.model_quant}: {chart.metric_label} '
-              f'by accelerator type {smaller_or_larger} is better)')
+              f'by accelerator type ({smaller_or_larger} is better)')
     plt.grid(True, which='both', axis='both', alpha=0.3, ls="-")
 
     # add threshold line if applicable
