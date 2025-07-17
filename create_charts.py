@@ -52,7 +52,7 @@ def get_accel_group(accel_type, accel_name) -> str:
             return 'Apple CPU'
         elif accel_name.startswith('AMD'):
             return 'AMD CPU'
-        elif accel_name.startswith('Intel'):
+        elif 'Intel' in accel_name:
             return 'Intel CPU'
     return 'Other'
 
