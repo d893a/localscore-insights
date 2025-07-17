@@ -155,11 +155,11 @@ Data: [localscore.ttft.8B.tsv](localscore.ttft.8B.tsv)
 
 ![localscore.ttft.8B.png](localscore.ttft.8B.png)
 
-The figure shows the time-to-first-token benchmark results for the 8 B parameter model.
+Observations:
 
 -   The majority of NVIDIA GPUs produced the first token within 1 second.
--   All AMD GPUs produced the first token within 3 seconds, below the threshold (except for one outlier).
--   Apple GPUs under the threshold: \
+-   Almost all AMD GPUs produced the first token within 3 seconds, below the threshold. (There was one outlier.)
+-   Some Apple GPUs produced the first token within 3 seconds: \
     `cat localscore.ttft.8B.tsv | grep "Apple GPU" | awk -F"\t" "!seen[$12]++" | cut -f4,12,14`
 
     | ttft [ms] | accel_name                      | VRAM [GB] |
@@ -171,7 +171,7 @@ The figure shows the time-to-first-token benchmark results for the 8 B parameter
     | 2440      | Apple M2 Max 8P+4E+38GPU        | 96.0      |
     | 2690      | Apple M3 Max 10P+4E+30GPU       | 96.0      |
 
--   AMD CPUs producing output in less than 10 second (well above threshold): \
+-   The best AMD CPUs are producing output well above threshold, in 5.5 to 8.5 seconds: \
     `cat localscore.ttft.8B.tsv | grep "AMD CPU" | awk -F"\t" "!seen[$12]++" | cut -f4,12,14`
 
     | ttft [ms] | accel_name                                     | VRAM [GB] |
@@ -188,9 +188,9 @@ Data: [localscore.ttft.1B.tsv](localscore.ttft.1B.tsv)
 
 ![localscore.ttft.1B.png](localscore.ttft.1B.png)
 
-The figure shows the time-to-first-token benchmark results for the 1 B parameter model.
+Observations:
 
--   All NVIDIA, AMD and Apple GPUs produced the first token in less than 3 seconds.
+-   All NVIDIA GPUs, AMD GPUs and Apple GPUs produced the first token in less than 3 seconds.
 
 -   The following AMD CPUs produced the first token in less than 3 seconds: \
     `cat localscore.ttft.1B.tsv | grep "AMD CPU" | awk -F"\t" "!seen[$12]++" | cut -f4,12,14`
@@ -223,7 +223,52 @@ Data: [localscore.prompt_tps.14B.tsv](localscore.prompt_tps.14B.tsv)
 
 ![localscore.prompt_tps.14B.png](localscore.prompt_tps.14B.png)
 
-Prompt processing throughput for the 14B parameter model. GPUs: 5126 down to 204 tokens/s (~25x span). CPUs: 171 to 3 tokens/s (~57x span). \
+Prompt processing throughput for the 14B parameter model.
+
+GPUs processing the input at a rate of at least 1000 tokens per second:
+
+| prompt_tps | accel_name                                         | accel_ram |
+|-----------:|----------------------------------------------------|----------:|
+|      5126  | NVIDIA RTX PRO 6000 Blackwell Workstation Edition  |     95.0  |
+|      4787  | NVIDIA GeForce RTX 5090                            |     31.0  |
+|      4106  | NVIDIA GeForce RTX 4090                            |     24.0  |
+|      3905  | NVIDIA GeForce RTX 4090 D                          |     47.0  |
+|      3552  | NVIDIA RTX 6000 Ada Generation                     |     47.0  |
+|      2973  | NVIDIA H100 PCIe                                   |     79.0  |
+|      2868  | NVIDIA L40S                                        |     45.0  |
+|      2713  | NVIDIA L40                                         |     44.0  |
+|      2665  | NVIDIA GeForce RTX 4080                            |     16.0  |
+|      2609  | NVIDIA H100 80GB HBM3                              |     79.0  |
+|      2526  | NVIDIA GeForce RTX 4070 Ti SUPER                   |     16.0  |
+|      2424  | NVIDIA GeForce RTX 4080 SUPER                      |     16.0  |
+|      2351  | NVIDIA H100 NVL                                    |     93.0  |
+|      2317  | NVIDIA GeForce RTX 5070 Ti                         |     15.0  |
+|      2317  | NVIDIA GeForce RTX 3090 Ti                         |     24.0  |
+|      2291  | NVIDIA GeForce RTX 5080                            |     15.0  |
+|      2224  | NVIDIA GeForce RTX 4070 Ti                         |     12.0  |
+|      2189  | NVIDIA GeForce RTX 3090                            |     24.0  |
+|      2090  | NVIDIA GeForce RTX 3080 Ti                         |     12.0  |
+|      2069  | NVIDIA A100-SXM4-80GB                              |     79.0  |
+|      2012  | NVIDIA GeForce RTX 4070 SUPER                      |     12.0  |
+|      1883  | NVIDIA RTX A6000                                   |     48.0  |
+|      1834  | NVIDIA A40                                         |     44.0  |
+|      1752  | NVIDIA GeForce RTX 4070                            |     12.0  |
+|      1595  | NVIDIA GeForce RTX 3080                            |     10.0  |
+|      1524  | NVIDIA RTX A5000                                   |     24.0  |
+|      1438  | NVIDIA A100 80GB PCIe                              |     79.0  |
+|      1419  | NVIDIA GeForce RTX 5060 Ti                         |     15.0  |
+|      1408  | NVIDIA RTX 4000 Ada Generation                     |     20.0  |
+|      1337  | NVIDIA RTX 3500 Ada Generation Laptop GPU          |     12.0  |
+|      1330  | NVIDIA RTX A4500                                   |     20.0  |
+|      1266  | NVIDIA GeForce RTX 4060 Ti                         |     16.0  |
+|      1264  | NVIDIA GeForce RTX 5070                            |     12.0  |
+|      1178  | Quadro RTX 8000                                    |     47.0  |
+|      1170  | NVIDIA GeForce RTX 2080 Ti                         |     11.0  |
+|      1161  | Tesla V100-SXM2-32GB                               |     32.0  |
+|      1133  | NVIDIA A10                                         |     22.0  |
+|      1119  | NVIDIA L4                                          |     22.0  |
+|      1100  | NVIDIA RTX A4000                                   |     16.0  |
+|      1037  | NVIDIA RTX 4000 SFF Ada Generation                 |     20.0  |
 
 ### 8B parameter model: Meta Llama 3.1 8B Instruct Q4_K - Medium
 
@@ -231,7 +276,7 @@ Data: [localscore.prompt_tps.8B.tsv](localscore.prompt_tps.8B.tsv)
 
 ![localscore.prompt_tps.8B.png](localscore.prompt_tps.8B.png)
 
-Prompt processing throughput for the 8 B parameter model. GPUs: 8479 down to 427 tokens/s (~20x span). CPUs: 250 to 1 token/s. \
+Prompt processing throughput for the 8 B parameter model.
 
 ### 1B parameter model: Llama 3.2 1B Instruct Q4_K - Medium
 
@@ -239,67 +284,92 @@ Data: [localscore.prompt_tps.1B.tsv](localscore.prompt_tps.1B.tsv)
 
 ![localscore.prompt_tps.1B.png](localscore.prompt_tps.1B.png)
 
-Prompt processing throughput for the 1.5 B parameter model. GPUs: 30,896 down to 1770 tokens/s (~20x span). CPUs: 1738 to 2 tokens/s. \
+Prompt processing throughput for the 1 B parameter model.
 
 
 ## Token generation
 
 Performance is primarily determined by the memory bandwidth of the GPU/CPU. GPUs have an order of magnitude larger memory bandwidth. A few GPUs' VRAM is almost as slow as CPUs' system RAM.
 
+### 14B parameter model: Qwen2.5 14B Instruct Q4_K - Medium
 
-## Observations
+Data: [localscore.gen_tps.14B.tsv](localscore.gen_tps.14B.tsv)
 
-### GPUs
+![localscore.gen_tps.14B.png](localscore.gen_tps.14B.png)
 
-These are the best GPUs:
+Token generation throughput for the 14B parameter model. The threshold value was chosen to be larger than the reading speed -- assuming that an everage person could read the output tokens at a speed of 300 words per minute (5 words per seconds), which is around 5 tokens per second for English text.
 
--   NVIDIA RTX PRO 6000 Blackwell Workstation Edition 95 GB
--   NVIDIA RTX 6000 Ada Generation 47 GB
--   NVIDIA GeForce RTX 5090 31 GB
--   NVIDIA GeForce RTX 4090 24 GB
--   NVIDIA GeForce RTX 4090 D 47 GB
--   NVIDIA RTX 6000 Ada Generation 48 GB
+### 8B parameter model: Meta Llama 3.1 8B Instruct Q4_K - Medium
 
-The following GPUs are good value and perform really well:
+Data: [localscore.gen_tps.8B.tsv](localscore.gen_tps.8B.tsv)
 
--   NVIDIA GeForce RTX 5070 Ti 15 GB
--   NVIDIA GeForce RTX 4080 SUPER 16 GB
--   NVIDIA GeForce RTX 4070 Ti SUPER 16 GB
--   NVIDIA GeForce RTX 4070 Ti 12 GB
--   NVIDIA GeForce RTX 3090 Ti 24 GB
--   NVIDIA GeForce RTX 3090 24 GB
--   NVIDIA GeForce RTX 3080 Ti 12 GB
+![localscore.gen_tps.8B.png](localscore.gen_tps.8B.png)
 
-There are only a few AMD GPUs which show notable performance in the current benchmarks:
+Token generation throughput for the 8 B parameter model.
 
--   AMD Radeon RX 6900 XT 16 GB
--   AMD Radeon PRO V620 30 GB
--   AMD Radeon RX 7900 XTX 24 GB
--   AMD Radeon RX 6800 XT 16 GB
--   AMD Radeon RX 6700 XT 12 GB
--   AMD Radeon RX 6650 XT 8 GB
--   AMD Radeon RX 9070 XT 16 GB
--   AMD Radeon RX 7800 XT 16 GB
--   AMD Radeon RX 6600 8 GB
+### 1B parameter model: Llama 3.2 1B Instruct Q4_K - Medium
 
-### CPUs
+Data: [localscore.gen_tps.1B.tsv](localscore.gen_tps.1B.tsv)
 
-Some processors can approach the performance of weaker GPUs:
+![localscore.gen_tps.1B.png](localscore.gen_tps.1B.png)
 
--   AMD Ryzen Threadripper PRO 7995WX (znver4)
--   AMD EPYC 9454P 48-Core Processor (znver4)
--   AMD Ryzen 9 9950X 16-Core Processor
--   AMD Ryzen 9 7950X3D 16-Core Processor (znver4)
--   AMD Ryzen 9 9950X3D 16-Core Processor
--   AMD Ryzen 9 7950X 16-Core Processor (znver4)
+Token generation throughput for the 1 B parameter model.
 
-Note that even these processors are an order of magnitude slower at prompt processing than the average GPU.
 
-### Hybrid system
+## LocalScore
 
-The benchmark results show a hybrid system, too. [Test #337](https://www.localscore.ai/result/337) features an AMD Ryzen 7 7800X3D 8-Core Processor (znver4) with 32 GB of system RAM, plus an NVIDIA GeForce RTX 4060 Ti with 8 GB VRAM. The model under test is *Qwen2.5 14B Instruct Q4_K - Medium* with 14.8B parameters. The file size is 8,988,110,976 bytes, which does not fit into the GPU memory.
+The LocalScore website calculates a 'localscore' value for each test. The weights are not published.
 
-The results are shown in the following table:
+### 14B parameter model: Qwen2.5 14B Instruct Q4_K - Medium
+
+Data: [localscore.localscore.14B.tsv](localscore.localscore.14B.tsv)
+
+![localscore.localscore.14B.png](localscore.localscore.14B.png)
+
+LocalScore values for the 14B parameter model.
+
+### 8B parameter model: Meta Llama 3.1 8B Instruct Q4_K - Medium
+
+Data: [localscore.localscore.8B.tsv](localscore.localscore.8B.tsv)
+
+![localscore.localscore.8B.png](localscore.localscore.8B.png)
+
+LocalScore values for the 8 B parameter model.
+
+### 1B parameter model: Llama 3.2 1B Instruct Q4_K - Medium
+
+Data: [localscore.localscore.1B.tsv](localscore.localscore.1B.tsv)
+
+![localscore.localscore.1B.png](localscore.localscore.1B.png)
+
+LocalScore values for the 1 B parameter model.
+
+
+## Hybrid system
+
+The benchmark results show a hybrid system, too. [Test #337](https://www.localscore.ai/result/337) features an AMD Ryzen 7 7800X3D 8-Core Processor (znver4) with 32 GB of system RAM, plus an NVIDIA GeForce RTX 4060 Ti with 8 GB VRAM. The model under test is [*Qwen2.5 14B Instruct Q4_K - Medium*](https://arxiv.org/html/2409.12186v2) with 14.8B parameters. The file size is 8,988,110,976 bytes, which does not fit into the GPU memory.
+
+The [memory requirements](https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/) for the KV cache in bytes:
+
+```
+KV cache size [B] = (batch_size) * (sequence_length) * 2 * (num_layers) * (hidden_size) *  sizeof(quantization_bytes),
+```
+
+For "Qwen2.5 14B Instruct Q4_K - Medium", the [model configuration](https://arxiv.org/html/2409.12186v2#S2) is:
+
+| Configuration         | 14B      |
+|-----------------------|----------|
+| Hidden Size           | 5,120    |
+| Number of Layers      | 48       |
+| Number of Query Heads | 40       |
+| Number of KV Heads    | 8        |
+| Head Size             | 128      |
+| Intermediate Size     | 13,824   |
+| Vocabulary Size       | 151,646  |
+
+The size of the KV cache for a single-batch 4096-token prompt will be 1 * 4096 * 2 * 48 * 5120 * 1/2 bytes = 960 MB.
+
+The LocalScore results are shown in the following table:
 
 | TEST NAME      | PROMPT (tokens/s) | GENERATION (tokens/s) | TTFT       |
 |----------------|------------------:|----------------------:|------------|
@@ -336,3 +406,61 @@ The situation is reversed for token generation. The CPU-only method produces out
 The slow token generation of the GPU+CPU method may be attributed to the extra time needed to move the model weights from the system RAM into the VRAM again and again for each generated token. For prompt processing, the required time is determined by the size of the input prompt and dominated by the available computational power rather than the memory bandwidth.
 
 In conclusion, a GPU with even a small amount of VRAM can contribute positively to the overall system performance.
+
+## Price of the hardware
+
+Here is the list of some of the hardware used in the benchmark, with their prices as of 2025.07.14:
+
+| GPU                                 | Price (USD) |
+|-------------------------------------|-------------|
+| H100 80 GB HBM3                     | 30970       |
+| NVIDIA H100 PCIe                    | 27000       |
+| H100 NVL (94 GB)                    | 27000       |
+| H100-SXM4 80 GB                     | 10450       |
+| RTX PRO 6000 Blackwell              | 8565        |
+| A100 80 GB PCIe                     | 8499        |
+| L40S 48 GB                          | 7569        |
+| RTX 6000 Ada Gen.                   | 5950        |
+| L40 48 GB                           | 5899        |
+| Apple Mac Studio (M1 Ultra 48-GPU)  | 3999        |
+| Apple Mac Studio (M1 Ultra 64-GPU)  | 3999        |
+| Apple M3 Ultra (60/80 GPU)          | 3999        |
+| RTX A6000                           | 4332        |
+| GeForce RTX 5090                    | 2499        |
+| Quadro RTX 8000 (48 GB)             | 2379        |
+| Apple Mac Studio (M4 Max 32-GPU)    | 1859        |
+| RTX A5000 Laptop GPU                | 1500        |
+| RTX A5000 (24 GB)                   | 1400        |
+| RTX 4000 Ada Gen (20 GB)            | 1250        |
+| RTX 4000 SFF Ada                    | 1245        |
+| GeForce RTX 4090 D                  | 1599        |
+| GeForce RTX 4090                    | 1549        |
+| Radeon RX 7900 XTX                  | 799         |
+| RTX 3080 Laptop GPU                 | 800         |
+| Tesla V100-SXM2 32 GB               | 850         |
+| RTX 5070 Ti                         | 820         |
+| RTX 4080 SUPER                      | 999         |
+| RTX 5080                            | 999         |
+| GeForce RTX 4080                    | 989         |
+| RTX 4070 Ti SUPER                   | 714         |
+| RTX A4000 (16 GB)                   | 689         |
+| NVIDIA Tesla T4                     | 649         |
+| Radeon RX 6900 XT                   | 600         |
+| RTX 4070 Ti                         | 590         |
+| RTX 4070 SUPER                      | 577         |
+| RTX 4070                            | 549         |
+| RTX 5070                            | 549         |
+| AMD Radeon RX 7800 XT               | 539         |
+| RTX 3080 Ti                         | 499         |
+| RTX 4060 Ti                         | 463         |
+| AMD Radeon RX 6800                  | 419         |
+| RTX 3080 (LHR 12 GB)                | 400         |
+| PNY NVIDIA RTX A2000 12 GB          | 399         |
+| RTX A4500 (20 GB)                   | 377         |
+| TITAN V                             | 359         |
+| AMD Radeon RX 6800 XT               | 330         |
+| RTX 3500 Ada (Laptop)               | 323         |
+| RTX 3060                            | 290         |
+| RTX 2080 Ti                         | 268         |
+| NVIDIA GeForce GTX 1080 Ti          | 160         |
+
