@@ -2,7 +2,7 @@ import csv
 from dateutil import parser
 import matplotlib.pyplot as plt
 
-filename = 'localscore_leaderboard.tsv'
+filename = 'localscore_results.tsv'
 hours = []
 
 # Read the TSV file and extract the 'test_date' column
@@ -24,4 +24,4 @@ plt.ylabel('Count')
 plt.title('Histogram of Test Dates by Hour')
 plt.xticks(range(24))
 # plt.show()
-plt.savefig('localscore_leaderboard.histogram.run_hours.png', dpi=300, bbox_inches='tight')
+plt.savefig('localscore_results.histogram.run_hours.png', dpi=300, bbox_inches='tight')
