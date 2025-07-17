@@ -12,7 +12,7 @@ metrics = [
     ("ttft", "Time to first token", "[ms]", "ascending", 3000),
     ("prompt_tps", "Prompt processing", "[tokens/s]", "descending", 1000),
     ("gen_tps", "Token generation", "[tokens/s]", "descending", 10),
-    ("localscore", "LocalScore", "", "descending", 300),
+    ("localscore", "LocalScore", "", "descending", 0),
     ]
 
 @dataclass
