@@ -1,19 +1,117 @@
-# LocalScore leaderboard insights
+# LocalScore insights
 
-LocalScore leaderboard: [LocalScore](https://www.localscore.ai/latest)
+LocalScore benchmark results: [LocalScore](https://www.localscore.ai/latest)
 
-All benchmark results: [localscore_leaderboard.tsv](localscore_leaderboard.tsv) (Currently 1218 in total.)
+Benchmark results downloaded: [localscore_leaderboard.tsv](localscore_leaderboard.tsv) (Currently 1218 in total.) ([Code](localscore_download_leaderboard.bat))
+
+The benchmark results are shown in the following charts. ([Code](create_charts.py))
 
 ## Time to first token
 
 Performance is primarily determined by the memory bandwidth of the GPU/CPU. GPUs have an order of magnitude larger memory bandwidth. A few GPUs' VRAM is almost as slow as CPUs' system RAM.
 
-### 14 B parameter model
+In the charts a threshold of 3 seconds was chosen arbitrarily as an upper limit for good performance for creating the first token. (Indicated by a red line.)
 
-The figure below shows the benchmark results for the 14 B parameter model, ordered by time-to-first-token values. GPUs: 146 to 2720 ms (~19x span). CPUs: 5560 to 298,080 ms (~54x span; 1 outlier removed from the data).  \
-Data: [localscore_leaderboard.q4_k_med.14B.sorted_by_ttft.tsv](localscore_leaderboard.q4_k_med.14B.sorted_by_ttft.tsv)
+### 14B parameter model: Qwen2.5 14B Instruct Q4_K - Medium
 
-![ttft_vs_value_index.14B.png](ttft_vs_value_index.14B.png)
+Data: [localscore.ttft.14B.tsv](localscore.ttft.14B.tsv)
+
+![localscore.ttft.14B.png](localscore.ttft.14B.png)
+
+The figure shows the time-to-first-token benchmark results for the 14 B parameter model.
+
+-   NVIDIA GPUs (<span style="color:#76b900;">&#9632;</span>): 146 to 1830 ms, with older/less performant ones into the 8 s range.
+-   Apple GPUs  (<span style="color:#000000;">&#9632;</span>): 2029 ms to 20 seconds, with a few into the 30 seconds range.
+-   AMD GPUs    (<span style="color:#ed1c24;">&#9632;</span>): 2.4 to 5 seconds. (Plus a poorly performing outlier at 27 seconds.)
+-   AMD CPUs    (<span style="color:#f26522;">&#9632;</span>): 8.3 to 78 seconds, with the majority above 20 seconds.
+-   Intel CPUs  (<span style="color:#0068b5;">&#9632;</span>): 24 seconds to 7 minutes, with the majority above 1.5 minutes.
+-   All other hardware performed poorly.
+
+The Apple GPUs seem to aim to fill the gap between the performance of NVIDIA GPUs and AMD CPUs.
+
+Best performing NVIDIA GPUs: `cat localscore.ttft.14B.tsv | grep "NVIDIA GPU" | awk -F"\t" "!seen[$12]++" | cut -f4,12`
+
+-   Top performers (ttft < 500 ms):
+    | ttft [ms] | accel_name                                         | VRAM [GB] |
+    |-----------|----------------------------------------------------|-----------|
+    | 245       | NVIDIA RTX PRO 6000 Blackwell Workstation Edition  | 95.0      |
+    | 279       | NVIDIA GeForce RTX 5090                            | 31.0      |
+    | 322       | NVIDIA GeForce RTX 4090                            | 24.0      |
+    | 336       | NVIDIA GeForce RTX 4090 D                          | 47.0      |
+    | 369       | NVIDIA RTX 6000 Ada Generation                     | 47.0      |
+    | 417       | NVIDIA H100 PCIe                                   | 79.0      |
+    | 475       | NVIDIA H100 80GB HBM3                              | 79.0      |
+    | 488       | NVIDIA GeForce RTX 4080                            | 16.0      |
+    | 488       | NVIDIA L40S                                        | 45.0      |
+
+-   Mid-tier NVIDIA GPUs (500 ms <= ttft < 2 seconds):
+    | ttft [ms] | accel_name                                   | VRAM [GB] |
+    |-----------|----------------------------------------------|-----------|
+    | 513       | NVIDIA L40                                   | 44.0      |
+    | 521       | NVIDIA GeForce RTX 4070 Ti SUPER             | 16.0      |
+    | 529       | NVIDIA H100 NVL                              | 93.0      |
+    | 552       | NVIDIA GeForce RTX 3090 Ti                   | 24.0      |
+    | 555       | NVIDIA GeForce RTX 4080 SUPER                | 16.0      |
+    | 558       | NVIDIA GeForce RTX 5080                      | 15.0      |
+    | 578       | NVIDIA GeForce RTX 3090                      | 24.0      |
+    | 592       | NVIDIA A100-SXM4-80GB                        | 79.0      |
+    | 609       | NVIDIA GeForce RTX 4070 Ti                   | 12.0      |
+    | 617       | NVIDIA GeForce RTX 3080 Ti                   | 12.0      |
+    | 665       | NVIDIA GeForce RTX 4070 SUPER                | 12.0      |
+    | 692       | NVIDIA RTX A6000                             | 48.0      |
+    | 713       | NVIDIA A40                                   | 44.0      |
+    | 752       | NVIDIA GeForce RTX 4070                      | 12.0      |
+    | 802       | NVIDIA GeForce RTX 3080                      | 10.0      |
+    | 846       | NVIDIA RTX A5000                             | 24.0      |
+    | 859       | NVIDIA GeForce RTX 5070 Ti                   | 15.0      |
+    | 944       | NVIDIA GeForce RTX 5060 Ti                   | 15.0      |
+    | 952       | NVIDIA RTX 4000 Ada Generation               | 20.0      |
+    | 954       | NVIDIA A100 80GB PCIe                        | 79.0      |
+    | 968       | NVIDIA RTX 3500 Ada Generation Laptop GPU    | 12.0      |
+    | 979       | NVIDIA RTX A4500                             | 20.0      |
+    | 1020      | Tesla V100-SXM2-32GB                         | 32.0      |
+    | 1060      | Quadro RTX 8000                              | 47.0      |
+    | 1070      | NVIDIA GeForce RTX 4060 Ti                   | 16.0      |
+    | 1070      | NVIDIA GeForce RTX 5070                      | 12.0      |
+    | 1070      | NVIDIA GeForce RTX 2080 Ti                   | 11.0      |
+    | 1160      | NVIDIA A10                                   | 22.0      |
+    | 1190      | NVIDIA RTX A4000                             | 16.0      |
+    | 1210      | NVIDIA TITAN V                               | 12.0      |
+    | 1210      | NVIDIA L4                                    | 22.0      |
+    | 1340      | NVIDIA RTX 4000 SFF Ada Generation           | 20.0      |
+    | 1520      | NVIDIA GeForce RTX 3080 Laptop GPU           | 16.0      |
+    | 1550      | NVIDIA RTX A5000 Laptop GPU                  | 16.0      |
+    | 1560      | NVIDIA GeForce RTX 3060                      | 12.0      |
+    | 1790      | NVIDIA RTX 2000 Ada Generation               | 16.0      |
+
+-   NVIDIA GPUs an par with other hardware:
+    | ttft [ms] | accel_name                      | VRAM [GB] |
+    |-----------|---------------------------------|-----------|
+    | 2410      | NVIDIA RTX A2000 12GB           | 12.0      |
+    | 2760      | Tesla T4                        | 15.0      |
+    | 2820      | NVIDIA GeForce GTX 1080 Ti      | 11.0      |
+    | 4280      | Quadro P5000                    | 16.0      |
+    | 5550      | NVIDIA GeForce RTX 3060 Ti      | 8.0       |
+    | 5710      | Tesla P100-SXM2-16GB            | 16.0      |
+    | 8070      | NVIDIA GeForce RTX 3070         | 8.0       |
+
+
+
+
+### 8B parameter model: Meta Llama 3.1 8B Instruct Q4_K - Medium
+
+The figure below shows the time-to-first-token benchmark results for the 8 B parameter model.
+Data: [localscore.ttft.8B.tsv](localscore.ttft.8B.tsv)
+
+![localscore.ttft.8B.png](localscore.ttft.8B.png)
+
+### 1B parameter model: Llama 3.2 1B Instruct Q4_K - Medium
+
+The figure below shows the benchmark results for the 1B parameter model, ordered by time-to-first-token values.
+Data: [localscore.ttft.1B.tsv](localscore.ttft.1B.tsv)
+
+![localscore.ttft.1B.png](localscore.ttft.1B.png)
+
 
 ## Prompt processing
 
