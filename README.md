@@ -407,7 +407,7 @@ The slow token generation of the GPU+CPU method may be attributed to the extra t
 
 In conclusion, a GPU with even a small amount of VRAM can contribute positively to the overall system performance.
 
-## Price of the hardware
+## Hardware price
 
 Here is the list of some of the hardware used in the benchmark, with their prices as of 2025.07.14:
 
@@ -422,10 +422,10 @@ Here is the list of some of the hardware used in the benchmark, with their price
 | L40S 48 GB                          | 7569        |
 | RTX 6000 Ada Gen.                   | 5950        |
 | L40 48 GB                           | 5899        |
+| RTX A6000                           | 4332        |
 | Apple Mac Studio (M1 Ultra 48-GPU)  | 3999        |
 | Apple Mac Studio (M1 Ultra 64-GPU)  | 3999        |
 | Apple M3 Ultra (60/80 GPU)          | 3999        |
-| RTX A6000                           | 4332        |
 | GeForce RTX 5090                    | 2499        |
 | Quadro RTX 8000 (48 GB)             | 2379        |
 | Apple Mac Studio (M4 Max 32-GPU)    | 1859        |
@@ -435,13 +435,13 @@ Here is the list of some of the hardware used in the benchmark, with their price
 | RTX 4000 SFF Ada                    | 1245        |
 | GeForce RTX 4090 D                  | 1599        |
 | GeForce RTX 4090                    | 1549        |
-| Radeon RX 7900 XTX                  | 799         |
-| RTX 3080 Laptop GPU                 | 800         |
-| Tesla V100-SXM2 32 GB               | 850         |
-| RTX 5070 Ti                         | 820         |
 | RTX 4080 SUPER                      | 999         |
 | RTX 5080                            | 999         |
 | GeForce RTX 4080                    | 989         |
+| Tesla V100-SXM2 32 GB               | 850         |
+| RTX 5070 Ti                         | 820         |
+| RTX 3080 Laptop GPU                 | 800         |
+| Radeon RX 7900 XTX                  | 799         |
 | RTX 4070 Ti SUPER                   | 714         |
 | RTX A4000 (16 GB)                   | 689         |
 | NVIDIA Tesla T4                     | 649         |
