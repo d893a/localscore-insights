@@ -2,9 +2,7 @@
 
 [LocalScore](https://www.localscore.ai/latest) is a benchmarking tool to measure how fast Large Language Models run on a specific hardware.
 
-The benchmark results are [downloaded](localscore_download_results.bat) and [concatenated](html_to_tsv.py) into a single table: [localscore_results.tsv](localscore_results.tsv) As of 2025.07.14 13:28:00 it contains 1218 results.
-
-The insights are [compiled](create_charts.py) into the following charts.
+The benchmark results are [downloaded](localscore_download_results.bat) and [concatenated](html_to_tsv.py) into a single table: [localscore_results.tsv](localscore_results.tsv) As of 2025.07.14 13:28:00 it contains 1218 results. The insights are [compiled](create_charts.py) into the following charts.
 
 ## Time to first token
 
