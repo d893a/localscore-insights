@@ -1,217 +1,217 @@
-test_num	test_date	gen_tps	ttft	ttft_unit	prompt_tps	localscore	model_name	model_quant	model_params	model_params_unit	accel_name	accel_type	accel_ram	accel_ram_unit	system_cpu	system_ram	system_ram_unit	system_os	accel_group
-938	2025.05.24 01:41:00	138.0	146	ms	8479	2000	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX PRO 6000 Blackwell Workstation Edition	GPU	95.0	GB	AMD Ryzen Threadripper 3970X 32-Core Processor (znver2)	125.6	GB	Linux	NVIDIA GPU
-170	2025.03.30 20:09:00	106.0	161	ms	8441	1772	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5090	GPU	31.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	125.7	GB	Linux	NVIDIA GPU
-146	2025.03.28 22:22:00	122.0	190	ms	6657	1625	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4090	GPU	24.0	GB	AMD EPYC 7B13 64-Core Processor (znver3)	2003.9	GB	Linux	NVIDIA GPU
-532	2025.04.07 21:30:00	103.0	180	ms	7398	1617	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4090	GPU	24.0	GB	13th Gen Intel Core i7-13700K (alderlake)	63.8	GB	Windows	NVIDIA GPU
-682	2025.04.10 19:37:00	121.0	199	ms	6808	1605	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 6000 Ada Generation	GPU	47.0	GB	AMD Ryzen Threadripper PRO 5975WX 32-Cores (znver3)	503.5	GB	Linux	NVIDIA GPU
-630	2025.04.09 07:28:00	84.2	189	ms	7015	1461	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4090	GPU	24.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	31.9	GB	Windows	NVIDIA GPU
-71	2025.03.28 21:04:00	120.0	236	ms	5202	1382	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA H100 PCIe	GPU	79.0	GB	Intel Xeon Platinum 8352Y CPU @ 2.20GHz (icelake-server)	2015.5	GB	Linux	NVIDIA GPU
-519	2025.04.07 20:03:00	90.1	274	ms	4789	1164	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4080	GPU	16.0	GB	Intel Core i5-14600K (alderlake)	63.8	GB	Windows	NVIDIA GPU
-80	2025.03.28 21:15:00	58.3	229	ms	5925	1148	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4090	GPU	24.0	GB	AMD Ryzen 9 7950X 16-Core Processor (znver4)	125.0	GB	Linux	NVIDIA GPU
-144	2025.03.28 22:21:00	94.5	291	ms	4546	1139	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti SUPER	GPU	16.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.7	GB	Linux	NVIDIA GPU
-129	2025.03.28 22:11:00	111.0	310	ms	4120	1138	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090 Ti	GPU	24.0	GB	Intel Xeon CPU E5-2699 v3 @ 2.30GHz (haswell)	125.8	GB	Linux	NVIDIA GPU
-421	2025.04.06 20:13:00	113.0	326	ms	3991	1113	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux	NVIDIA GPU
-156	2025.03.28 23:02:00	43.2	207	ms	6307	1096	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5090	GPU	31.0	GB	AMD EPYC 9554 64-Core Processor (znver4)	377.4	GB	Linux	NVIDIA GPU
-193	2025.04.03 19:52:00	109.0	331	ms	3928	1089	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090 Ti	GPU	24.0	GB	11th Gen Intel Core i5-11400F @ 2.60GHz (rocketlake)	62.7	GB	Linux	NVIDIA GPU
-65	2025.03.28 20:56:00	110.0	336	ms	3571	1054	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA A100-SXM4-80GB	GPU	79.0	GB	AMD EPYC 7713 64-Core Processor (znver3)	1007.7	GB	Linux	NVIDIA GPU
-557	2025.04.08 06:20:00	82.5	305	ms	4285	1051	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti SUPER	GPU	16.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	127.9	GB	Windows	NVIDIA GPU
-134	2025.03.28 22:16:00	104.0	343	ms	3739	1042	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3080 Ti	GPU	12.0	GB	Intel Xeon CPU E5-2690 v4 @ 2.60GHz (broadwell)	125.7	GB	Linux	NVIDIA GPU
-90	2025.03.28 21:24:00	51.3	252	ms	5487	1038	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 6000 Ada Generation	GPU	48.0	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.5	GB	Linux	NVIDIA GPU
-169	2025.03.30 20:08:00	79.8	315	ms	4323	1031	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5070 Ti	GPU	15.0	GB	Intel Core i5-14600KF (alderlake)	62.6	GB	Linux	NVIDIA GPU
-658	2025.04.10 00:03:00	103.0	352	ms	3637	1020	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	31.2	GB	Linux	NVIDIA GPU
-1	2025.03.19 21:50:00	103.0	358	ms	3552	1008	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux	NVIDIA GPU
-1092	2025.06.23 09:20:00	85.4	329	ms	3876	1002	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	53.6	GB	Linux	NVIDIA GPU
-88	2025.03.28 21:23:00	45.9	262	ms	5328	977	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA L40S	GPU	45.0	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.6	GB	Linux	NVIDIA GPU
-142	2025.03.28 22:20:00	77.2	341	ms	4006	968	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti	GPU	12.0	GB	AMD EPYC 7542 32-Core Processor (znver2)	125.7	GB	Linux	NVIDIA GPU
-1091	2025.06.23 09:14:00	83.1	347	ms	3641	955	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	53.6	GB	Linux	NVIDIA GPU
-85	2025.03.28 21:20:00	45.1	274	ms	5065	941	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA L40	GPU	44.0	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.6	GB	Linux	NVIDIA GPU
-52	2025.03.28 20:43:00	90.5	378	ms	3447	938	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX A6000	GPU	48.0	GB	AMD EPYC 7543 32-Core Processor (znver3)	503.7	GB	Linux	NVIDIA GPU
-104	2025.03.28 21:41:00	54.4	301	ms	4461	931	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4080 SUPER	GPU	16.0	GB	AMD Ryzen 5 7600 6-Core Processor (znver4)	30.6	GB	Linux	NVIDIA GPU
-509	2025.04.07 18:47:00	69.1	345	ms	3985	927	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti	GPU	12.0	GB	13th Gen Intel Core i7-13700K (alderlake)	63.7	GB	Windows	NVIDIA GPU
-444	2025.04.06 23:45:00	68.0	350	ms	3916	913	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti	GPU	12.0	GB	13th Gen Intel Core i7-13700K (alderlake)	63.7	GB	Windows	NVIDIA GPU
-1183	2025.07.06 16:07:00	45.8	282	ms	4682	912	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5090	GPU	31.0	GB	AMD Ryzen 9 9950X3D 16-Core Processor	62.3	GB	Linux	NVIDIA GPU
-92	2025.03.28 21:26:00	42.4	263	ms	4687	911	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA H100 80GB HBM3	GPU	79.0	GB	Intel Xeon Platinum 8470 (sapphirerapids)	1007.3	GB	Linux	NVIDIA GPU
-139	2025.03.28 22:18:00	92.6	409	ms	3140	892	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3080	GPU	10.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	31.3	GB	Linux	NVIDIA GPU
-489	2025.04.07 11:17:00	44.9	289	ms	4428	883	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5080	GPU	15.0	GB	AMD Ryzen 9 9950X3D 16-Core Processor	60.4	GB	Linux	NVIDIA GPU
-482	2025.04.07 09:34:00	68.0	370	ms	3682	878	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 SUPER	GPU	12.0	GB	13th Gen Intel Core i5-13600K (alderlake)	31.8	GB	Windows	NVIDIA GPU
-54	2025.03.28 20:44:00	80.6	401	ms	3270	870	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA A40	GPU	44.0	GB	Intel Xeon Gold 6342 CPU @ 2.80GHz (icelake-server)	503.5	GB	Linux	NVIDIA GPU
-220	2025.04.04 00:35:00	55.7	352	ms	3834	847	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti SUPER	GPU	16.0	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	63.9	GB	Windows	NVIDIA GPU
-152	2025.03.28 22:27:00	76.3	415	ms	3192	838	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070	GPU	12.0	GB	Intel Xeon CPU E5-2690 v2 @ 3.00GHz (ivybridge)	62.8	GB	Linux	NVIDIA GPU
-55	2025.03.28 20:45:00	89.9	445	ms	2890	836	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX A5000	GPU	24.0	GB	AMD EPYC 7B13 64-Core Processor (znver3)	251.5	GB	Linux	NVIDIA GPU
-81	2025.03.28 21:15:00	37.1	289	ms	4299	820	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA H100 NVL	GPU	93.0	GB	AMD EPYC 9374F 32-Core Processor (znver4)	1448.6	GB	Linux	NVIDIA GPU
-764	2025.04.24 23:06:00	76.6	421	ms	3028	820	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3080	GPU	10.0	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	63.9	GB	Windows	NVIDIA GPU
-1081	2025.06.20 00:20:00	75.7	441	ms	2792	783	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3080	GPU	10.0	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	63.9	GB	Windows	NVIDIA GPU
-356	2025.04.06 06:07:00	68.2	452	ms	2836	754	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3080	GPU	10.0	GB	AMD Ryzen Threadripper PRO 3955WX 16-Cores (znver2)	127.8	GB	Windows	NVIDIA GPU
-316	2025.04.05 23:50:00	45.5	382	ms	3371	738	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 SUPER	GPU	12.0	GB	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	61.9	GB	Linux	NVIDIA GPU
-125	2025.03.28 22:07:00	83.2	520	ms	2509	738	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3070 Ti	GPU	8.0	GB	AMD Ryzen 5 5500 (znver3)	86.3	GB	Linux	NVIDIA GPU
-56	2025.03.28 20:45:00	77.6	522	ms	2484	718	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX A4500	GPU	20.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	251.6	GB	Linux	NVIDIA GPU
-1014	2025.06.07 01:43:00	25.8	330	ms	4014	679	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4090	GPU	24.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	63.6	GB	Windows	NVIDIA GPU
-79	2025.03.28 21:14:00	56.5	518	ms	2617	658	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 4000 Ada Generation	GPU	20.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	251.6	GB	Linux	NVIDIA GPU
-860	2025.05.13 08:03:00	60.6	557	ms	2427	641	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5060 Ti	GPU	15.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	62.7	GB	Linux	NVIDIA GPU
-634	2025.04.09 08:58:00	57.4	540	ms	2457	639	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 3500 Ada Generation Laptop GPU	GPU	12.0	GB	13th Gen Intel Core i9-13980HX (alderlake)	191.7	GB	Windows	NVIDIA GPU
-116	2025.03.28 21:54:00	74.0	601	ms	2102	637	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 2080 Ti	GPU	11.0	GB	AMD Ryzen 5 3600 6-Core Processor (znver2)	62.7	GB	Linux	NVIDIA GPU
-128	2025.03.28 22:10:00	63.4	595	ms	2184	615	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3070	GPU	8.0	GB	Intel Xeon CPU E5-2650 v4 @ 2.20GHz (broadwell)	62.6	GB	Linux	NVIDIA GPU
-469	2025.04.07 04:09:00	60.5	611	ms	2160	598	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3070	GPU	8.0	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	31.9	GB	Windows	NVIDIA GPU
-429	2025.04.06 21:29:00	60.3	609	ms	2145	596	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3070	GPU	8.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.9	GB	Windows	NVIDIA GPU
-109	2025.03.28 21:48:00	73.3	647	ms	1823	591	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA TITAN V	GPU	12.0	GB	AMD EPYC 7K62 48-Core Processor (znver2)	125.6	GB	Linux	NVIDIA GPU
-229	2025.04.04 14:19:00	67.3	651	ms	1974	589	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Ti	GPU	8.0	GB	AMD Ryzen 5 5600 6-Core Processor (znver3)	63.9	GB	Windows	NVIDIA GPU
-67	2025.03.28 20:59:00	37.1	519	ms	2601	571	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA A100 80GB PCIe	GPU	79.0	GB	AMD EPYC 9374F 32-Core Processor (znver4)	1511.6	GB	Linux	NVIDIA GPU
-45	2025.03.28 18:58:00	60.6	656	ms	2011	570	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX A4000	GPU	16.0	GB	AMD EPYC 7702 64-Core Processor (znver2)	503.5	GB	Linux	NVIDIA GPU
-1036	2025.06.12 14:15:00	65.1	683	ms	1898	566	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Ti	GPU	8.0	GB	AMD Ryzen 7 5700G with Radeon Graphics (znver3)	30.7	GB	Linux	NVIDIA GPU
-449	2025.04.07 00:34:00	49.1	614	ms	2267	566	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Ti	GPU	16.0	GB	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	94.1	GB	Linux	NVIDIA GPU
-9	2025.03.19 22:20:00	49.3	612	ms	2247	565	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Ti	GPU	16.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux	NVIDIA GPU
-662	2025.04.10 00:30:00	58.6	657	ms	1962	559	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Ti	GPU	8.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	15.6	GB	Linux	NVIDIA GPU
-347	2025.04.06 02:39:00	25.7	448	ms	2862	548	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti	GPU	12.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	63.1	GB	Windows	NVIDIA GPU
-143	2025.03.28 22:21:00	49.6	645	ms	2130	547	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Ti	GPU	16.0	GB	AMD EPYC 7K62 48-Core Processor (znver2)	503.5	GB	Linux	NVIDIA GPU
-840	2025.05.07 18:55:00	44.8	621	ms	2217	543	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Ti	GPU	16.0	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows	NVIDIA GPU
-173	2025.03.30 20:12:00	37.0	578	ms	2360	532	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5070	GPU	12.0	GB	AMD Ryzen 7 9800X3D 8-Core Processor	123.5	GB	Linux	NVIDIA GPU
-409	2025.04.06 19:15:00	54.4	696	ms	1861	526	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Ti	GPU	8.0	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	31.9	GB	Windows	NVIDIA GPU
-124	2025.03.28 22:06:00	61.7	767	ms	1729	518	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Ti	GPU	8.0	GB	Intel Xeon CPU E5-2630 v4 @ 2.20GHz (broadwell)	31.2	GB	Linux	NVIDIA GPU
-70	2025.03.28 21:01:00	42.9	669	ms	2056	509	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA L4	GPU	22.0	GB	AMD EPYC 7713 64-Core Processor (znver3)	503.5	GB	Linux	NVIDIA GPU
-158	2025.03.28 23:13:00	44.6	689	ms	2013	507	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 4000 SFF Ada Generation	GPU	20.0	GB	Intel Xeon CPU E5-2690 v4 @ 2.60GHz (broadwell)	251.8	GB	Linux	NVIDIA GPU
-416	2025.04.06 19:57:00	36.5	629	ms	2085	495	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA A10	GPU	22.0	GB	AMD EPYC 9554 64-Core Processor (znver4)	43.0	GB	Linux	NVIDIA GPU
-569	2025.04.08 09:05:00	74.0	1050	ms	1677	491	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Quadro RTX 8000	GPU	47.0	GB	QEMU Virtual CPU version 2.5+	295.0	GB	Linux	NVIDIA GPU
-351	2025.04.06 03:50:00	30.7	617	ms	2112	472	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Ti	GPU	8.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.0	GB	Linux	NVIDIA GPU
-148	2025.03.28 22:24:00	45.8	772	ms	1748	470	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060	GPU	8.0	GB	Intel Xeon CPU E5-2699 v4 @ 2.20GHz (broadwell)	1007.7	GB	Linux	NVIDIA GPU
-105	2025.03.28 21:42:00	57.8	880	ms	1460	458	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 2070 SUPER	GPU	8.0	GB	Intel Xeon CPU E5-2690 0 @ 2.90GHz (sandybridge)	503.8	GB	Linux	NVIDIA GPU
-490	2025.04.07 11:22:00	36.4	694	ms	1821	457	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3070	GPU	8.0	GB	AMD Ryzen 9 9950X3D 16-Core Processor	60.4	GB	Linux	NVIDIA GPU
-123	2025.03.28 22:06:00	53.1	885	ms	1487	447	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	31.3	GB	Linux	NVIDIA GPU
-1088	2025.06.23 02:15:00	41.2	793	ms	1708	446	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060	GPU	8.0	GB	AMD Ryzen 5 5600 6-Core Processor (znver3)	31.9	GB	Windows	NVIDIA GPU
-48	2025.03.28 19:06:00	52.0	888	ms	1482	443	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	AMD EPYC 7402P 24-Core Processor (znver2)	251.6	GB	Linux	NVIDIA GPU
-818	2025.05.04 12:17:00	49.5	869	ms	1515	442	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows	NVIDIA GPU
-800	2025.05.03 15:01:00	49.7	933	ms	1400	421	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux	NVIDIA GPU
-436	2025.04.06 21:55:00	64.7	1400	ms	1468	407	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3070	GPU	8.0	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	31.3	GB	Linux	NVIDIA GPU
-117	2025.03.28 21:55:00	51.3	1040	ms	1223	392	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 2060 SUPER	GPU	8.0	GB	Intel Xeon CPU E5-2687W 0 @ 3.10GHz (sandybridge)	503.8	GB	Linux	NVIDIA GPU
-331	2025.04.06 00:44:00	20.6	665	ms	1929	391	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Ti	GPU	8.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows	NVIDIA GPU
-431	2025.04.06 21:37:00	50.3	1130	ms	1170	373	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6900 XT	GPU	16.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux	AMD GPU
-715	2025.04.14 07:26:00	36.8	995	ms	1370	370	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 2000 Ada Generation	GPU	16.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	47.0	GB	Linux	NVIDIA GPU
-68	2025.03.28 20:59:00	37.9	1020	ms	1328	367	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 2000 Ada Generation	GPU	16.0	GB	AMD EPYC 7443 24-Core Processor (znver3)	251.5	GB	Linux	NVIDIA GPU
-492	2025.04.07 11:56:00	51.2	1440	ms	888	316	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 7900 XTX	GPU	24.0	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	31.9	GB	Windows	AMD GPU
-768	2025.04.25 21:55:00	34.8	1150	ms	1050	316	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Laptop GPU	GPU	6.0	GB	11th Gen Intel Core i7-11800H @ 2.30GHz (tigerlake)	15.8	GB	Windows	NVIDIA GPU
-1108	2025.06.25 04:17:00	40.3	1430	ms	1028	307	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6900 XT	GPU	16.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	63.9	GB	Windows	AMD GPU
-1001	2025.06.04 20:27:00	45.3	1420	ms	885	305	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Radeon RX 7900 XTX	GPU	24.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.3	GB	Linux	AMD GPU
-336	2025.04.06 01:22:00	36.7	1370	ms	1050	304	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6900 XT	GPU	16.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux	AMD GPU
-476	2025.04.07 05:34:00	35.5	1570	ms	926	276	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6800 XT	GPU	16.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux	AMD GPU
-1190	2025.07.07 11:36:00	54.2	1800	ms	663	271	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Max 12P+4E+40GPU	GPU	48.0	GB	Apple M4 Max 12P+4E	48.0	GB	Darwin	Apple GPU
-552	2025.04.08 02:32:00	54.8	1810	ms	652	270	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Max 12P+4E+40GPU	GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin	Apple GPU
-11	2025.03.19 22:30:00	51.6	1990	ms	607	250	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Max 12P+4E+40GPU	GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin	Apple GPU
-750	2025.04.21 14:32:00	45.6	2029	ms	591	237	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Max 12P+4E+40GPU	GPU	128.0	GB	Apple M3 Max 12P+4E	128.0	GB	Darwin	Apple GPU
-733	2025.04.17 08:55:00	27.6	1680	ms	791	235	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX A2000 8GB Laptop GPU	GPU	8.0	GB	12th Gen Intel Core i7-12700H (alderlake)	31.6	GB	Windows	NVIDIA GPU
-732	2025.04.17 08:38:00	27.5	1700	ms	789	234	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX A2000 8GB Laptop GPU	GPU	8.0	GB	12th Gen Intel Core i7-12700H (alderlake)	31.6	GB	Windows	NVIDIA GPU
-441	2025.04.06 23:24:00	48.8	2150	ms	535	230	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Ultra 16P+4E+48GPU	GPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin	Apple GPU
-309	2025.04.05 23:15:00	49.1	2150	ms	535	230	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Ultra 16P+4E+48GPU	GPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin	Apple GPU
-397	2025.04.06 17:17:00	48.7	2160	ms	534	229	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Ultra 16P+4E+48GPU	GPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin	Apple GPU
-164	2025.03.30 19:54:00	47.2	2200	ms	551	228	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Max 10P+4E+32GPU	GPU	36.0	GB	Apple M4 Max 10P+4E	36.0	GB	Darwin	Apple GPU
-393	2025.04.06 16:53:00	43.0	2150	ms	526	219	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Max 12P+4E+40GPU	GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin	Apple GPU
-520	2025.04.07 20:19:00	46.4	2440	ms	484	210	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M2 Max 8P+4E+38GPU	GPU	96.0	GB	Apple M2 Max 8P+4E	96.0	GB	Darwin	Apple GPU
-1005	2025.06.06 05:12:00	38.9	2360	ms	524	205	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD  Radeon RX 7800 XT	GPU	16.0	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	31.9	GB	Windows	AMD GPU
-978	2025.06.03 02:33:00	26.0	2320	ms	760	204	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3050	GPU	6.0	GB	Intel Core i5-4590 CPU @ 3.30GHz (haswell)	31.9	GB	Windows	NVIDIA GPU
-606	2025.04.08 15:12:00	27.3	2460	ms	607	189	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6700 XT	GPU	12.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.3	GB	Linux	AMD GPU
-790	2025.05.01 06:36:00	37.7	2690	ms	457	186	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Max 10P+4E+30GPU	GPU	96.0	GB	Apple M3 Max 10P+4E	96.0	GB	Darwin	Apple GPU
-1084	2025.06.20 21:02:00	37.7	2710	ms	442	183	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Max 10P+4E+30GPU	GPU	36.0	GB	Apple M3 Max 10P+4E	36.0	GB	Darwin	Apple GPU
-805	2025.05.03 22:03:00	37.3	2740	ms	445	182	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Max 10P+4E+30GPU	GPU	36.0	GB	Apple M3 Max 10P+4E	36.0	GB	Darwin	Apple GPU
-13	2025.03.19 23:02:00	25.9	2480	ms	563	181	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6650 XT	GPU	8.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux	AMD GPU
-624	2025.04.08 22:38:00	21.5	2340	ms	604	177	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6600 XT	GPU	8.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	31.2	GB	Linux	AMD GPU
-106	2025.03.28 21:42:00	33.5	2720	ms	427	174	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Tesla P100-SXM2-16GB	GPU	16.0	GB	Intel Xeon Gold 6138 CPU @ 2.00GHz (skylake-avx512)	376.5	GB	Linux	NVIDIA GPU
-1193	2025.07.08 17:14:00	37.9	3100	ms	385	168	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Max 8P+2E+32GPU	GPU	32.0	GB	Apple M1 Max 8P+2E	32.0	GB	Darwin	Apple GPU
-813	2025.05.04 10:16:00	32.1	3490	ms	358	149	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 10P+4E+20GPU	GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin	Apple GPU
-899	2025.05.18 19:12:00	33.7	3540	ms	350	149	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Max 8P+2E+32GPU	GPU	32.0	GB	Apple M1 Max 8P+2E	32.0	GB	Darwin	Apple GPU
-563	2025.04.08 06:59:00	31.6	3450	ms	351	148	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 10P+4E+20GPU	GPU	24.0	GB	Apple M4 Pro 10P+4E	24.0	GB	Darwin	Apple GPU
-767	2025.04.25 20:50:00	30.0	8220	ms	891	148	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Laptop GPU	GPU	6.0	GB	11th Gen Intel Core i7-11800H @ 2.30GHz (tigerlake)	15.8	GB	Windows	NVIDIA GPU
-1179	2025.07.04 19:18:00	32.7	3510	ms	351	148	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 10P+4E+20GPU	GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin	Apple GPU
-372	2025.04.06 14:00:00	31.8	3790	ms	329	140	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 10P+4E+20GPU	GPU	64.0	GB	Apple M4 Pro 10P+4E	64.0	GB	Darwin	Apple GPU
-828	2025.05.05 22:39:00	32.1	3990	ms	306	135	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Max 8P+2E+24GPU	GPU	64.0	GB	Apple M1 Max 8P+2E	64.0	GB	Darwin	Apple GPU
-597	2025.04.08 12:25:00	31.6	4090	ms	312	134	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Max 8P+2E+32GPU	GPU	32.0	GB	Apple M1 Max 8P+2E	32.0	GB	Darwin	Apple GPU
-550	2025.04.08 01:43:00	30.2	4140	ms	302	130	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 8P+4E+16GPU	GPU	48.0	GB	Apple M4 Pro 8P+4E	48.0	GB	Darwin	Apple GPU
-940	2025.05.24 02:14:00	24.3	9090	ms	809	129	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Laptop GPU	GPU	8.0	GB	13th Gen Intel Core i7-13650HX (alderlake)	15.6	GB	Windows	NVIDIA GPU
-382	2025.04.06 15:25:00	30.3	4270	ms	292	128	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 8P+4E+16GPU	GPU	24.0	GB	Apple M4 Pro 8P+4E	24.0	GB	Darwin	Apple GPU
-944	2025.05.25 09:52:00	30.7	4330	ms	291	127	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 8P+4E+16GPU	GPU	24.0	GB	Apple M4 Pro 8P+4E	24.0	GB	Darwin	Apple GPU
-1061	2025.06.15 12:19:00	26.3	4700	ms	262	114	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M2 Pro 8P+4E+19GPU	GPU	32.0	GB	Apple M2 Pro 8P+4E	32.0	GB	Darwin	Apple GPU
-1052	2025.06.14 14:57:00	26.3	4710	ms	262	113	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M2 Pro 8P+4E+19GPU	GPU	32.0	GB	Apple M2 Pro 8P+4E	32.0	GB	Darwin	Apple GPU
-579	2025.04.08 10:12:00	22.1	4460	ms	284	112	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Pro 6P+6E+18GPU	GPU	36.0	GB	Apple M3 Pro 6P+6E	36.0	GB	Darwin	Apple GPU
-916	2025.05.19 08:20:00	5.4	2400	ms	587	110	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6700 XT	GPU	12.0	GB	AMD Ryzen 9 7900X 12-Core Processor (znver4)	62.0	GB	Linux	AMD GPU
-804	2025.05.03 21:43:00	25.4	5680	ms	256	105	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 5700 XT	GPU	8.0	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	32.0	GB	Windows	AMD GPU
-864	2025.05.14 08:22:00	21.5	5650	ms	223	95	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Pro 5P+6E+14GPU	GPU	36.0	GB	Apple M3 Pro 5P+6E	36.0	GB	Darwin	Apple GPU
-811	2025.05.04 10:05:00	22.0	6090	ms	205	90	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Pro 8P+2E+16GPU	GPU	32.0	GB	Apple M1 Pro 8P+2E	32.0	GB	Darwin	Apple GPU
-488	2025.04.07 11:07:00	15.0	5560	ms	250	88	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 9950X3D 16-Core Processor	CPU	60.4	GB	AMD Ryzen 9 9950X3D 16-Core Processor	60.4	GB	Windows	AMD CPU
-1042	2025.06.12 23:21:00	21.2	6410	ms	195	86	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Pro 8P+2E+16GPU	GPU	32.0	GB	Apple M1 Pro 8P+2E	32.0	GB	Darwin	Apple GPU
-480	2025.04.07 08:05:00	19.1	6430	ms	200	84	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Pro 5P+6E+14GPU	GPU	18.0	GB	Apple M3 Pro 5P+6E	18.0	GB	Darwin	Apple GPU
-1100	2025.06.24 09:29:00	20.4	6870	ms	181	81	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Pro 6P+2E+14GPU	GPU	16.0	GB	Apple M1 Pro 6P+2E	16.0	GB	Darwin	Apple GPU
-595	2025.04.08 12:16:00	17.7	6890	ms	185	78	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 4P+6E+10GPU	GPU	16.0	GB	Apple M4 4P+6E	16.0	GB	Darwin	Apple GPU
-422	2025.04.06 20:20:00	20.0	7230	ms	173	78	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Pro 6P+2E+14GPU	GPU	32.0	GB	Apple M1 Pro 6P+2E	32.0	GB	Darwin	Apple GPU
-452	2025.04.07 01:22:00	19.8	7230	ms	170	78	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Pro 6P+2E+14GPU	GPU	16.0	GB	Apple M1 Pro 6P+2E	16.0	GB	Darwin	Apple GPU
-34	2025.03.28 17:38:00	17.6	6850	ms	188	78	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 4P+6E+10GPU	GPU	16.0	GB	Apple M4 4P+6E	16.0	GB	Darwin	Apple GPU
-1140	2025.06.28 06:02:00	18.8	8400	ms	148	69	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M2 4P+4E+8GPU	GPU	8.0	GB	Apple M2 4P+4E	8.0	GB	Darwin	Apple GPU
-1085	2025.06.20 21:43:00	16.6	7930	ms	159	69	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 4P+6E+10GPU	GPU	24.0	GB	Apple M4 4P+6E	24.0	GB	Darwin	Apple GPU
-961	2025.05.31 19:34:00	15.9	8260	ms	146	65	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 4P+6E+10GPU	GPU	32.0	GB	Apple M4 4P+6E	32.0	GB	Darwin	Apple GPU
-499	2025.04.07 15:31:00	14.9	8960	ms	143	62	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M2 4P+4E+10GPU	GPU	16.0	GB	Apple M2 4P+4E	16.0	GB	Darwin	Apple GPU
-202	2025.04.03 21:58:00	14.7	9020	ms	142	61	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M2 4P+4E+10GPU	GPU	24.0	GB	Apple M2 4P+4E	24.0	GB	Darwin	Apple GPU
-305	2025.04.05 22:54:00	10.6	8510	ms	163	59	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	CPU	61.9	GB	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	61.9	GB	Linux	AMD CPU
-420	2025.04.06 20:10:00	13.6	8920	ms	137	59	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 4P+4E+10GPU	GPU	16.0	GB	Apple M3 4P+4E	16.0	GB	Darwin	Apple GPU
-471	2025.04.07 04:42:00	8.8	8050	ms	172	57	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 7950X 16-Core Processor (znver4)	CPU	124.8	GB	AMD Ryzen 9 7950X 16-Core Processor (znver4)	124.8	GB	Linux	AMD CPU
-1204	2025.07.09 22:08:00	14.5	12110	ms	115	52	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen Threadripper 3960X 24-Core Processor (znver2)	CPU	62.7	GB	AMD Ryzen Threadripper 3960X 24-Core Processor (znver2)	62.7	GB	Linux	AMD CPU
-376	2025.04.06 14:18:00	4.3	8730	ms	290	52	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3050 Ti Laptop GPU	GPU	4.0	GB	12th Gen Intel Core i7-12700H (alderlake)	31.7	GB	Windows	NVIDIA GPU
-590	2025.04.08 11:47:00	10.8	9360	ms	121	52	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 4P+4E+10GPU	GPU	24.0	GB	Apple M3 4P+4E	24.0	GB	Darwin	Apple GPU
-211	2025.04.03 23:41:00	16.6	14500	ms	94	48	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	CPU	94.3	GB	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	94.3	GB	Linux	Intel CPU
-727	2025.04.15 16:50:00	9.0	11110	ms	129	47	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce GTX 1660	GPU	6.0	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	31.9	GB	Windows	NVIDIA GPU
-726	2025.04.15 07:17:00	12.9	13610	ms	99	45	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	CPU	26.5	GB	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	26.5	GB	Linux	AMD CPU
-654	2025.04.09 22:46:00	10.1	12420	ms	114	45	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux	AMD CPU
-300	2025.04.05 17:11:00	9.9	12550	ms	112	44	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux	AMD CPU
-917	2025.05.19 08:57:00	8.5	12160	ms	113	43	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 7900X 12-Core Processor (znver4)	CPU	62.0	GB	AMD Ryzen 9 7900X 12-Core Processor (znver4)	62.0	GB	Linux	AMD CPU
-350	2025.04.06 03:44:00	10.9	14660	ms	93	41	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	CPU	31.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.0	GB	Linux	AMD CPU
-1104	2025.06.24 21:40:00	9.7	13990	ms	99	41	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 4P+4E+10GPU	GPU	24.0	GB	Apple M3 4P+4E	24.0	GB	Darwin	Apple GPU
-625	2025.04.08 22:59:00	8.7	13040	ms	104	41	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	31.2	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	31.2	GB	Linux	AMD CPU
-312	2025.04.05 23:32:00	15.2	17480	ms	72	40	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Ultra 16P+4E	CPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin	Apple CPU
-271	2025.04.05 04:11:00	10.7	15800	ms	88	39	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	CPU	54.7	GB	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	54.7	GB	Linux	AMD CPU
-223	2025.04.04 04:02:00	9.1	15230	ms	80	36	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 4P+4E+7GPU	GPU	16.0	GB	Apple M1 4P+4E	16.0	GB	Darwin	Apple GPU
-1067	2025.06.16 18:08:00	11.1	20740	ms	68	33	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core Ultra 9 285K (arrowlake-s)	CPU	127.3	GB	Intel Core Ultra 9 285K (arrowlake-s)	127.3	GB	Windows	Intel CPU
-1066	2025.06.16 17:36:00	10.6	20280	ms	68	33	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core Ultra 9 285K (arrowlake-s)	CPU	127.3	GB	Intel Core Ultra 9 285K (arrowlake-s)	127.3	GB	Windows	Intel CPU
-398	2025.04.06 17:18:00	13.0	23070	ms	61	32	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i9-14900HX (alderlake)	CPU	62.5	GB	Intel Core i9-14900HX (alderlake)	62.5	GB	Linux	Intel CPU
-801	2025.05.03 15:46:00	8.1	18160	ms	75	32	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux	AMD CPU
-313	2025.04.05 23:43:00	10.3	20420	ms	66	32	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	CPU	31.6	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows	AMD CPU
-544	2025.04.07 23:11:00	10.0	21820	ms	64	31	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 3900X 12-Core Processor (znver2)	CPU	15.5	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	15.5	GB	Linux	AMD CPU
-628	2025.04.09 02:39:00	9.0	22720	ms	60	29	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics (znver4)	CPU	61.5	GB	AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics (znver4)	61.5	GB	Linux	AMD CPU
-657	2025.04.10 00:01:00	8.6	21980	ms	59	28	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 5900X 12-Core Processor (znver3)	CPU	31.9	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	31.9	GB	Windows	AMD CPU
-353	2025.04.06 05:31:00	10.3	26020	ms	52	27	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen Threadripper PRO 3955WX 16-Cores (znver2)	CPU	127.8	GB	AMD Ryzen Threadripper PRO 3955WX 16-Cores (znver2)	127.8	GB	Windows	AMD CPU
-1008	2025.06.06 15:06:00	11.0	29510	ms	47	26	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	12th Gen Intel Core i7-12700KF (alderlake)	CPU	31.8	GB	12th Gen Intel Core i7-12700KF (alderlake)	31.8	GB	Windows	Intel CPU
-1020	2025.06.08 23:38:00	7.8	26600	ms	53	25	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	CPU	47.9	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	47.9	GB	Windows	AMD CPU
-213	2025.04.03 23:50:00	12.5	34110	ms	40	25	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	CPU	31.3	GB	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	31.3	GB	Linux	Intel CPU
-543	2025.04.07 23:10:00	8.5	30960	ms	43	23	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	CPU	63.9	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	63.9	GB	Windows	AMD CPU
-438	2025.04.06 22:04:00	7.5	32520	ms	43	21	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 3700X 8-Core Processor (znver2)	CPU	31.3	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	31.3	GB	Linux	AMD CPU
-693	2025.04.11 20:25:00	7.9	35090	ms	40	21	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	CPU	31.9	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	31.9	GB	Windows	AMD CPU
-613	2025.04.08 17:22:00	9.6	39870	ms	36	21	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	13th Gen Intel Core i7-13700H (alderlake)	CPU	31.1	GB	13th Gen Intel Core i7-13700H (alderlake)	31.1	GB	Linux	Intel CPU
-381	2025.04.06 15:18:00	2.8	23140	ms	66	20	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce GTX 1650 Ti	GPU	4.0	GB	Intel Core i7-10750H CPU @ 2.60GHz (skylake)	31.8	GB	Windows	NVIDIA GPU
-1109	2025.06.25 04:19:00	9.4	44020	ms	31	19	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	CPU	62.5	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	62.5	GB	Linux	Intel CPU
-424	2025.04.06 21:08:00	6.2	35560	ms	38	19	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 5700X 8-Core Processor (znver3)	CPU	31.9	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.9	GB	Windows	AMD CPU
-455	2025.04.07 01:58:00	8.6	41330	ms	34	19	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	CPU	94.1	GB	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	94.1	GB	Linux	AMD CPU
-810	2025.05.04 09:57:00	7.7	44660	ms	31	18	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	CPU	31.9	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows	Intel CPU
-188	2025.04.03 18:47:00	8.1	43330	ms	31	18	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Xeon CPU E5-2697 v2 @ 2.70GHz (ivybridge)	CPU	251.8	GB	Intel Xeon CPU E5-2697 v2 @ 2.70GHz (ivybridge)	251.8	GB	Linux	Intel CPU
-216	2025.04.04 00:03:00	9.1	45280	ms	31	18	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	DO-Premium-Intel (skylake-avx512)	CPU	31.3	GB	DO-Premium-Intel (skylake-avx512)	31.3	GB	Linux	Intel CPU
-762	2025.04.24 21:05:00	4.8	39600	ms	34	16	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 5800X 8-Core Processor (znver3)	CPU	63.9	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	63.9	GB	Windows	AMD CPU
-522	2025.04.07 20:33:00	7.5	49040	ms	28	16	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i5-14600K (alderlake)	CPU	63.8	GB	Intel Core i5-14600K (alderlake)	63.8	GB	Windows	Intel CPU
-1044	2025.06.13 08:49:00	7.6	49690	ms	28	16	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Xeon CPU E5-2630 v3 @ 2.40GHz (haswell)	CPU	62.9	GB	Intel Xeon CPU E5-2630 v3 @ 2.40GHz (haswell)	62.9	GB	Linux	Intel CPU
-946	2025.05.25 10:51:00	7.1	47630	ms	30	16	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	12th Gen Intel Core i7-1280P (alderlake)	CPU	15.3	GB	12th Gen Intel Core i7-1280P (alderlake)	15.3	GB	Linux	Intel CPU
-206	2025.04.03 22:36:00	9.0	61340	ms	23	15	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	DO-Premium-AMD (znver2)	CPU	31.3	GB	DO-Premium-AMD (znver2)	31.3	GB	Linux	Other
-974	2025.06.02 12:36:00	6.0	63160	ms	22	13	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 5 3600 6-Core Processor (znver2)	CPU	31.3	GB	AMD Ryzen 5 3600 6-Core Processor (znver2)	31.3	GB	Linux	AMD CPU
-912	2025.05.19 04:57:00	5.5	57040	ms	22	13	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 5 7535HS with Radeon Graphics (znver3)	CPU	30.1	GB	AMD Ryzen 5 7535HS with Radeon Graphics (znver3)	30.1	GB	Linux	AMD CPU
-587	2025.04.08 11:18:00	5.1	56470	ms	25	13	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 5 7430U with Radeon Graphics (znver3)	CPU	15.0	GB	AMD Ryzen 5 7430U with Radeon Graphics (znver3)	15.0	GB	Linux	AMD CPU
-360	2025.04.06 07:25:00	6.9	76440	ms	18	12	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	CPU	15.7	GB	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	15.7	GB	Windows	Intel CPU
-897	2025.05.17 11:19:00	3.0	49220	ms	29	12	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i9-9900KF CPU @ 3.60GHz (skylake)	CPU	31.9	GB	Intel Core i9-9900KF CPU @ 3.60GHz (skylake)	31.9	GB	Windows	Intel CPU
-540	2025.04.07 22:44:00	4.3	67890	ms	21	11	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 4700U with Radeon Graphics (znver2)	CPU	15.0	GB	AMD Ryzen 7 4700U with Radeon Graphics (znver2)	15.0	GB	Linux	AMD CPU
-1208	2025.07.11 17:42:00	6.1	73940	ms	18	11	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	CPU	15.3	GB	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	15.3	GB	Linux	Intel CPU
-1049	2025.06.14 00:53:00	6.6	92910	ms	15	10	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 4800U with Radeon Graphics (znver2)	CPU	30.3	GB	AMD Ryzen 7 4800U with Radeon Graphics (znver2)	30.3	GB	Linux	AMD CPU
-458	2025.04.07 03:12:00	4.8	98340	ms	14	9	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	CPU	31.2	GB	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	31.2	GB	Windows	Intel CPU
-203	2025.04.03 22:03:00	5.1	105130	ms	14	9	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	DO-Premium-AMD (znver2)	CPU	7.8	GB	DO-Premium-AMD (znver2)	7.8	GB	Linux	Other
-198	2025.04.03 20:14:00	4.3	106670	ms	13	8	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	DO-Premium-Intel (skylake-avx512)	CPU	7.8	GB	DO-Premium-Intel (skylake-avx512)	7.8	GB	Linux	Intel CPU
-1168	2025.07.01 18:04:00	5.6	116730	ms	11	8	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Xeon CPU E5-1620 v4 @ 3.50GHz (broadwell)	CPU	31.9	GB	Intel Xeon CPU E5-1620 v4 @ 3.50GHz (broadwell)	31.9	GB	FreeBSD	Intel CPU
-642	2025.04.09 16:48:00	3.5	99050	ms	14	8	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i5-4570 CPU @ 3.20GHz (haswell)	CPU	7.7	GB	Intel Core i5-4570 CPU @ 3.20GHz (haswell)	7.7	GB	Linux	Intel CPU
-686	2025.04.10 20:49:00	1.3	54600	ms	24	8	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Opteron(tm) Processor 6378 (bdver2)	CPU	503.8	GB	AMD Opteron(tm) Processor 6378 (bdver2)	503.8	GB	Linux	AMD CPU
-571	2025.04.08 09:14:00	4.0	140590	ms	10	7	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	11th Gen Intel Core i7-1165G7 @ 2.80GHz (tigerlake)	CPU	31.1	GB	11th Gen Intel Core i7-1165G7 @ 2.80GHz (tigerlake)	31.1	GB	Linux	Intel CPU
-1033	2025.06.11 16:48:00	3.7	132500	ms	10	7	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	CPU	15.8	GB	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	15.8	GB	Windows	Intel CPU
-837	2025.05.06 16:10:00	3.5	130259	ms	11	7	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	CPU	15.3	GB	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	15.3	GB	Linux	Intel CPU
-826	2025.05.04 15:47:00	3.7	117860	ms	12	7	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i7-6770HQ CPU @ 2.60GHz (skylake)	CPU	15.9	GB	Intel Core i7-6770HQ CPU @ 2.60GHz (skylake)	15.9	GB	Windows	Intel CPU
-1215	2025.07.14 09:49:00	3.1	156940	ms	9	6	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i5-10310U CPU @ 1.70GHz (skylake)	CPU	30.7	GB	Intel Core i5-10310U CPU @ 1.70GHz (skylake)	30.7	GB	Linux	Intel CPU
-1165	2025.06.30 22:35:00	2.2	220700	ms	6	4	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i7-6600U CPU @ 2.60GHz (skylake)	CPU	15.7	GB	Intel Core i7-6600U CPU @ 2.60GHz (skylake)	15.7	GB	FreeBSD	Intel CPU
-241	2025.04.04 20:56:00	1.9	221240	ms	6	4	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Raspberry Pi 5 Model B Rev 1.0	CPU	7.9	GB	Raspberry Pi 5 Model B Rev 1.0	7.9	GB	Linux	Other
-1203	2025.07.09 11:07:00	2.2	186150	ms	6	4	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	13th Gen Intel Core i5-1335U (alderlake)	CPU	63.2	GB	13th Gen Intel Core i5-1335U (alderlake)	63.2	GB	Windows	Intel CPU
-243	2025.04.04 21:28:00	1.5	298080	ms	5	3	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i7-8550U CPU @ 1.80GHz (skylake)	CPU	15.5	GB	Intel Core i7-8550U CPU @ 1.80GHz (skylake)	15.5	GB	Linux	Intel CPU
+test_num	test_date	gen_tps	ttft	ttft_unit	prompt_tps	localscore	model_name	model_quant	model_params	model_params_unit	accel_name	accel_type	accel_group	accel_ram	accel_ram_unit	system_cpu	system_ram	system_ram_unit	system_os
+938	2025.05.24 01:41:00	138.0	146	ms	8479	2000	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX PRO 6000 Blackwell Workstation Edition	GPU	NVIDIA GPU	95.0	GB	AMD Ryzen Threadripper 3970X 32-Core Processor (znver2)	125.6	GB	Linux
+170	2025.03.30 20:09:00	106.0	161	ms	8441	1772	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5090	GPU	NVIDIA GPU	31.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	125.7	GB	Linux
+146	2025.03.28 22:22:00	122.0	190	ms	6657	1625	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4090	GPU	NVIDIA GPU	24.0	GB	AMD EPYC 7B13 64-Core Processor (znver3)	2003.9	GB	Linux
+532	2025.04.07 21:30:00	103.0	180	ms	7398	1617	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4090	GPU	NVIDIA GPU	24.0	GB	13th Gen Intel Core i7-13700K (alderlake)	63.8	GB	Windows
+682	2025.04.10 19:37:00	121.0	199	ms	6808	1605	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 6000 Ada Generation	GPU	NVIDIA GPU	47.0	GB	AMD Ryzen Threadripper PRO 5975WX 32-Cores (znver3)	503.5	GB	Linux
+630	2025.04.09 07:28:00	84.2	189	ms	7015	1461	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	31.9	GB	Windows
+71	2025.03.28 21:04:00	120.0	236	ms	5202	1382	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA H100 PCIe	GPU	NVIDIA GPU	79.0	GB	Intel Xeon Platinum 8352Y CPU @ 2.20GHz (icelake-server)	2015.5	GB	Linux
+519	2025.04.07 20:03:00	90.1	274	ms	4789	1164	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4080	GPU	NVIDIA GPU	16.0	GB	Intel Core i5-14600K (alderlake)	63.8	GB	Windows
+80	2025.03.28 21:15:00	58.3	229	ms	5925	1148	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 9 7950X 16-Core Processor (znver4)	125.0	GB	Linux
+144	2025.03.28 22:21:00	94.5	291	ms	4546	1139	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti SUPER	GPU	NVIDIA GPU	16.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.7	GB	Linux
+129	2025.03.28 22:11:00	111.0	310	ms	4120	1138	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090 Ti	GPU	NVIDIA GPU	24.0	GB	Intel Xeon CPU E5-2699 v3 @ 2.30GHz (haswell)	125.8	GB	Linux
+421	2025.04.06 20:13:00	113.0	326	ms	3991	1113	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux
+156	2025.03.28 23:02:00	43.2	207	ms	6307	1096	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5090	GPU	NVIDIA GPU	31.0	GB	AMD EPYC 9554 64-Core Processor (znver4)	377.4	GB	Linux
+193	2025.04.03 19:52:00	109.0	331	ms	3928	1089	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090 Ti	GPU	NVIDIA GPU	24.0	GB	11th Gen Intel Core i5-11400F @ 2.60GHz (rocketlake)	62.7	GB	Linux
+65	2025.03.28 20:56:00	110.0	336	ms	3571	1054	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA A100-SXM4-80GB	GPU	NVIDIA GPU	79.0	GB	AMD EPYC 7713 64-Core Processor (znver3)	1007.7	GB	Linux
+557	2025.04.08 06:20:00	82.5	305	ms	4285	1051	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti SUPER	GPU	NVIDIA GPU	16.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	127.9	GB	Windows
+134	2025.03.28 22:16:00	104.0	343	ms	3739	1042	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3080 Ti	GPU	NVIDIA GPU	12.0	GB	Intel Xeon CPU E5-2690 v4 @ 2.60GHz (broadwell)	125.7	GB	Linux
+90	2025.03.28 21:24:00	51.3	252	ms	5487	1038	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 6000 Ada Generation	GPU	NVIDIA GPU	48.0	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.5	GB	Linux
+169	2025.03.30 20:08:00	79.8	315	ms	4323	1031	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5070 Ti	GPU	NVIDIA GPU	15.0	GB	Intel Core i5-14600KF (alderlake)	62.6	GB	Linux
+658	2025.04.10 00:03:00	103.0	352	ms	3637	1020	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	31.2	GB	Linux
+1	2025.03.19 21:50:00	103.0	358	ms	3552	1008	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux
+1092	2025.06.23 09:20:00	85.4	329	ms	3876	1002	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	53.6	GB	Linux
+88	2025.03.28 21:23:00	45.9	262	ms	5328	977	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA L40S	GPU	NVIDIA GPU	45.0	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.6	GB	Linux
+142	2025.03.28 22:20:00	77.2	341	ms	4006	968	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti	GPU	NVIDIA GPU	12.0	GB	AMD EPYC 7542 32-Core Processor (znver2)	125.7	GB	Linux
+1091	2025.06.23 09:14:00	83.1	347	ms	3641	955	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	53.6	GB	Linux
+85	2025.03.28 21:20:00	45.1	274	ms	5065	941	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA L40	GPU	NVIDIA GPU	44.0	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.6	GB	Linux
+52	2025.03.28 20:43:00	90.5	378	ms	3447	938	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX A6000	GPU	NVIDIA GPU	48.0	GB	AMD EPYC 7543 32-Core Processor (znver3)	503.7	GB	Linux
+104	2025.03.28 21:41:00	54.4	301	ms	4461	931	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4080 SUPER	GPU	NVIDIA GPU	16.0	GB	AMD Ryzen 5 7600 6-Core Processor (znver4)	30.6	GB	Linux
+509	2025.04.07 18:47:00	69.1	345	ms	3985	927	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti	GPU	NVIDIA GPU	12.0	GB	13th Gen Intel Core i7-13700K (alderlake)	63.7	GB	Windows
+444	2025.04.06 23:45:00	68.0	350	ms	3916	913	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti	GPU	NVIDIA GPU	12.0	GB	13th Gen Intel Core i7-13700K (alderlake)	63.7	GB	Windows
+1183	2025.07.06 16:07:00	45.8	282	ms	4682	912	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5090	GPU	NVIDIA GPU	31.0	GB	AMD Ryzen 9 9950X3D 16-Core Processor	62.3	GB	Linux
+92	2025.03.28 21:26:00	42.4	263	ms	4687	911	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA H100 80GB HBM3	GPU	NVIDIA GPU	79.0	GB	Intel Xeon Platinum 8470 (sapphirerapids)	1007.3	GB	Linux
+139	2025.03.28 22:18:00	92.6	409	ms	3140	892	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3080	GPU	NVIDIA GPU	10.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	31.3	GB	Linux
+489	2025.04.07 11:17:00	44.9	289	ms	4428	883	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5080	GPU	NVIDIA GPU	15.0	GB	AMD Ryzen 9 9950X3D 16-Core Processor	60.4	GB	Linux
+482	2025.04.07 09:34:00	68.0	370	ms	3682	878	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 SUPER	GPU	NVIDIA GPU	12.0	GB	13th Gen Intel Core i5-13600K (alderlake)	31.8	GB	Windows
+54	2025.03.28 20:44:00	80.6	401	ms	3270	870	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA A40	GPU	NVIDIA GPU	44.0	GB	Intel Xeon Gold 6342 CPU @ 2.80GHz (icelake-server)	503.5	GB	Linux
+220	2025.04.04 00:35:00	55.7	352	ms	3834	847	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti SUPER	GPU	NVIDIA GPU	16.0	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	63.9	GB	Windows
+152	2025.03.28 22:27:00	76.3	415	ms	3192	838	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070	GPU	NVIDIA GPU	12.0	GB	Intel Xeon CPU E5-2690 v2 @ 3.00GHz (ivybridge)	62.8	GB	Linux
+55	2025.03.28 20:45:00	89.9	445	ms	2890	836	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX A5000	GPU	NVIDIA GPU	24.0	GB	AMD EPYC 7B13 64-Core Processor (znver3)	251.5	GB	Linux
+81	2025.03.28 21:15:00	37.1	289	ms	4299	820	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA H100 NVL	GPU	NVIDIA GPU	93.0	GB	AMD EPYC 9374F 32-Core Processor (znver4)	1448.6	GB	Linux
+764	2025.04.24 23:06:00	76.6	421	ms	3028	820	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3080	GPU	NVIDIA GPU	10.0	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	63.9	GB	Windows
+1081	2025.06.20 00:20:00	75.7	441	ms	2792	783	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3080	GPU	NVIDIA GPU	10.0	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	63.9	GB	Windows
+356	2025.04.06 06:07:00	68.2	452	ms	2836	754	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3080	GPU	NVIDIA GPU	10.0	GB	AMD Ryzen Threadripper PRO 3955WX 16-Cores (znver2)	127.8	GB	Windows
+316	2025.04.05 23:50:00	45.5	382	ms	3371	738	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 SUPER	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	61.9	GB	Linux
+125	2025.03.28 22:07:00	83.2	520	ms	2509	738	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3070 Ti	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 5 5500 (znver3)	86.3	GB	Linux
+56	2025.03.28 20:45:00	77.6	522	ms	2484	718	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX A4500	GPU	NVIDIA GPU	20.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	251.6	GB	Linux
+1014	2025.06.07 01:43:00	25.8	330	ms	4014	679	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	63.6	GB	Windows
+79	2025.03.28 21:14:00	56.5	518	ms	2617	658	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 4000 Ada Generation	GPU	NVIDIA GPU	20.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	251.6	GB	Linux
+860	2025.05.13 08:03:00	60.6	557	ms	2427	641	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5060 Ti	GPU	NVIDIA GPU	15.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	62.7	GB	Linux
+634	2025.04.09 08:58:00	57.4	540	ms	2457	639	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 3500 Ada Generation Laptop GPU	GPU	NVIDIA GPU	12.0	GB	13th Gen Intel Core i9-13980HX (alderlake)	191.7	GB	Windows
+116	2025.03.28 21:54:00	74.0	601	ms	2102	637	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 2080 Ti	GPU	NVIDIA GPU	11.0	GB	AMD Ryzen 5 3600 6-Core Processor (znver2)	62.7	GB	Linux
+128	2025.03.28 22:10:00	63.4	595	ms	2184	615	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3070	GPU	NVIDIA GPU	8.0	GB	Intel Xeon CPU E5-2650 v4 @ 2.20GHz (broadwell)	62.6	GB	Linux
+469	2025.04.07 04:09:00	60.5	611	ms	2160	598	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3070	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	31.9	GB	Windows
+429	2025.04.06 21:29:00	60.3	609	ms	2145	596	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3070	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.9	GB	Windows
+109	2025.03.28 21:48:00	73.3	647	ms	1823	591	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA TITAN V	GPU	NVIDIA GPU	12.0	GB	AMD EPYC 7K62 48-Core Processor (znver2)	125.6	GB	Linux
+229	2025.04.04 14:19:00	67.3	651	ms	1974	589	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Ti	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 5 5600 6-Core Processor (znver3)	63.9	GB	Windows
+67	2025.03.28 20:59:00	37.1	519	ms	2601	571	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA A100 80GB PCIe	GPU	NVIDIA GPU	79.0	GB	AMD EPYC 9374F 32-Core Processor (znver4)	1511.6	GB	Linux
+45	2025.03.28 18:58:00	60.6	656	ms	2011	570	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX A4000	GPU	NVIDIA GPU	16.0	GB	AMD EPYC 7702 64-Core Processor (znver2)	503.5	GB	Linux
+1036	2025.06.12 14:15:00	65.1	683	ms	1898	566	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Ti	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 7 5700G with Radeon Graphics (znver3)	30.7	GB	Linux
+449	2025.04.07 00:34:00	49.1	614	ms	2267	566	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Ti	GPU	NVIDIA GPU	16.0	GB	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	94.1	GB	Linux
+9	2025.03.19 22:20:00	49.3	612	ms	2247	565	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Ti	GPU	NVIDIA GPU	16.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux
+662	2025.04.10 00:30:00	58.6	657	ms	1962	559	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Ti	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	15.6	GB	Linux
+347	2025.04.06 02:39:00	25.7	448	ms	2862	548	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4070 Ti	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	63.1	GB	Windows
+143	2025.03.28 22:21:00	49.6	645	ms	2130	547	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Ti	GPU	NVIDIA GPU	16.0	GB	AMD EPYC 7K62 48-Core Processor (znver2)	503.5	GB	Linux
+840	2025.05.07 18:55:00	44.8	621	ms	2217	543	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Ti	GPU	NVIDIA GPU	16.0	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows
+173	2025.03.30 20:12:00	37.0	578	ms	2360	532	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 5070	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 7 9800X3D 8-Core Processor	123.5	GB	Linux
+409	2025.04.06 19:15:00	54.4	696	ms	1861	526	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Ti	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	31.9	GB	Windows
+124	2025.03.28 22:06:00	61.7	767	ms	1729	518	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Ti	GPU	NVIDIA GPU	8.0	GB	Intel Xeon CPU E5-2630 v4 @ 2.20GHz (broadwell)	31.2	GB	Linux
+70	2025.03.28 21:01:00	42.9	669	ms	2056	509	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA L4	GPU	NVIDIA GPU	22.0	GB	AMD EPYC 7713 64-Core Processor (znver3)	503.5	GB	Linux
+158	2025.03.28 23:13:00	44.6	689	ms	2013	507	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 4000 SFF Ada Generation	GPU	NVIDIA GPU	20.0	GB	Intel Xeon CPU E5-2690 v4 @ 2.60GHz (broadwell)	251.8	GB	Linux
+416	2025.04.06 19:57:00	36.5	629	ms	2085	495	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA A10	GPU	NVIDIA GPU	22.0	GB	AMD EPYC 9554 64-Core Processor (znver4)	43.0	GB	Linux
+569	2025.04.08 09:05:00	74.0	1050	ms	1677	491	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Quadro RTX 8000	GPU	NVIDIA GPU	47.0	GB	QEMU Virtual CPU version 2.5+	295.0	GB	Linux
+351	2025.04.06 03:50:00	30.7	617	ms	2112	472	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Ti	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.0	GB	Linux
+148	2025.03.28 22:24:00	45.8	772	ms	1748	470	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060	GPU	NVIDIA GPU	8.0	GB	Intel Xeon CPU E5-2699 v4 @ 2.20GHz (broadwell)	1007.7	GB	Linux
+105	2025.03.28 21:42:00	57.8	880	ms	1460	458	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 2070 SUPER	GPU	NVIDIA GPU	8.0	GB	Intel Xeon CPU E5-2690 0 @ 2.90GHz (sandybridge)	503.8	GB	Linux
+490	2025.04.07 11:22:00	36.4	694	ms	1821	457	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3070	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 9 9950X3D 16-Core Processor	60.4	GB	Linux
+123	2025.03.28 22:06:00	53.1	885	ms	1487	447	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	31.3	GB	Linux
+1088	2025.06.23 02:15:00	41.2	793	ms	1708	446	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 5 5600 6-Core Processor (znver3)	31.9	GB	Windows
+48	2025.03.28 19:06:00	52.0	888	ms	1482	443	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	AMD EPYC 7402P 24-Core Processor (znver2)	251.6	GB	Linux
+818	2025.05.04 12:17:00	49.5	869	ms	1515	442	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows
+800	2025.05.03 15:01:00	49.7	933	ms	1400	421	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+436	2025.04.06 21:55:00	64.7	1400	ms	1468	407	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3070	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	31.3	GB	Linux
+117	2025.03.28 21:55:00	51.3	1040	ms	1223	392	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 2060 SUPER	GPU	NVIDIA GPU	8.0	GB	Intel Xeon CPU E5-2687W 0 @ 3.10GHz (sandybridge)	503.8	GB	Linux
+331	2025.04.06 00:44:00	20.6	665	ms	1929	391	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Ti	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows
+431	2025.04.06 21:37:00	50.3	1130	ms	1170	373	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6900 XT	GPU	AMD GPU	16.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+715	2025.04.14 07:26:00	36.8	995	ms	1370	370	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 2000 Ada Generation	GPU	NVIDIA GPU	16.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	47.0	GB	Linux
+68	2025.03.28 20:59:00	37.9	1020	ms	1328	367	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX 2000 Ada Generation	GPU	NVIDIA GPU	16.0	GB	AMD EPYC 7443 24-Core Processor (znver3)	251.5	GB	Linux
+492	2025.04.07 11:56:00	51.2	1440	ms	888	316	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 7900 XTX	GPU	AMD GPU	24.0	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	31.9	GB	Windows
+768	2025.04.25 21:55:00	34.8	1150	ms	1050	316	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Laptop GPU	GPU	NVIDIA GPU	6.0	GB	11th Gen Intel Core i7-11800H @ 2.30GHz (tigerlake)	15.8	GB	Windows
+1108	2025.06.25 04:17:00	40.3	1430	ms	1028	307	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6900 XT	GPU	AMD GPU	16.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	63.9	GB	Windows
+1001	2025.06.04 20:27:00	45.3	1420	ms	885	305	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Radeon RX 7900 XTX	GPU	AMD GPU	24.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.3	GB	Linux
+336	2025.04.06 01:22:00	36.7	1370	ms	1050	304	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6900 XT	GPU	AMD GPU	16.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+476	2025.04.07 05:34:00	35.5	1570	ms	926	276	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6800 XT	GPU	AMD GPU	16.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux
+1190	2025.07.07 11:36:00	54.2	1800	ms	663	271	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Max 12P+4E+40GPU	GPU	Apple GPU	48.0	GB	Apple M4 Max 12P+4E	48.0	GB	Darwin
+552	2025.04.08 02:32:00	54.8	1810	ms	652	270	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Max 12P+4E+40GPU	GPU	Apple GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin
+11	2025.03.19 22:30:00	51.6	1990	ms	607	250	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Max 12P+4E+40GPU	GPU	Apple GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin
+750	2025.04.21 14:32:00	45.6	2029	ms	591	237	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Max 12P+4E+40GPU	GPU	Apple GPU	128.0	GB	Apple M3 Max 12P+4E	128.0	GB	Darwin
+733	2025.04.17 08:55:00	27.6	1680	ms	791	235	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX A2000 8GB Laptop GPU	GPU	NVIDIA GPU	8.0	GB	12th Gen Intel Core i7-12700H (alderlake)	31.6	GB	Windows
+732	2025.04.17 08:38:00	27.5	1700	ms	789	234	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA RTX A2000 8GB Laptop GPU	GPU	NVIDIA GPU	8.0	GB	12th Gen Intel Core i7-12700H (alderlake)	31.6	GB	Windows
+441	2025.04.06 23:24:00	48.8	2150	ms	535	230	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Ultra 16P+4E+48GPU	GPU	Apple GPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin
+309	2025.04.05 23:15:00	49.1	2150	ms	535	230	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Ultra 16P+4E+48GPU	GPU	Apple GPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin
+397	2025.04.06 17:17:00	48.7	2160	ms	534	229	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Ultra 16P+4E+48GPU	GPU	Apple GPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin
+164	2025.03.30 19:54:00	47.2	2200	ms	551	228	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Max 10P+4E+32GPU	GPU	Apple GPU	36.0	GB	Apple M4 Max 10P+4E	36.0	GB	Darwin
+393	2025.04.06 16:53:00	43.0	2150	ms	526	219	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Max 12P+4E+40GPU	GPU	Apple GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin
+520	2025.04.07 20:19:00	46.4	2440	ms	484	210	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M2 Max 8P+4E+38GPU	GPU	Apple GPU	96.0	GB	Apple M2 Max 8P+4E	96.0	GB	Darwin
+1005	2025.06.06 05:12:00	38.9	2360	ms	524	205	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD  Radeon RX 7800 XT	GPU	AMD GPU	16.0	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	31.9	GB	Windows
+978	2025.06.03 02:33:00	26.0	2320	ms	760	204	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3050	GPU	NVIDIA GPU	6.0	GB	Intel Core i5-4590 CPU @ 3.30GHz (haswell)	31.9	GB	Windows
+606	2025.04.08 15:12:00	27.3	2460	ms	607	189	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6700 XT	GPU	AMD GPU	12.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.3	GB	Linux
+790	2025.05.01 06:36:00	37.7	2690	ms	457	186	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Max 10P+4E+30GPU	GPU	Apple GPU	96.0	GB	Apple M3 Max 10P+4E	96.0	GB	Darwin
+1084	2025.06.20 21:02:00	37.7	2710	ms	442	183	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Max 10P+4E+30GPU	GPU	Apple GPU	36.0	GB	Apple M3 Max 10P+4E	36.0	GB	Darwin
+805	2025.05.03 22:03:00	37.3	2740	ms	445	182	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Max 10P+4E+30GPU	GPU	Apple GPU	36.0	GB	Apple M3 Max 10P+4E	36.0	GB	Darwin
+13	2025.03.19 23:02:00	25.9	2480	ms	563	181	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6650 XT	GPU	AMD GPU	8.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux
+624	2025.04.08 22:38:00	21.5	2340	ms	604	177	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6600 XT	GPU	AMD GPU	8.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	31.2	GB	Linux
+106	2025.03.28 21:42:00	33.5	2720	ms	427	174	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Tesla P100-SXM2-16GB	GPU	NVIDIA GPU	16.0	GB	Intel Xeon Gold 6138 CPU @ 2.00GHz (skylake-avx512)	376.5	GB	Linux
+1193	2025.07.08 17:14:00	37.9	3100	ms	385	168	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Max 8P+2E+32GPU	GPU	Apple GPU	32.0	GB	Apple M1 Max 8P+2E	32.0	GB	Darwin
+813	2025.05.04 10:16:00	32.1	3490	ms	358	149	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 10P+4E+20GPU	GPU	Apple GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin
+899	2025.05.18 19:12:00	33.7	3540	ms	350	149	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Max 8P+2E+32GPU	GPU	Apple GPU	32.0	GB	Apple M1 Max 8P+2E	32.0	GB	Darwin
+563	2025.04.08 06:59:00	31.6	3450	ms	351	148	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 10P+4E+20GPU	GPU	Apple GPU	24.0	GB	Apple M4 Pro 10P+4E	24.0	GB	Darwin
+767	2025.04.25 20:50:00	30.0	8220	ms	891	148	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3060 Laptop GPU	GPU	NVIDIA GPU	6.0	GB	11th Gen Intel Core i7-11800H @ 2.30GHz (tigerlake)	15.8	GB	Windows
+1179	2025.07.04 19:18:00	32.7	3510	ms	351	148	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 10P+4E+20GPU	GPU	Apple GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin
+372	2025.04.06 14:00:00	31.8	3790	ms	329	140	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 10P+4E+20GPU	GPU	Apple GPU	64.0	GB	Apple M4 Pro 10P+4E	64.0	GB	Darwin
+828	2025.05.05 22:39:00	32.1	3990	ms	306	135	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Max 8P+2E+24GPU	GPU	Apple GPU	64.0	GB	Apple M1 Max 8P+2E	64.0	GB	Darwin
+597	2025.04.08 12:25:00	31.6	4090	ms	312	134	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Max 8P+2E+32GPU	GPU	Apple GPU	32.0	GB	Apple M1 Max 8P+2E	32.0	GB	Darwin
+550	2025.04.08 01:43:00	30.2	4140	ms	302	130	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 8P+4E+16GPU	GPU	Apple GPU	48.0	GB	Apple M4 Pro 8P+4E	48.0	GB	Darwin
+940	2025.05.24 02:14:00	24.3	9090	ms	809	129	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 4060 Laptop GPU	GPU	NVIDIA GPU	8.0	GB	13th Gen Intel Core i7-13650HX (alderlake)	15.6	GB	Windows
+382	2025.04.06 15:25:00	30.3	4270	ms	292	128	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 8P+4E+16GPU	GPU	Apple GPU	24.0	GB	Apple M4 Pro 8P+4E	24.0	GB	Darwin
+944	2025.05.25 09:52:00	30.7	4330	ms	291	127	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 Pro 8P+4E+16GPU	GPU	Apple GPU	24.0	GB	Apple M4 Pro 8P+4E	24.0	GB	Darwin
+1061	2025.06.15 12:19:00	26.3	4700	ms	262	114	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M2 Pro 8P+4E+19GPU	GPU	Apple GPU	32.0	GB	Apple M2 Pro 8P+4E	32.0	GB	Darwin
+1052	2025.06.14 14:57:00	26.3	4710	ms	262	113	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M2 Pro 8P+4E+19GPU	GPU	Apple GPU	32.0	GB	Apple M2 Pro 8P+4E	32.0	GB	Darwin
+579	2025.04.08 10:12:00	22.1	4460	ms	284	112	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Pro 6P+6E+18GPU	GPU	Apple GPU	36.0	GB	Apple M3 Pro 6P+6E	36.0	GB	Darwin
+916	2025.05.19 08:20:00	5.4	2400	ms	587	110	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 6700 XT	GPU	AMD GPU	12.0	GB	AMD Ryzen 9 7900X 12-Core Processor (znver4)	62.0	GB	Linux
+804	2025.05.03 21:43:00	25.4	5680	ms	256	105	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Radeon RX 5700 XT	GPU	AMD GPU	8.0	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	32.0	GB	Windows
+864	2025.05.14 08:22:00	21.5	5650	ms	223	95	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Pro 5P+6E+14GPU	GPU	Apple GPU	36.0	GB	Apple M3 Pro 5P+6E	36.0	GB	Darwin
+811	2025.05.04 10:05:00	22.0	6090	ms	205	90	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Pro 8P+2E+16GPU	GPU	Apple GPU	32.0	GB	Apple M1 Pro 8P+2E	32.0	GB	Darwin
+488	2025.04.07 11:07:00	15.0	5560	ms	250	88	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 9950X3D 16-Core Processor	CPU	AMD CPU	60.4	GB	AMD Ryzen 9 9950X3D 16-Core Processor	60.4	GB	Windows
+1042	2025.06.12 23:21:00	21.2	6410	ms	195	86	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Pro 8P+2E+16GPU	GPU	Apple GPU	32.0	GB	Apple M1 Pro 8P+2E	32.0	GB	Darwin
+480	2025.04.07 08:05:00	19.1	6430	ms	200	84	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 Pro 5P+6E+14GPU	GPU	Apple GPU	18.0	GB	Apple M3 Pro 5P+6E	18.0	GB	Darwin
+1100	2025.06.24 09:29:00	20.4	6870	ms	181	81	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Pro 6P+2E+14GPU	GPU	Apple GPU	16.0	GB	Apple M1 Pro 6P+2E	16.0	GB	Darwin
+595	2025.04.08 12:16:00	17.7	6890	ms	185	78	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 4P+6E+10GPU	GPU	Apple GPU	16.0	GB	Apple M4 4P+6E	16.0	GB	Darwin
+422	2025.04.06 20:20:00	20.0	7230	ms	173	78	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Pro 6P+2E+14GPU	GPU	Apple GPU	32.0	GB	Apple M1 Pro 6P+2E	32.0	GB	Darwin
+452	2025.04.07 01:22:00	19.8	7230	ms	170	78	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Pro 6P+2E+14GPU	GPU	Apple GPU	16.0	GB	Apple M1 Pro 6P+2E	16.0	GB	Darwin
+34	2025.03.28 17:38:00	17.6	6850	ms	188	78	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 4P+6E+10GPU	GPU	Apple GPU	16.0	GB	Apple M4 4P+6E	16.0	GB	Darwin
+1140	2025.06.28 06:02:00	18.8	8400	ms	148	69	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M2 4P+4E+8GPU	GPU	Apple GPU	8.0	GB	Apple M2 4P+4E	8.0	GB	Darwin
+1085	2025.06.20 21:43:00	16.6	7930	ms	159	69	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 4P+6E+10GPU	GPU	Apple GPU	24.0	GB	Apple M4 4P+6E	24.0	GB	Darwin
+961	2025.05.31 19:34:00	15.9	8260	ms	146	65	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M4 4P+6E+10GPU	GPU	Apple GPU	32.0	GB	Apple M4 4P+6E	32.0	GB	Darwin
+499	2025.04.07 15:31:00	14.9	8960	ms	143	62	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M2 4P+4E+10GPU	GPU	Apple GPU	16.0	GB	Apple M2 4P+4E	16.0	GB	Darwin
+202	2025.04.03 21:58:00	14.7	9020	ms	142	61	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M2 4P+4E+10GPU	GPU	Apple GPU	24.0	GB	Apple M2 4P+4E	24.0	GB	Darwin
+305	2025.04.05 22:54:00	10.6	8510	ms	163	59	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	CPU	AMD CPU	61.9	GB	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	61.9	GB	Linux
+420	2025.04.06 20:10:00	13.6	8920	ms	137	59	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 4P+4E+10GPU	GPU	Apple GPU	16.0	GB	Apple M3 4P+4E	16.0	GB	Darwin
+471	2025.04.07 04:42:00	8.8	8050	ms	172	57	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 7950X 16-Core Processor (znver4)	CPU	AMD CPU	124.8	GB	AMD Ryzen 9 7950X 16-Core Processor (znver4)	124.8	GB	Linux
+1204	2025.07.09 22:08:00	14.5	12110	ms	115	52	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen Threadripper 3960X 24-Core Processor (znver2)	CPU	AMD CPU	62.7	GB	AMD Ryzen Threadripper 3960X 24-Core Processor (znver2)	62.7	GB	Linux
+376	2025.04.06 14:18:00	4.3	8730	ms	290	52	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce RTX 3050 Ti Laptop GPU	GPU	NVIDIA GPU	4.0	GB	12th Gen Intel Core i7-12700H (alderlake)	31.7	GB	Windows
+590	2025.04.08 11:47:00	10.8	9360	ms	121	52	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 4P+4E+10GPU	GPU	Apple GPU	24.0	GB	Apple M3 4P+4E	24.0	GB	Darwin
+211	2025.04.03 23:41:00	16.6	14500	ms	94	48	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	CPU	Intel CPU	94.3	GB	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	94.3	GB	Linux
+727	2025.04.15 16:50:00	9.0	11110	ms	129	47	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce GTX 1660	GPU	NVIDIA GPU	6.0	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	31.9	GB	Windows
+726	2025.04.15 07:17:00	12.9	13610	ms	99	45	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	CPU	AMD CPU	26.5	GB	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	26.5	GB	Linux
+654	2025.04.09 22:46:00	10.1	12420	ms	114	45	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	AMD CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+300	2025.04.05 17:11:00	9.9	12550	ms	112	44	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	AMD CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+917	2025.05.19 08:57:00	8.5	12160	ms	113	43	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 7900X 12-Core Processor (znver4)	CPU	AMD CPU	62.0	GB	AMD Ryzen 9 7900X 12-Core Processor (znver4)	62.0	GB	Linux
+350	2025.04.06 03:44:00	10.9	14660	ms	93	41	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	CPU	AMD CPU	31.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.0	GB	Linux
+1104	2025.06.24 21:40:00	9.7	13990	ms	99	41	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M3 4P+4E+10GPU	GPU	Apple GPU	24.0	GB	Apple M3 4P+4E	24.0	GB	Darwin
+625	2025.04.08 22:59:00	8.7	13040	ms	104	41	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	AMD CPU	31.2	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	31.2	GB	Linux
+312	2025.04.05 23:32:00	15.2	17480	ms	72	40	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 Ultra 16P+4E	CPU	Apple CPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin
+271	2025.04.05 04:11:00	10.7	15800	ms	88	39	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	CPU	AMD CPU	54.7	GB	AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (znver4)	54.7	GB	Linux
+223	2025.04.04 04:02:00	9.1	15230	ms	80	36	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Apple M1 4P+4E+7GPU	GPU	Apple GPU	16.0	GB	Apple M1 4P+4E	16.0	GB	Darwin
+1067	2025.06.16 18:08:00	11.1	20740	ms	68	33	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core Ultra 9 285K (arrowlake-s)	CPU	Intel CPU	127.3	GB	Intel Core Ultra 9 285K (arrowlake-s)	127.3	GB	Windows
+1066	2025.06.16 17:36:00	10.6	20280	ms	68	33	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core Ultra 9 285K (arrowlake-s)	CPU	Intel CPU	127.3	GB	Intel Core Ultra 9 285K (arrowlake-s)	127.3	GB	Windows
+398	2025.04.06 17:18:00	13.0	23070	ms	61	32	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i9-14900HX (alderlake)	CPU	Intel CPU	62.5	GB	Intel Core i9-14900HX (alderlake)	62.5	GB	Linux
+801	2025.05.03 15:46:00	8.1	18160	ms	75	32	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	AMD CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+313	2025.04.05 23:43:00	10.3	20420	ms	66	32	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	CPU	AMD CPU	31.6	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows
+544	2025.04.07 23:11:00	10.0	21820	ms	64	31	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 3900X 12-Core Processor (znver2)	CPU	AMD CPU	15.5	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	15.5	GB	Linux
+628	2025.04.09 02:39:00	9.0	22720	ms	60	29	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics (znver4)	CPU	AMD CPU	61.5	GB	AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics (znver4)	61.5	GB	Linux
+657	2025.04.10 00:01:00	8.6	21980	ms	59	28	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 9 5900X 12-Core Processor (znver3)	CPU	AMD CPU	31.9	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	31.9	GB	Windows
+353	2025.04.06 05:31:00	10.3	26020	ms	52	27	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen Threadripper PRO 3955WX 16-Cores (znver2)	CPU	AMD CPU	127.8	GB	AMD Ryzen Threadripper PRO 3955WX 16-Cores (znver2)	127.8	GB	Windows
+1008	2025.06.06 15:06:00	11.0	29510	ms	47	26	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	12th Gen Intel Core i7-12700KF (alderlake)	CPU	Intel CPU	31.8	GB	12th Gen Intel Core i7-12700KF (alderlake)	31.8	GB	Windows
+1020	2025.06.08 23:38:00	7.8	26600	ms	53	25	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	CPU	AMD CPU	47.9	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	47.9	GB	Windows
+213	2025.04.03 23:50:00	12.5	34110	ms	40	25	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	CPU	Intel CPU	31.3	GB	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	31.3	GB	Linux
+543	2025.04.07 23:10:00	8.5	30960	ms	43	23	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	CPU	AMD CPU	63.9	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	63.9	GB	Windows
+438	2025.04.06 22:04:00	7.5	32520	ms	43	21	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 3700X 8-Core Processor (znver2)	CPU	AMD CPU	31.3	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	31.3	GB	Linux
+693	2025.04.11 20:25:00	7.9	35090	ms	40	21	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	CPU	AMD CPU	31.9	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	31.9	GB	Windows
+613	2025.04.08 17:22:00	9.6	39870	ms	36	21	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	13th Gen Intel Core i7-13700H (alderlake)	CPU	Intel CPU	31.1	GB	13th Gen Intel Core i7-13700H (alderlake)	31.1	GB	Linux
+381	2025.04.06 15:18:00	2.8	23140	ms	66	20	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	NVIDIA GeForce GTX 1650 Ti	GPU	NVIDIA GPU	4.0	GB	Intel Core i7-10750H CPU @ 2.60GHz (skylake)	31.8	GB	Windows
+1109	2025.06.25 04:19:00	9.4	44020	ms	31	19	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	CPU	Intel CPU	62.5	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	62.5	GB	Linux
+424	2025.04.06 21:08:00	6.2	35560	ms	38	19	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 5700X 8-Core Processor (znver3)	CPU	AMD CPU	31.9	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.9	GB	Windows
+455	2025.04.07 01:58:00	8.6	41330	ms	34	19	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	CPU	AMD CPU	94.1	GB	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	94.1	GB	Linux
+810	2025.05.04 09:57:00	7.7	44660	ms	31	18	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	CPU	Intel CPU	31.9	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows
+188	2025.04.03 18:47:00	8.1	43330	ms	31	18	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Xeon CPU E5-2697 v2 @ 2.70GHz (ivybridge)	CPU	Intel CPU	251.8	GB	Intel Xeon CPU E5-2697 v2 @ 2.70GHz (ivybridge)	251.8	GB	Linux
+216	2025.04.04 00:03:00	9.1	45280	ms	31	18	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	DO-Premium-Intel (skylake-avx512)	CPU	Intel CPU	31.3	GB	DO-Premium-Intel (skylake-avx512)	31.3	GB	Linux
+762	2025.04.24 21:05:00	4.8	39600	ms	34	16	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 5800X 8-Core Processor (znver3)	CPU	AMD CPU	63.9	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	63.9	GB	Windows
+522	2025.04.07 20:33:00	7.5	49040	ms	28	16	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i5-14600K (alderlake)	CPU	Intel CPU	63.8	GB	Intel Core i5-14600K (alderlake)	63.8	GB	Windows
+1044	2025.06.13 08:49:00	7.6	49690	ms	28	16	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Xeon CPU E5-2630 v3 @ 2.40GHz (haswell)	CPU	Intel CPU	62.9	GB	Intel Xeon CPU E5-2630 v3 @ 2.40GHz (haswell)	62.9	GB	Linux
+946	2025.05.25 10:51:00	7.1	47630	ms	30	16	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	12th Gen Intel Core i7-1280P (alderlake)	CPU	Intel CPU	15.3	GB	12th Gen Intel Core i7-1280P (alderlake)	15.3	GB	Linux
+206	2025.04.03 22:36:00	9.0	61340	ms	23	15	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	DO-Premium-AMD (znver2)	CPU	Other	31.3	GB	DO-Premium-AMD (znver2)	31.3	GB	Linux
+974	2025.06.02 12:36:00	6.0	63160	ms	22	13	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 5 3600 6-Core Processor (znver2)	CPU	AMD CPU	31.3	GB	AMD Ryzen 5 3600 6-Core Processor (znver2)	31.3	GB	Linux
+912	2025.05.19 04:57:00	5.5	57040	ms	22	13	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 5 7535HS with Radeon Graphics (znver3)	CPU	AMD CPU	30.1	GB	AMD Ryzen 5 7535HS with Radeon Graphics (znver3)	30.1	GB	Linux
+587	2025.04.08 11:18:00	5.1	56470	ms	25	13	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 5 7430U with Radeon Graphics (znver3)	CPU	AMD CPU	15.0	GB	AMD Ryzen 5 7430U with Radeon Graphics (znver3)	15.0	GB	Linux
+360	2025.04.06 07:25:00	6.9	76440	ms	18	12	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	CPU	Intel CPU	15.7	GB	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	15.7	GB	Windows
+897	2025.05.17 11:19:00	3.0	49220	ms	29	12	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i9-9900KF CPU @ 3.60GHz (skylake)	CPU	Intel CPU	31.9	GB	Intel Core i9-9900KF CPU @ 3.60GHz (skylake)	31.9	GB	Windows
+540	2025.04.07 22:44:00	4.3	67890	ms	21	11	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 4700U with Radeon Graphics (znver2)	CPU	AMD CPU	15.0	GB	AMD Ryzen 7 4700U with Radeon Graphics (znver2)	15.0	GB	Linux
+1208	2025.07.11 17:42:00	6.1	73940	ms	18	11	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	CPU	Intel CPU	15.3	GB	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	15.3	GB	Linux
+1049	2025.06.14 00:53:00	6.6	92910	ms	15	10	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Ryzen 7 4800U with Radeon Graphics (znver2)	CPU	AMD CPU	30.3	GB	AMD Ryzen 7 4800U with Radeon Graphics (znver2)	30.3	GB	Linux
+458	2025.04.07 03:12:00	4.8	98340	ms	14	9	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	CPU	Intel CPU	31.2	GB	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	31.2	GB	Windows
+203	2025.04.03 22:03:00	5.1	105130	ms	14	9	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	DO-Premium-AMD (znver2)	CPU	Other	7.8	GB	DO-Premium-AMD (znver2)	7.8	GB	Linux
+198	2025.04.03 20:14:00	4.3	106670	ms	13	8	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	DO-Premium-Intel (skylake-avx512)	CPU	Intel CPU	7.8	GB	DO-Premium-Intel (skylake-avx512)	7.8	GB	Linux
+1168	2025.07.01 18:04:00	5.6	116730	ms	11	8	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Xeon CPU E5-1620 v4 @ 3.50GHz (broadwell)	CPU	Intel CPU	31.9	GB	Intel Xeon CPU E5-1620 v4 @ 3.50GHz (broadwell)	31.9	GB	FreeBSD
+642	2025.04.09 16:48:00	3.5	99050	ms	14	8	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i5-4570 CPU @ 3.20GHz (haswell)	CPU	Intel CPU	7.7	GB	Intel Core i5-4570 CPU @ 3.20GHz (haswell)	7.7	GB	Linux
+686	2025.04.10 20:49:00	1.3	54600	ms	24	8	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	AMD Opteron(tm) Processor 6378 (bdver2)	CPU	AMD CPU	503.8	GB	AMD Opteron(tm) Processor 6378 (bdver2)	503.8	GB	Linux
+571	2025.04.08 09:14:00	4.0	140590	ms	10	7	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	11th Gen Intel Core i7-1165G7 @ 2.80GHz (tigerlake)	CPU	Intel CPU	31.1	GB	11th Gen Intel Core i7-1165G7 @ 2.80GHz (tigerlake)	31.1	GB	Linux
+1033	2025.06.11 16:48:00	3.7	132500	ms	10	7	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	CPU	Intel CPU	15.8	GB	11th Gen Intel Core i5-1135G7 @ 2.40GHz (tigerlake)	15.8	GB	Windows
+837	2025.05.06 16:10:00	3.5	130259	ms	11	7	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	CPU	Intel CPU	15.3	GB	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	15.3	GB	Linux
+826	2025.05.04 15:47:00	3.7	117860	ms	12	7	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i7-6770HQ CPU @ 2.60GHz (skylake)	CPU	Intel CPU	15.9	GB	Intel Core i7-6770HQ CPU @ 2.60GHz (skylake)	15.9	GB	Windows
+1215	2025.07.14 09:49:00	3.1	156940	ms	9	6	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i5-10310U CPU @ 1.70GHz (skylake)	CPU	Intel CPU	30.7	GB	Intel Core i5-10310U CPU @ 1.70GHz (skylake)	30.7	GB	Linux
+1165	2025.06.30 22:35:00	2.2	220700	ms	6	4	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i7-6600U CPU @ 2.60GHz (skylake)	CPU	Intel CPU	15.7	GB	Intel Core i7-6600U CPU @ 2.60GHz (skylake)	15.7	GB	FreeBSD
+241	2025.04.04 20:56:00	1.9	221240	ms	6	4	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Raspberry Pi 5 Model B Rev 1.0	CPU	Other	7.9	GB	Raspberry Pi 5 Model B Rev 1.0	7.9	GB	Linux
+1203	2025.07.09 11:07:00	2.2	186150	ms	6	4	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	13th Gen Intel Core i5-1335U (alderlake)	CPU	Intel CPU	63.2	GB	13th Gen Intel Core i5-1335U (alderlake)	63.2	GB	Windows
+243	2025.04.04 21:28:00	1.5	298080	ms	5	3	Meta Llama 3.1 8B Instruct	Q4_K - Medium	8000	M	Intel Core i7-8550U CPU @ 1.80GHz (skylake)	CPU	Intel CPU	15.5	GB	Intel Core i7-8550U CPU @ 1.80GHz (skylake)	15.5	GB	Linux

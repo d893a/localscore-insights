@@ -1,248 +1,248 @@
-test_num	test_date	gen_tps	ttft	ttft_unit	prompt_tps	localscore	model_name	model_quant	model_params	model_params_unit	accel_name	accel_type	accel_ram	accel_ram_unit	system_cpu	system_ram	system_ram_unit	system_os	accel_group
-939	2025.05.24 01:45:00	81.1	245	ms	5126	1193	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX PRO 6000 Blackwell Workstation Edition	GPU	95.0	GB	AMD Ryzen Threadripper 3970X 32-Core Processor (znver2)	125.6	GB	Linux	NVIDIA GPU
-175	2025.03.30 20:15:00	65.1	279	ms	4787	1037	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5090	GPU	31.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	125.7	GB	Linux	NVIDIA GPU
-177	2025.03.30 20:19:00	65.3	281	ms	4777	1036	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5090	GPU	31.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	125.7	GB	Linux	NVIDIA GPU
-970	2025.06.02 04:08:00	70.5	336	ms	3905	935	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090 D	GPU	47.0	GB	Intel Xeon Gold 5218 CPU @ 2.30GHz (cascadelake)	503.7	GB	Linux	NVIDIA GPU
-149	2025.03.28 22:24:00	70.8	335	ms	3828	931	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090	GPU	24.0	GB	AMD EPYC 7B13 64-Core Processor (znver3)	2003.9	GB	Linux	NVIDIA GPU
-530	2025.04.07 21:14:00	60.3	322	ms	4106	916	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090	GPU	24.0	GB	13th Gen Intel Core i7-13700K (alderlake)	63.8	GB	Windows	NVIDIA GPU
-673	2025.04.10 18:35:00	70.0	369	ms	3552	877	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 6000 Ada Generation	GPU	47.0	GB	AMD Ryzen Threadripper PRO 5975WX 32-Cores (znver3)	503.5	GB	Linux	NVIDIA GPU
-72	2025.03.28 21:06:00	72.2	417	ms	2973	802	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA H100 PCIe	GPU	79.0	GB	Intel Xeon Platinum 8352Y CPU @ 2.20GHz (icelake-server)	2015.5	GB	Linux	NVIDIA GPU
-172	2025.03.30 20:11:00	65.0	719	ms	4758	755	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5090	GPU	31.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	125.7	GB	Linux	NVIDIA GPU
-518	2025.04.07 20:00:00	52.1	488	ms	2665	658	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4080	GPU	16.0	GB	Intel Core i5-14600K (alderlake)	63.8	GB	Windows	NVIDIA GPU
-133	2025.03.28 22:15:00	64.6	552	ms	2317	647	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090 Ti	GPU	24.0	GB	Intel Xeon CPU E5-2699 v3 @ 2.30GHz (haswell)	125.8	GB	Linux	NVIDIA GPU
-150	2025.03.28 22:25:00	53.6	521	ms	2526	638	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 Ti SUPER	GPU	16.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.7	GB	Linux	NVIDIA GPU
-419	2025.04.06 20:08:00	65.1	592	ms	2185	622	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux	NVIDIA GPU
-91	2025.03.28 21:24:00	31.9	429	ms	3161	617	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090	GPU	24.0	GB	AMD Ryzen 9 7950X 16-Core Processor (znver4)	125.0	GB	Linux	NVIDIA GPU
-66	2025.03.28 20:58:00	66.3	592	ms	2069	614	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA A100-SXM4-80GB	GPU	79.0	GB	AMD EPYC 7713 64-Core Processor (znver3)	1007.7	GB	Linux	NVIDIA GPU
-406	2025.04.06 19:02:00	63.4	610	ms	2131	605	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux	NVIDIA GPU
-710	2025.04.14 03:36:00	62.0	601	ms	2126	603	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD EPYC 7302P 16-Core Processor (znver2)	62.7	GB	Linux	NVIDIA GPU
-712	2025.04.14 03:42:00	61.8	605	ms	2106	599	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD EPYC 7302P 16-Core Processor (znver2)	62.7	GB	Linux	NVIDIA GPU
-560	2025.04.08 06:28:00	47.3	550	ms	2382	589	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 Ti SUPER	GPU	16.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	127.9	GB	Windows	NVIDIA GPU
-140	2025.03.28 22:18:00	59.9	617	ms	2090	588	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3080 Ti	GPU	12.0	GB	Intel Xeon CPU E5-2690 v4 @ 2.60GHz (broadwell)	125.7	GB	Linux	NVIDIA GPU
-196	2025.04.03 20:00:00	62.4	619	ms	1969	583	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090 Ti	GPU	24.0	GB	11th Gen Intel Core i5-11400F @ 2.60GHz (rocketlake)	62.7	GB	Linux	NVIDIA GPU
-659	2025.04.10 00:07:00	59.6	631	ms	2049	578	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	31.2	GB	Linux	NVIDIA GPU
-405	2025.04.06 18:59:00	60.5	641	ms	2034	577	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux	NVIDIA GPU
-1094	2025.06.23 09:47:00	50.7	578	ms	2189	577	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	53.6	GB	Linux	NVIDIA GPU
-2	2025.03.19 21:53:00	59.9	640	ms	2005	573	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux	NVIDIA GPU
-711	2025.04.14 03:39:00	59.0	632	ms	2007	572	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD EPYC 7302P 16-Core Processor (znver2)	62.7	GB	Linux	NVIDIA GPU
-459	2025.04.07 03:15:00	59.8	641	ms	2010	572	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	Intel Core i5-4670 CPU @ 3.40GHz (haswell)	15.5	GB	Linux	NVIDIA GPU
-709	2025.04.14 03:33:00	61.0	651	ms	1917	564	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD EPYC 7302P 16-Core Processor (znver2)	62.7	GB	Linux	NVIDIA GPU
-685	2025.04.10 19:45:00	31.7	473	ms	2663	563	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090	GPU	24.0	GB	AMD Ryzen Threadripper PRO 7955WX 16-Cores (znver4)	125.3	GB	Linux	NVIDIA GPU
-96	2025.03.28 21:29:00	28.1	471	ms	2936	560	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 6000 Ada Generation	GPU	48.0	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.5	GB	Linux	NVIDIA GPU
-1113	2025.06.25 12:11:00	58.3	657	ms	1938	556	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	188.3	GB	Linux	NVIDIA GPU
-1022	2025.06.09 07:11:00	59.1	676	ms	1876	547	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	AMD Ryzen 7 3800X 8-Core Processor (znver2)	31.3	GB	Linux	NVIDIA GPU
-457	2025.04.07 03:10:00	59.7	700	ms	1837	539	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	Intel Core i5-4670 CPU @ 3.40GHz (haswell)	15.5	GB	Linux	NVIDIA GPU
-95	2025.03.28 21:29:00	24.9	488	ms	2867	527	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA L40S	GPU	45.0	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.6	GB	Linux	NVIDIA GPU
-512	2025.04.07 19:00:00	39.4	609	ms	2224	524	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 Ti	GPU	12.0	GB	13th Gen Intel Core i7-13700K (alderlake)	63.7	GB	Windows	NVIDIA GPU
-57	2025.03.28 20:47:00	52.0	692	ms	1883	521	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A6000	GPU	48.0	GB	AMD EPYC 7543 32-Core Processor (znver3)	503.7	GB	Linux	NVIDIA GPU
-446	2025.04.06 23:50:00	38.8	613	ms	2212	519	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 Ti	GPU	12.0	GB	13th Gen Intel Core i7-13700K (alderlake)	63.7	GB	Windows	NVIDIA GPU
-93	2025.03.28 21:26:00	24.7	513	ms	2713	508	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA L40	GPU	44.0	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.6	GB	Linux	NVIDIA GPU
-114	2025.03.28 21:51:00	29.9	555	ms	2424	507	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4080 SUPER	GPU	16.0	GB	AMD Ryzen 5 7600 6-Core Processor (znver4)	30.6	GB	Linux	NVIDIA GPU
-99	2025.03.28 21:34:00	23.4	475	ms	2609	505	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA H100 80GB HBM3	GPU	79.0	GB	Intel Xeon Platinum 8470 (sapphirerapids)	1007.3	GB	Linux	NVIDIA GPU
-171	2025.03.30 20:11:00	47.7	859	ms	2317	505	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5070 Ti	GPU	15.0	GB	Intel Core i5-14600KF (alderlake)	62.6	GB	Linux	NVIDIA GPU
-991	2025.06.04 09:46:00	52.2	738	ms	1719	496	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	Intel Xeon CPU E5-2697A v4 @ 2.60GHz (broadwell)	125.7	GB	Linux	NVIDIA GPU
-60	2025.03.28 20:50:00	46.2	713	ms	1834	492	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA A40	GPU	44.0	GB	Intel Xeon Gold 6342 CPU @ 2.80GHz (icelake-server)	503.5	GB	Linux	NVIDIA GPU
-483	2025.04.07 09:41:00	38.8	665	ms	2012	490	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 SUPER	GPU	12.0	GB	13th Gen Intel Core i5-13600K (alderlake)	31.8	GB	Windows	NVIDIA GPU
-954	2025.05.29 21:11:00	46.2	723	ms	1816	488	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA A40	GPU	44.0	GB	Intel Xeon Gold 6338N CPU @ 2.20GHz (icelake-server)	503.4	GB	Linux	NVIDIA GPU
-1112	2025.06.25 11:12:00	40.9	680	ms	1852	481	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	24.0	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	191.6	GB	Windows	NVIDIA GPU
-145	2025.03.28 22:21:00	52.0	802	ms	1595	470	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3080	GPU	10.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	31.3	GB	Linux	NVIDIA GPU
-153	2025.03.28 22:30:00	42.6	752	ms	1752	463	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070	GPU	12.0	GB	Intel Xeon CPU E5-2690 v2 @ 3.00GHz (ivybridge)	62.8	GB	Linux	NVIDIA GPU
-754	2025.04.22 00:08:00	23.7	558	ms	2291	460	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5080	GPU	15.0	GB	AMD Ryzen 9 9950X 16-Core Processor	60.4	GB	Linux	NVIDIA GPU
-752	2025.04.21 23:58:00	23.9	565	ms	2275	458	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5080	GPU	15.0	GB	AMD Ryzen 9 9950X 16-Core Processor	60.4	GB	Linux	NVIDIA GPU
-58	2025.03.28 20:48:00	50.9	846	ms	1524	451	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A5000	GPU	24.0	GB	AMD EPYC 7B13 64-Core Processor (znver3)	251.5	GB	Linux	NVIDIA GPU
-89	2025.03.28 21:23:00	20.5	529	ms	2351	450	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA H100 NVL	GPU	93.0	GB	AMD EPYC 9374F 32-Core Processor (znver4)	1448.6	GB	Linux	NVIDIA GPU
-527	2025.04.07 20:48:00	16.9	521	ms	2471	431	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090	GPU	24.0	GB	AMD Ryzen 7 9800X3D 8-Core Processor	47.6	GB	Windows	NVIDIA GPU
-232	2025.04.04 16:20:00	24.3	754	ms	2451	429	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5090	GPU	31.0	GB	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	62.4	GB	Linux	NVIDIA GPU
-195	2025.04.03 19:54:00	13.6	502	ms	2868	427	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA L40S	GPU	45.0	GB	Intel Xeon Platinum 8458P (sapphirerapids)	62.8	GB	Linux	NVIDIA GPU
-370	2025.04.06 13:52:00	35.0	798	ms	1642	416	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070	GPU	12.0	GB	13th Gen Intel Core i5-13600K (alderlake)	31.8	GB	Windows	NVIDIA GPU
-317	2025.04.05 23:57:00	24.9	718	ms	1793	396	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 SUPER	GPU	12.0	GB	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	61.9	GB	Linux	NVIDIA GPU
-59	2025.03.28 20:49:00	43.8	979	ms	1330	390	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A4500	GPU	20.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	251.6	GB	Linux	NVIDIA GPU
-921	2025.05.19 16:22:00	48.7	1020	ms	1161	381	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Tesla V100-SXM2-32GB	GPU	32.0	GB	Intel Xeon Gold 6152 CPU @ 2.10GHz (skylake-avx512)	503.5	GB	Linux	NVIDIA GPU
-1170	2025.07.02 02:30:00	33.7	945	ms	1418	370	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5060 Ti	GPU	15.0	GB	AMD Ryzen 5 5500 (znver3)	31.2	GB	Linux	NVIDIA GPU
-1154	2025.06.29 19:10:00	32.9	944	ms	1419	367	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5060 Ti	GPU	15.0	GB	13th Gen Intel Core i5-1340P (alderlake)	62.4	GB	Linux	NVIDIA GPU
-573	2025.04.08 09:30:00	42.9	1060	ms	1178	363	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Quadro RTX 8000	GPU	47.0	GB	QEMU Virtual CPU version 2.5+	295.0	GB	Linux	NVIDIA GPU
-83	2025.03.28 21:19:00	31.4	952	ms	1408	359	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 4000 Ada Generation	GPU	20.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	251.6	GB	Linux	NVIDIA GPU
-118	2025.03.28 21:58:00	42.2	1080	ms	1166	357	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 2080 Ti	GPU	11.0	GB	AMD Ryzen 5 3600 6-Core Processor (znver2)	62.7	GB	Linux	NVIDIA GPU
-632	2025.04.09 08:37:00	32.8	968	ms	1337	356	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 3500 Ada Generation Laptop GPU	GPU	12.0	GB	13th Gen Intel Core i9-13980HX (alderlake)	191.7	GB	Windows	NVIDIA GPU
-1103	2025.06.24 19:52:00	34.3	1010	ms	1320	355	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5060 Ti	GPU	15.0	GB	Intel Xeon CPU E5-1620 v3 @ 3.50GHz (haswell)	15.5	GB	Linux	NVIDIA GPU
-670	2025.04.10 15:05:00	37.3	1070	ms	1170	344	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 2080 Ti	GPU	11.0	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	95.9	GB	Windows	NVIDIA GPU
-1012	2025.06.07 01:21:00	13.1	658	ms	1973	340	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090	GPU	24.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	63.6	GB	Windows	NVIDIA GPU
-115	2025.03.28 21:53:00	42.2	1210	ms	962	323	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA TITAN V	GPU	12.0	GB	AMD EPYC 7K62 48-Core Processor (znver2)	125.6	GB	Linux	NVIDIA GPU
-10	2025.03.19 22:30:00	26.9	1070	ms	1266	317	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4060 Ti	GPU	16.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux	NVIDIA GPU
-402	2025.04.06 18:09:00	34.8	1190	ms	1086	317	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A4000	GPU	16.0	GB	AMD Ryzen Threadripper 3960X 24-Core Processor (znver2)	251.5	GB	Linux	NVIDIA GPU
-448	2025.04.07 00:21:00	26.8	1070	ms	1260	316	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4060 Ti	GPU	16.0	GB	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	94.1	GB	Linux	NVIDIA GPU
-73	2025.03.28 21:07:00	20.8	954	ms	1438	315	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA A100 80GB PCIe	GPU	79.0	GB	AMD EPYC 9374F 32-Core Processor (znver4)	1511.6	GB	Linux	NVIDIA GPU
-47	2025.03.28 19:03:00	34.1	1200	ms	1100	315	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A4000	GPU	16.0	GB	AMD EPYC 7702 64-Core Processor (znver2)	503.5	GB	Linux	NVIDIA GPU
-572	2025.04.08 09:16:00	26.2	1090	ms	1260	312	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4060 Ti	GPU	16.0	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	31.2	GB	Linux	NVIDIA GPU
-151	2025.03.28 22:26:00	27.0	1150	ms	1205	305	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4060 Ti	GPU	16.0	GB	AMD EPYC 7K62 48-Core Processor (znver2)	503.5	GB	Linux	NVIDIA GPU
-841	2025.05.07 19:02:00	24.5	1090	ms	1241	303	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4060 Ti	GPU	16.0	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows	NVIDIA GPU
-178	2025.03.30 20:19:00	20.8	1070	ms	1264	290	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5070	GPU	12.0	GB	AMD Ryzen 7 9800X3D 8-Core Processor	123.5	GB	Linux	NVIDIA GPU
-447	2025.04.07 00:20:00	23.5	1210	ms	1119	280	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA L4	GPU	22.0	GB	AMD EPYC 7713P 64-Core Processor (znver3)	125.4	GB	Linux	NVIDIA GPU
-75	2025.03.28 21:08:00	23.6	1270	ms	1072	271	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA L4	GPU	22.0	GB	AMD EPYC 7713 64-Core Processor (znver3)	503.5	GB	Linux	NVIDIA GPU
-423	2025.04.06 20:31:00	19.9	1160	ms	1133	269	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA A10	GPU	22.0	GB	AMD EPYC 9554 64-Core Processor (znver4)	43.0	GB	Linux	NVIDIA GPU
-159	2025.03.28 23:20:00	24.9	1340	ms	1037	268	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 4000 SFF Ada Generation	GPU	20.0	GB	Intel Xeon CPU E5-2690 v4 @ 2.60GHz (broadwell)	251.8	GB	Linux	NVIDIA GPU
-513	2025.04.07 19:06:00	29.7	1560	ms	835	251	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	Intel Xeon CPU E5-2680 v4 @ 2.40GHz (broadwell)	125.8	GB	Linux	NVIDIA GPU
-1082	2025.06.20 00:30:00	41.1	3580	ms	1307	247	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3080	GPU	10.0	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	63.9	GB	Windows	NVIDIA GPU
-1024	2025.06.09 17:51:00	28.4	1550	ms	821	247	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A5000 Laptop GPU	GPU	16.0	GB	Intel Xeon W-11855M CPU @ 3.20GHz (tigerlake)	31.1	GB	Linux	NVIDIA GPU
-820	2025.05.04 12:29:00	28.1	1580	ms	832	245	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows	NVIDIA GPU
-895	2025.05.17 04:33:00	28.4	1520	ms	779	244	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3080 Laptop GPU	GPU	16.0	GB	AMD Ryzen 9 5900HX with Radeon Graphics (znver3)	31.9	GB	Windows	NVIDIA GPU
-838	2025.05.07 12:05:00	10.9	976	ms	1299	244	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 SUPER	GPU	12.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.1	GB	Windows	NVIDIA GPU
-46	2025.03.28 18:59:00	29.2	1650	ms	799	242	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	AMD EPYC 7402P 24-Core Processor (znver2)	251.6	GB	Linux	NVIDIA GPU
-894	2025.05.17 03:38:00	27.4	1580	ms	793	240	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3080 Laptop GPU	GPU	16.0	GB	AMD Ryzen 9 5900HX with Radeon Graphics (znver3)	31.9	GB	Windows	NVIDIA GPU
-1097	2025.06.24 03:55:00	28.6	1660	ms	793	239	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	12th Gen Intel Core i7-12700K (alderlake)	31.1	GB	Linux	NVIDIA GPU
-1038	2025.06.12 21:46:00	27.1	1630	ms	798	237	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.9	GB	Windows	NVIDIA GPU
-1207	2025.07.10 21:54:00	26.9	1620	ms	791	236	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.9	GB	Windows	NVIDIA GPU
-500	2025.04.07 15:40:00	26.0	1610	ms	803	235	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	31.9	GB	Windows	NVIDIA GPU
-474	2025.04.07 05:21:00	27.4	1730	ms	761	229	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	62.7	GB	Linux	NVIDIA GPU
-797	2025.05.03 14:11:00	27.6	1720	ms	752	229	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux	NVIDIA GPU
-404	2025.04.06 18:49:00	35.9	2029	ms	579	217	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Ultra 24P+8E+80GPU	GPU	512.0	GB	Apple M3 Ultra 24P+8E	512.0	GB	Darwin	Apple GPU
-1051	2025.06.14 06:28:00	35.9	2090	ms	568	214	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Ultra 24P+8E+80GPU	GPU	512.0	GB	Apple M3 Ultra 24P+8E	512.0	GB	Darwin	Apple GPU
-130	2025.03.28 22:12:00	29.1	2350	ms	713	207	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	31.3	GB	Linux	NVIDIA GPU
-717	2025.04.14 07:39:00	20.3	1790	ms	748	204	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 2000 Ada Generation	GPU	16.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	47.0	GB	Linux	NVIDIA GPU
-74	2025.03.28 21:07:00	21.0	1830	ms	733	203	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 2000 Ada Generation	GPU	16.0	GB	AMD EPYC 7443 24-Core Processor (znver3)	251.5	GB	Linux	NVIDIA GPU
-582	2025.04.08 10:42:00	24.5	2400	ms	612	184	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6900 XT	GPU	16.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	31.9	GB	Windows	AMD GPU
-479	2025.04.07 08:03:00	34.4	2670	ms	445	179	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Ultra 20P+8E+60GPU	GPU	96.0	GB	Apple M3 Ultra 20P+8E	96.0	GB	Darwin	Apple GPU
-493	2025.04.07 12:10:00	31.6	2670	ms	485	179	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 7900 XTX	GPU	24.0	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	31.9	GB	Windows	AMD GPU
-1000	2025.06.04 20:23:00	27.9	2570	ms	502	176	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Radeon RX 7900 XTX	GPU	24.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.3	GB	Linux	AMD GPU
-1025	2025.06.10 00:02:00	24.2	2570	ms	574	176	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6900 XT	GPU	16.0	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	31.9	GB	Windows	AMD GPU
-1031	2025.06.11 06:02:00	22.2	2460	ms	593	175	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6900 XT	GPU	16.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	31.3	GB	Linux	AMD GPU
-1063	2025.06.16 01:14:00	19.7	2410	ms	531	163	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A2000 12GB	GPU	12.0	GB	Intel Xeon CPU E3-1245 v5 @ 3.50GHz (skylake)	31.9	GB	Windows	NVIDIA GPU
-1087	2025.06.20 23:04:00	33.3	3100	ms	377	159	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Ultra 16P+4E+64GPU	GPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin	Apple GPU
-475	2025.04.07 05:26:00	20.5	2880	ms	505	153	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6800 XT	GPU	16.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux	AMD GPU
-883	2025.05.15 19:16:00	20.0	2920	ms	492	150	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6800 XT	GPU	16.0	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	31.2	GB	Linux	AMD GPU
-1059	2025.06.15 01:13:00	21.1	2820	ms	449	150	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce GTX 1080 Ti	GPU	11.0	GB	AMD FX(tm)-8320 Eight-Core Processor (bdver2)	7.5	GB	Linux	NVIDIA GPU
-578	2025.04.08 10:06:00	30.8	3590	ms	343	143	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin	Apple GPU
-1058	2025.06.15 00:57:00	20.2	2960	ms	424	142	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce GTX 1080 Ti	GPU	11.0	GB	AMD FX(tm)-8320 Eight-Core Processor (bdver2)	7.5	GB	Linux	NVIDIA GPU
-498	2025.04.07 15:14:00	30.8	3680	ms	338	141	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin	Apple GPU
-1030	2025.06.11 04:59:00	19.6	3050	ms	412	138	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce GTX 1080 Ti	GPU	11.0	GB	AMD FX(tm)-8320 Eight-Core Processor (bdver2)	7.5	GB	Linux	NVIDIA GPU
-1191	2025.07.07 12:47:00	28.0	3600	ms	328	137	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	48.0	GB	Apple M4 Max 12P+4E	48.0	GB	Darwin	Apple GPU
-494	2025.04.07 12:11:00	19.5	3530	ms	404	131	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6800	GPU	16.0	GB	12th Gen Intel Core i5-12400F (alderlake)	15.8	GB	Windows	AMD GPU
-394	2025.04.06 17:10:00	28.3	3870	ms	308	131	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin	Apple GPU
-769	2025.04.26 03:53:00	13.3	2760	ms	450	130	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Tesla T4	GPU	15.0	GB	Intel Xeon CPU @ 2.00GHz (skylake-avx512)	31.4	GB	Linux	NVIDIA GPU
-933	2025.05.23 09:39:00	26.5	3990	ms	299	126	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin	Apple GPU
-308	2025.04.05 23:10:00	27.8	4030	ms	290	126	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Ultra 16P+4E+48GPU	GPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin	Apple GPU
-502	2025.04.07 16:09:00	26.6	4000	ms	301	126	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin	Apple GPU
-395	2025.04.06 17:11:00	27.7	4059	ms	289	125	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Ultra 16P+4E+48GPU	GPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin	Apple GPU
-787	2025.04.30 14:18:00	27.3	4450	ms	280	120	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 10P+4E+32GPU	GPU	36.0	GB	Apple M4 Max 10P+4E	36.0	GB	Darwin	Apple GPU
-607	2025.04.08 15:35:00	23.0	4220	ms	316	120	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 7800 XT	GPU	16.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	63.9	GB	Windows	AMD GPU
-1003	2025.06.05 23:16:00	23.0	4160	ms	302	119	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD  Radeon RX 7800 XT	GPU	16.0	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	31.9	GB	Windows	AMD GPU
-162	2025.03.30 19:38:00	26.4	4460	ms	277	118	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 10P+4E+32GPU	GPU	36.0	GB	Apple M4 Max 10P+4E	36.0	GB	Darwin	Apple GPU
-887	2025.05.16 13:02:00	23.0	4350	ms	302	117	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 7800 XT	GPU	16.0	GB	13th Gen Intel Core i7-13700 (alderlake)	31.8	GB	Windows	AMD GPU
-515	2025.04.07 19:27:00	25.2	4800	ms	252	110	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M2 Max 8P+4E+38GPU	GPU	96.0	GB	Apple M2 Max 8P+4E	96.0	GB	Darwin	Apple GPU
-526	2025.04.07 20:47:00	23.1	4820	ms	255	107	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin	Apple GPU
-687	2025.04.10 21:12:00	22.2	4830	ms	248	105	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 10P+4E+32GPU	GPU	36.0	GB	Apple M4 Max 10P+4E	36.0	GB	Darwin	Apple GPU
-1106	2025.06.25 02:38:00	14.9	4280	ms	303	102	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Quadro P5000	GPU	16.0	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	62.5	GB	Linux	NVIDIA GPU
-791	2025.05.01 06:46:00	20.9	5090	ms	242	100	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Max 10P+4E+30GPU	GPU	96.0	GB	Apple M3 Max 10P+4E	96.0	GB	Darwin	Apple GPU
-949	2025.05.27 19:13:00	15.7	4940	ms	316	100	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6700 XT	GPU	12.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.3	GB	Linux	AMD GPU
-792	2025.05.01 17:50:00	20.7	5230	ms	236	98	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Max 10P+4E+30GPU	GPU	96.0	GB	Apple M3 Max 10P+4E	96.0	GB	Darwin	Apple GPU
-947	2025.05.26 08:34:00	20.5	5430	ms	230	95	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Max 10P+4E+30GPU	GPU	36.0	GB	Apple M3 Max 10P+4E	36.0	GB	Darwin	Apple GPU
-746	2025.04.20 02:21:00	13.4	5600	ms	357	95	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	12.0	GB	Intel Xeon CPU E5-2670 v3 @ 2.30GHz (haswell)	63.9	GB	Windows	NVIDIA GPU
-1086	2025.06.20 22:36:00	19.0	5380	ms	222	92	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Max 10P+4E+30GPU	GPU	36.0	GB	Apple M3 Max 10P+4E	36.0	GB	Darwin	Apple GPU
-113	2025.03.28 21:50:00	20.5	5710	ms	204	90	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Tesla P100-SXM2-16GB	GPU	16.0	GB	Intel Xeon Gold 6138 CPU @ 2.00GHz (skylake-avx512)	376.5	GB	Linux	NVIDIA GPU
-1110	2025.06.25 09:50:00	19.6	6040	ms	197	86	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Max 8P+2E+32GPU	GPU	32.0	GB	Apple M1 Max 8P+2E	32.0	GB	Darwin	Apple GPU
-892	2025.05.16 21:48:00	20.5	6520	ms	191	84	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Max 8P+2E+32GPU	GPU	32.0	GB	Apple M1 Max 8P+2E	32.0	GB	Darwin	Apple GPU
-230	2025.04.04 15:48:00	7.5	5550	ms	430	83	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060 Ti	GPU	8.0	GB	AMD Ryzen 5 5600 6-Core Processor (znver3)	63.9	GB	Windows	NVIDIA GPU
-799	2025.05.03 14:26:00	18.5	6180	ms	188	83	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Max 8P+2E+32GPU	GPU	64.0	GB	Apple M1 Max 8P+2E	64.0	GB	Darwin	Apple GPU
-1101	2025.06.24 09:47:00	18.1	6480	ms	195	82	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin	Apple GPU
-777	2025.04.27 03:43:00	18.0	6600	ms	192	81	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin	Apple GPU
-877	2025.05.15 01:59:00	18.1	6660	ms	189	80	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin	Apple GPU
-566	2025.04.08 07:55:00	18.0	6660	ms	189	80	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	24.0	GB	Apple M4 Pro 10P+4E	24.0	GB	Darwin	Apple GPU
-1177	2025.07.04 19:03:00	18.2	6820	ms	187	79	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin	Apple GPU
-649	2025.04.09 18:46:00	3.0	3110	ms	496	78	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6900 XT	GPU	16.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows	AMD GPU
-815	2025.05.04 10:29:00	17.1	6850	ms	180	77	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin	Apple GPU
-369	2025.04.06 13:42:00	17.8	6960	ms	180	77	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	64.0	GB	Apple M4 Pro 10P+4E	64.0	GB	Darwin	Apple GPU
-900	2025.05.18 19:26:00	18.1	7130	ms	178	77	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Max 8P+2E+32GPU	GPU	32.0	GB	Apple M1 Max 8P+2E	32.0	GB	Darwin	Apple GPU
-784	2025.04.29 18:54:00	20.9	8170	ms	171	76	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD EPYC 9454P 48-Core Processor (znver4)	CPU	251.4	GB	AMD EPYC 9454P 48-Core Processor (znver4)	251.4	GB	Linux	AMD CPU
-371	2025.04.06 13:54:00	17.7	7100	ms	178	76	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	64.0	GB	Apple M4 Pro 10P+4E	64.0	GB	Darwin	Apple GPU
-952	2025.05.29 11:35:00	17.2	7410	ms	170	73	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Max 8P+2E+32GPU	GPU	64.0	GB	Apple M1 Max 8P+2E	64.0	GB	Darwin	Apple GPU
-829	2025.05.05 23:00:00	17.5	7670	ms	160	72	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Max 8P+2E+24GPU	GPU	64.0	GB	Apple M1 Max 8P+2E	64.0	GB	Darwin	Apple GPU
-672	2025.04.10 18:28:00	16.8	7840	ms	161	70	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 8P+4E+16GPU	GPU	48.0	GB	Apple M4 Pro 8P+4E	48.0	GB	Darwin	Apple GPU
-922	2025.05.20 17:26:00	26.1	10270	ms	132	70	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD EPYC 9135 16-Core Processor	CPU	251.3	GB	AMD EPYC 9135 16-Core Processor	251.3	GB	Linux	AMD CPU
-943	2025.05.25 09:42:00	16.6	8250	ms	153	67	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 8P+4E+16GPU	GPU	24.0	GB	Apple M4 Pro 8P+4E	24.0	GB	Darwin	Apple GPU
-472	2025.04.07 04:42:00	5.1	8070	ms	376	62	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3070	GPU	8.0	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	31.9	GB	Windows	NVIDIA GPU
-702	2025.04.12 17:34:00	2.5	4040	ms	368	61	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6800	GPU	16.0	GB	AMD Ryzen 5 8500G w/ Radeon 740M Graphics (znver4)	31.1	GB	Windows	AMD GPU
-428	2025.04.06 21:28:00	12.2	8550	ms	151	60	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 6P+6E+18GPU	GPU	36.0	GB	Apple M3 Pro 6P+6E	36.0	GB	Darwin	Apple GPU
-930	2025.05.22 08:17:00	14.1	9100	ms	137	60	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M2 Pro 8P+4E+19GPU	GPU	32.0	GB	Apple M2 Pro 8P+4E	32.0	GB	Darwin	Apple GPU
-581	2025.04.08 10:27:00	12.1	8570	ms	149	59	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 6P+6E+18GPU	GPU	36.0	GB	Apple M3 Pro 6P+6E	36.0	GB	Darwin	Apple GPU
-401	2025.04.06 17:43:00	11.6	8970	ms	144	57	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 6P+6E+18GPU	GPU	18.0	GB	Apple M3 Pro 6P+6E	18.0	GB	Darwin	Apple GPU
-867	2025.05.14 08:47:00	12.2	10560	ms	121	52	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 5P+6E+14GPU	GPU	36.0	GB	Apple M3 Pro 5P+6E	36.0	GB	Darwin	Apple GPU
-337	2025.04.06 01:30:00	3.5	7990	ms	327	52	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4060 Ti	GPU	8.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows	NVIDIA GPU
-263	2025.04.05 01:27:00	12.0	10750	ms	117	51	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 5P+6E+14GPU	GPU	18.0	GB	Apple M3 Pro 5P+6E	18.0	GB	Darwin	Apple GPU
-1174	2025.07.02 18:39:00	11.9	10830	ms	117	51	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 5P+6E+14GPU	GPU	18.0	GB	Apple M3 Pro 5P+6E	18.0	GB	Darwin	Apple GPU
-1099	2025.06.24 09:25:00	12.0	10730	ms	119	51	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 5P+6E+14GPU	GPU	36.0	GB	Apple M3 Pro 5P+6E	36.0	GB	Darwin	Apple GPU
-929	2025.05.22 07:55:00	11.9	11840	ms	107	48	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 8P+2E+16GPU	GPU	16.0	GB	Apple M1 Pro 8P+2E	16.0	GB	Darwin	Apple GPU
-814	2025.05.04 10:27:00	11.9	11740	ms	108	48	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 8P+2E+16GPU	GPU	32.0	GB	Apple M1 Pro 8P+2E	32.0	GB	Darwin	Apple GPU
-1006	2025.06.06 10:24:00	11.6	12000	ms	105	47	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 8P+2E+16GPU	GPU	32.0	GB	Apple M1 Pro 8P+2E	32.0	GB	Darwin	Apple GPU
-1062	2025.06.15 21:28:00	11.2	12600	ms	99	44	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 8P+2E+16GPU	GPU	32.0	GB	Apple M1 Pro 8P+2E	32.0	GB	Darwin	Apple GPU
-1098	2025.06.24 08:55:00	11.0	13240	ms	95	43	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 6P+2E+14GPU	GPU	16.0	GB	Apple M1 Pro 6P+2E	16.0	GB	Darwin	Apple GPU
-923	2025.05.20 17:32:00	7.5	11600	ms	120	43	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 9950X3D 16-Core Processor	CPU	92.0	GB	AMD Ryzen 9 9950X3D 16-Core Processor	92.0	GB	Linux	AMD CPU
-504	2025.04.07 16:28:00	10.8	13390	ms	94	42	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 6P+2E+14GPU	GPU	16.0	GB	Apple M1 Pro 6P+2E	16.0	GB	Darwin	Apple GPU
-964	2025.05.31 22:59:00	10.8	13390	ms	92	42	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 6P+2E+14GPU	GPU	16.0	GB	Apple M1 Pro 6P+2E	16.0	GB	Darwin	Apple GPU
-38	2025.03.28 18:09:00	9.6	13390	ms	96	41	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 4P+6E+10GPU	GPU	16.0	GB	Apple M4 4P+6E	16.0	GB	Darwin	Apple GPU
-311	2025.04.05 23:32:00	5.8	15140	ms	90	33	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	CPU	61.9	GB	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	61.9	GB	Linux	AMD CPU
-956	2025.05.30 19:49:00	8.1	16850	ms	71	32	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 4P+6E+10GPU	GPU	32.0	GB	Apple M4 4P+6E	32.0	GB	Darwin	Apple GPU
-778	2025.04.27 22:10:00	8.0	17300	ms	71	32	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 4P+6E+10GPU	GPU	32.0	GB	Apple M4 4P+6E	32.0	GB	Darwin	Apple GPU
-396	2025.04.06 17:16:00	7.3	18030	ms	70	31	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M2 4P+4E+10GPU	GPU	24.0	GB	Apple M2 4P+4E	24.0	GB	Darwin	Apple GPU
-1118	2025.06.25 18:18:00	14.4	27080	ms	53	30	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon Graphics	GPU	32.0	GB	Intel Core i9-14900K (alderlake)	94.0	GB	Linux	AMD GPU
-562	2025.04.08 06:48:00	6.3	17710	ms	67	29	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 4P+4E+10GPU	GPU	24.0	GB	Apple M3 4P+4E	24.0	GB	Darwin	Apple GPU
-1205	2025.07.09 22:40:00	8.2	22240	ms	60	28	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen Threadripper 3960X 24-Core Processor (znver2)	CPU	62.7	GB	AMD Ryzen Threadripper 3960X 24-Core Processor (znver2)	62.7	GB	Linux	AMD CPU
-1041	2025.06.12 23:10:00	8.6	24120	ms	56	27	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon w5-3425 (sapphirerapids)	CPU	63.3	GB	Intel Xeon w5-3425 (sapphirerapids)	63.3	GB	Windows	Intel CPU
-987	2025.06.03 10:22:00	6.1	22740	ms	65	26	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 4P+4E+10GPU	GPU	24.0	GB	Apple M3 4P+4E	24.0	GB	Darwin	Apple GPU
-208	2025.04.03 23:27:00	9.3	27050	ms	51	26	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	CPU	94.3	GB	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	94.3	GB	Linux	Intel CPU
-655	2025.04.09 23:20:00	5.5	23990	ms	60	24	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux	AMD CPU
-650	2025.04.09 19:01:00	5.7	26010	ms	61	24	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 7945HX with Radeon Graphics (znver4)	CPU	23.3	GB	AMD Ryzen 9 7945HX with Radeon Graphics (znver4)	23.3	GB	Linux	AMD CPU
-721	2025.04.14 14:08:00	7.1	26300	ms	51	24	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	CPU	26.5	GB	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	26.5	GB	Linux	AMD CPU
-1057	2025.06.14 23:22:00	5.4	24550	ms	53	23	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 4P+4E+8GPU	GPU	16.0	GB	Apple M1 4P+4E	16.0	GB	Darwin	Apple GPU
-318	2025.04.05 23:59:00	8.0	32940	ms	39	21	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Ultra 16P+4E	CPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin	Apple CPU
-528	2025.04.07 21:02:00	6.1	29880	ms	46	21	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	CPU	62.3	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	62.3	GB	Windows	AMD CPU
-583	2025.04.08 10:52:00	5.8	33680	ms	41	19	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 7840HS w/ Radeon 780M Graphics (znver4)	CPU	30.7	GB	AMD Ryzen 7 7840HS w/ Radeon 780M Graphics (znver4)	30.7	GB	Linux	AMD CPU
-1037	2025.06.12 19:09:00	5.1	33990	ms	45	19	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	31.3	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	31.3	GB	Windows	AMD CPU
-1180	2025.07.04 20:15:00	4.4	30790	ms	44	19	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon CPU E5-2680 v4 @ 2.40GHz (broadwell)	CPU	125.8	GB	Intel Xeon CPU E5-2680 v4 @ 2.40GHz (broadwell)	125.8	GB	Linux	Intel CPU
-1065	2025.06.16 17:11:00	6.1	38790	ms	36	18	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core Ultra 9 285K (arrowlake-s)	CPU	127.3	GB	Intel Core Ultra 9 285K (arrowlake-s)	127.3	GB	Windows	Intel CPU
-226	2025.04.04 05:06:00	4.8	31760	ms	41	18	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 4P+4E+7GPU	GPU	16.0	GB	Apple M1 4P+4E	16.0	GB	Darwin	Apple GPU
-320	2025.04.06 00:17:00	5.6	35700	ms	38	18	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	CPU	31.6	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows	AMD CPU
-969	2025.06.02 03:45:00	8.6	47140	ms	29	17	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon Gold 5218 CPU @ 2.30GHz (cascadelake)	CPU	754.5	GB	Intel Xeon Gold 5218 CPU @ 2.30GHz (cascadelake)	754.5	GB	Linux	Intel CPU
-803	2025.05.03 16:34:00	4.4	34940	ms	38	17	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux	AMD CPU
-846	2025.05.09 03:35:00	4.3	38420	ms	37	16	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 5800X 8-Core Processor (znver3)	CPU	92.2	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	92.2	GB	Linux	AMD CPU
-993	2025.06.04 10:22:00	5.8	49800	ms	28	15	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon CPU E5-2697A v4 @ 2.60GHz (broadwell)	CPU	125.7	GB	Intel Xeon CPU E5-2697A v4 @ 2.60GHz (broadwell)	125.7	GB	Linux	Intel CPU
-608	2025.04.08 16:17:00	5.0	45940	ms	30	15	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5900X 12-Core Processor (znver3)	CPU	63.9	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	63.9	GB	Windows	AMD CPU
-968	2025.06.01 22:12:00	3.1	35240	ms	38	15	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	95.9	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	95.9	GB	Windows	AMD CPU
-629	2025.04.09 03:57:00	4.7	42830	ms	31	15	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics (znver4)	CPU	61.5	GB	AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics (znver4)	61.5	GB	Linux	AMD CPU
-524	2025.04.07 20:38:00	4.6	46610	ms	30	14	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 5700G with Radeon Graphics (znver3)	CPU	31.2	GB	AMD Ryzen 7 5700G with Radeon Graphics (znver3)	31.2	GB	Linux	AMD CPU
-1021	2025.06.09 00:36:00	4.2	45420	ms	31	14	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	CPU	47.9	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	47.9	GB	Windows	AMD CPU
-209	2025.04.03 23:31:00	7.0	64220	ms	21	13	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	CPU	31.3	GB	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	31.3	GB	Linux	Intel CPU
-567	2025.04.08 08:05:00	3.6	44830	ms	31	13	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	92.3	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	92.3	GB	Linux	AMD CPU
-343	2025.04.06 01:57:00	4.2	58230	ms	23	12	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 3900X 12-Core Processor (znver2)	CPU	64.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	64.0	GB	Windows	AMD CPU
-506	2025.04.07 17:06:00	5.3	64879	ms	22	12	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core Ultra 7 265K (arrowlake-s)	CPU	30.7	GB	Intel Core Ultra 7 265K (arrowlake-s)	30.7	GB	Linux	Intel CPU
-893	2025.05.17 01:55:00	4.5	59670	ms	23	12	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5900HX with Radeon Graphics (znver3)	CPU	31.9	GB	AMD Ryzen 9 5900HX with Radeon Graphics (znver3)	31.9	GB	Windows	AMD CPU
-439	2025.04.06 23:04:00	4.1	61510	ms	23	12	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 3700X 8-Core Processor (znver2)	CPU	31.3	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	31.3	GB	Linux	AMD CPU
-534	2025.04.07 21:50:00	3.4	65040	ms	22	11	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 PRO 4750G with Radeon Graphics (znver2)	CPU	46.4	GB	AMD Ryzen 7 PRO 4750G with Radeon Graphics (znver2)	46.4	GB	Linux	AMD CPU
-1064	2025.06.16 01:23:00	4.1	70720	ms	20	11	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 4800U with Radeon Graphics (znver2)	CPU	30.3	GB	AMD Ryzen 7 4800U with Radeon Graphics (znver2)	30.3	GB	Linux	AMD CPU
-210	2025.04.03 23:38:00	5.1	84330	ms	17	10	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	DO-Premium-Intel (skylake-avx512)	CPU	31.3	GB	DO-Premium-Intel (skylake-avx512)	31.3	GB	Linux	Intel CPU
-197	2025.04.03 20:09:00	4.5	81350	ms	17	10	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon CPU E5-2697 v2 @ 2.70GHz (ivybridge)	CPU	251.8	GB	Intel Xeon CPU E5-2697 v2 @ 2.70GHz (ivybridge)	251.8	GB	Linux	Intel CPU
-574	2025.04.08 09:55:00	2.9	64670	ms	22	10	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 PRO 5750GE with Radeon Graphics (znver3)	CPU	15.0	GB	AMD Ryzen 7 PRO 5750GE with Radeon Graphics (znver3)	15.0	GB	Linux	AMD CPU
-454	2025.04.07 01:33:00	4.7	78020	ms	18	10	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	CPU	94.1	GB	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	94.1	GB	Linux	AMD CPU
-1107	2025.06.25 03:23:00	5.3	81740	ms	17	10	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	CPU	62.5	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	62.5	GB	Linux	Intel CPU
-635	2025.04.09 09:20:00	3.1	66600	ms	20	10	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	CPU	31.9	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	31.9	GB	Windows	AMD CPU
-756	2025.04.22 07:50:00	4.5	86830	ms	16	9	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon CPU E5-2630 v4 @ 2.20GHz (broadwell)	CPU	127.9	GB	Intel Xeon CPU E5-2630 v4 @ 2.20GHz (broadwell)	127.9	GB	Windows	Intel CPU
-631	2025.04.09 08:25:00	3.6	89140	ms	15	9	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	13th Gen Intel Core i9-13980HX (alderlake)	CPU	191.7	GB	13th Gen Intel Core i9-13980HX (alderlake)	191.7	GB	Windows	Intel CPU
-816	2025.05.04 10:56:00	4.1	87080	ms	16	9	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	CPU	31.9	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows	Intel CPU
-204	2025.04.03 22:07:00	4.8	111060	ms	12	8	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	DO-Premium-AMD (znver2)	CPU	31.3	GB	DO-Premium-AMD (znver2)	31.3	GB	Linux	Other
-603	2025.04.08 14:07:00	3.3	94400	ms	15	8	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	13th Gen Intel Core i7-13620H (alderlake)	CPU	31.1	GB	13th Gen Intel Core i7-13620H (alderlake)	31.1	GB	Linux	Intel CPU
-1216	2025.07.14 12:02:00	4.6	116840	ms	13	8	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon Silver 4210R CPU @ 2.40GHz (cascadelake)	CPU	62.4	GB	Intel Xeon Silver 4210R CPU @ 2.40GHz (cascadelake)	62.4	GB	Linux	Intel CPU
-1181	2025.07.04 20:15:00	4.2	117370	ms	12	8	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon Silver 4110 CPU @ 2.10GHz (skylake-avx512)	CPU	30.8	GB	Intel Xeon Silver 4110 CPU @ 2.10GHz (skylake-avx512)	30.8	GB	Linux	Intel CPU
-1096	2025.06.23 18:13:00	3.6	122840	ms	11	7	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	CPU	63.7	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	63.7	GB	Windows	Intel CPU
-361	2025.04.06 09:15:00	3.8	136080	ms	10	7	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	CPU	15.7	GB	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	15.7	GB	Windows	Intel CPU
-525	2025.04.07 20:43:00	4.1	117570	ms	12	7	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon Silver 4110 CPU @ 2.10GHz (skylake-avx512)	CPU	30.8	GB	Intel Xeon Silver 4110 CPU @ 2.10GHz (skylake-avx512)	30.8	GB	Linux	Intel CPU
-931	2025.05.22 10:39:00	3.1	126790	ms	12	7	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	12th Gen Intel Core i7-1280P (alderlake)	CPU	15.3	GB	12th Gen Intel Core i7-1280P (alderlake)	15.3	GB	Linux	Intel CPU
-1211	2025.07.12 11:16:00	3.4	145260	ms	9	6	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	CPU	15.3	GB	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	15.3	GB	Linux	Intel CPU
-724	2025.04.15 03:55:00	2.7	185910	ms	7	5	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core Ultra 7 155U (alderlake)	CPU	63.5	GB	Intel Core Ultra 7 155U (alderlake)	63.5	GB	Windows	Intel CPU
-456	2025.04.07 02:24:00	2.6	183560	ms	8	5	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	CPU	31.2	GB	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	31.2	GB	Windows	Intel CPU
-1169	2025.07.01 19:40:00	3.0	213280	ms	7	5	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon CPU E5-1620 v4 @ 3.50GHz (broadwell)	CPU	31.9	GB	Intel Xeon CPU E5-1620 v4 @ 3.50GHz (broadwell)	31.9	GB	FreeBSD	Intel CPU
-948	2025.05.26 17:55:00	3.3	195980	ms	7	5	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core Ultra 7 268V (arrowlake-s)	CPU	30.4	GB	Intel Core Ultra 7 268V (arrowlake-s)	30.4	GB	Linux	Intel CPU
-589	2025.04.08 11:36:00	2.2	206650	ms	7	4	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core i5-8300H CPU @ 2.30GHz (skylake)	CPU	23.9	GB	Intel Core i5-8300H CPU @ 2.30GHz (skylake)	23.9	GB	Windows	Intel CPU
-835	2025.05.06 14:17:00	2.1	242770	ms	6	4	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	CPU	15.3	GB	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	15.3	GB	Linux	Intel CPU
-1137	2025.06.27 11:15:00	2.0	243740	ms	6	4	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M		CPU	24.4	GB		24.4	GB	Linux	Other
-1217	2025.07.14 12:24:00	1.6	308340	ms	5	3	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core i5-10310U CPU @ 1.70GHz (skylake)	CPU	30.7	GB	Intel Core i5-10310U CPU @ 1.70GHz (skylake)	30.7	GB	Linux	Intel CPU
-1166	2025.07.01 01:46:00	1.3	423430	ms	3	2	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core i7-6600U CPU @ 2.60GHz (skylake)	CPU	15.7	GB	Intel Core i7-6600U CPU @ 2.60GHz (skylake)	15.7	GB	FreeBSD	Intel CPU
-1206	2025.07.10 10:58:00	1.2	370380	ms	3	2	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	13th Gen Intel Core i5-1335U (alderlake)	CPU	63.2	GB	13th Gen Intel Core i5-1335U (alderlake)	63.2	GB	Windows	Intel CPU
+test_num	test_date	gen_tps	ttft	ttft_unit	prompt_tps	localscore	model_name	model_quant	model_params	model_params_unit	accel_name	accel_type	accel_group	accel_ram	accel_ram_unit	system_cpu	system_ram	system_ram_unit	system_os
+939	2025.05.24 01:45:00	81.1	245	ms	5126	1193	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX PRO 6000 Blackwell Workstation Edition	GPU	NVIDIA GPU	95.0	GB	AMD Ryzen Threadripper 3970X 32-Core Processor (znver2)	125.6	GB	Linux
+175	2025.03.30 20:15:00	65.1	279	ms	4787	1037	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5090	GPU	NVIDIA GPU	31.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	125.7	GB	Linux
+177	2025.03.30 20:19:00	65.3	281	ms	4777	1036	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5090	GPU	NVIDIA GPU	31.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	125.7	GB	Linux
+970	2025.06.02 04:08:00	70.5	336	ms	3905	935	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090 D	GPU	NVIDIA GPU	47.0	GB	Intel Xeon Gold 5218 CPU @ 2.30GHz (cascadelake)	503.7	GB	Linux
+149	2025.03.28 22:24:00	70.8	335	ms	3828	931	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090	GPU	NVIDIA GPU	24.0	GB	AMD EPYC 7B13 64-Core Processor (znver3)	2003.9	GB	Linux
+530	2025.04.07 21:14:00	60.3	322	ms	4106	916	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090	GPU	NVIDIA GPU	24.0	GB	13th Gen Intel Core i7-13700K (alderlake)	63.8	GB	Windows
+673	2025.04.10 18:35:00	70.0	369	ms	3552	877	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 6000 Ada Generation	GPU	NVIDIA GPU	47.0	GB	AMD Ryzen Threadripper PRO 5975WX 32-Cores (znver3)	503.5	GB	Linux
+72	2025.03.28 21:06:00	72.2	417	ms	2973	802	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA H100 PCIe	GPU	NVIDIA GPU	79.0	GB	Intel Xeon Platinum 8352Y CPU @ 2.20GHz (icelake-server)	2015.5	GB	Linux
+172	2025.03.30 20:11:00	65.0	719	ms	4758	755	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5090	GPU	NVIDIA GPU	31.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	125.7	GB	Linux
+518	2025.04.07 20:00:00	52.1	488	ms	2665	658	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4080	GPU	NVIDIA GPU	16.0	GB	Intel Core i5-14600K (alderlake)	63.8	GB	Windows
+133	2025.03.28 22:15:00	64.6	552	ms	2317	647	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090 Ti	GPU	NVIDIA GPU	24.0	GB	Intel Xeon CPU E5-2699 v3 @ 2.30GHz (haswell)	125.8	GB	Linux
+150	2025.03.28 22:25:00	53.6	521	ms	2526	638	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 Ti SUPER	GPU	NVIDIA GPU	16.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.7	GB	Linux
+419	2025.04.06 20:08:00	65.1	592	ms	2185	622	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux
+91	2025.03.28 21:24:00	31.9	429	ms	3161	617	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 9 7950X 16-Core Processor (znver4)	125.0	GB	Linux
+66	2025.03.28 20:58:00	66.3	592	ms	2069	614	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA A100-SXM4-80GB	GPU	NVIDIA GPU	79.0	GB	AMD EPYC 7713 64-Core Processor (znver3)	1007.7	GB	Linux
+406	2025.04.06 19:02:00	63.4	610	ms	2131	605	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux
+710	2025.04.14 03:36:00	62.0	601	ms	2126	603	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD EPYC 7302P 16-Core Processor (znver2)	62.7	GB	Linux
+712	2025.04.14 03:42:00	61.8	605	ms	2106	599	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD EPYC 7302P 16-Core Processor (znver2)	62.7	GB	Linux
+560	2025.04.08 06:28:00	47.3	550	ms	2382	589	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 Ti SUPER	GPU	NVIDIA GPU	16.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	127.9	GB	Windows
+140	2025.03.28 22:18:00	59.9	617	ms	2090	588	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3080 Ti	GPU	NVIDIA GPU	12.0	GB	Intel Xeon CPU E5-2690 v4 @ 2.60GHz (broadwell)	125.7	GB	Linux
+196	2025.04.03 20:00:00	62.4	619	ms	1969	583	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090 Ti	GPU	NVIDIA GPU	24.0	GB	11th Gen Intel Core i5-11400F @ 2.60GHz (rocketlake)	62.7	GB	Linux
+659	2025.04.10 00:07:00	59.6	631	ms	2049	578	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	31.2	GB	Linux
+405	2025.04.06 18:59:00	60.5	641	ms	2034	577	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux
+1094	2025.06.23 09:47:00	50.7	578	ms	2189	577	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	53.6	GB	Linux
+2	2025.03.19 21:53:00	59.9	640	ms	2005	573	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux
+711	2025.04.14 03:39:00	59.0	632	ms	2007	572	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD EPYC 7302P 16-Core Processor (znver2)	62.7	GB	Linux
+459	2025.04.07 03:15:00	59.8	641	ms	2010	572	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	Intel Core i5-4670 CPU @ 3.40GHz (haswell)	15.5	GB	Linux
+709	2025.04.14 03:33:00	61.0	651	ms	1917	564	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD EPYC 7302P 16-Core Processor (znver2)	62.7	GB	Linux
+685	2025.04.10 19:45:00	31.7	473	ms	2663	563	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen Threadripper PRO 7955WX 16-Cores (znver4)	125.3	GB	Linux
+96	2025.03.28 21:29:00	28.1	471	ms	2936	560	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 6000 Ada Generation	GPU	NVIDIA GPU	48.0	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.5	GB	Linux
+1113	2025.06.25 12:11:00	58.3	657	ms	1938	556	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	188.3	GB	Linux
+1022	2025.06.09 07:11:00	59.1	676	ms	1876	547	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 7 3800X 8-Core Processor (znver2)	31.3	GB	Linux
+457	2025.04.07 03:10:00	59.7	700	ms	1837	539	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	Intel Core i5-4670 CPU @ 3.40GHz (haswell)	15.5	GB	Linux
+95	2025.03.28 21:29:00	24.9	488	ms	2867	527	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA L40S	GPU	NVIDIA GPU	45.0	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.6	GB	Linux
+512	2025.04.07 19:00:00	39.4	609	ms	2224	524	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 Ti	GPU	NVIDIA GPU	12.0	GB	13th Gen Intel Core i7-13700K (alderlake)	63.7	GB	Windows
+57	2025.03.28 20:47:00	52.0	692	ms	1883	521	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A6000	GPU	NVIDIA GPU	48.0	GB	AMD EPYC 7543 32-Core Processor (znver3)	503.7	GB	Linux
+446	2025.04.06 23:50:00	38.8	613	ms	2212	519	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 Ti	GPU	NVIDIA GPU	12.0	GB	13th Gen Intel Core i7-13700K (alderlake)	63.7	GB	Windows
+93	2025.03.28 21:26:00	24.7	513	ms	2713	508	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA L40	GPU	NVIDIA GPU	44.0	GB	AMD EPYC 9354 32-Core Processor (znver4)	755.6	GB	Linux
+114	2025.03.28 21:51:00	29.9	555	ms	2424	507	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4080 SUPER	GPU	NVIDIA GPU	16.0	GB	AMD Ryzen 5 7600 6-Core Processor (znver4)	30.6	GB	Linux
+99	2025.03.28 21:34:00	23.4	475	ms	2609	505	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA H100 80GB HBM3	GPU	NVIDIA GPU	79.0	GB	Intel Xeon Platinum 8470 (sapphirerapids)	1007.3	GB	Linux
+171	2025.03.30 20:11:00	47.7	859	ms	2317	505	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5070 Ti	GPU	NVIDIA GPU	15.0	GB	Intel Core i5-14600KF (alderlake)	62.6	GB	Linux
+991	2025.06.04 09:46:00	52.2	738	ms	1719	496	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	Intel Xeon CPU E5-2697A v4 @ 2.60GHz (broadwell)	125.7	GB	Linux
+60	2025.03.28 20:50:00	46.2	713	ms	1834	492	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA A40	GPU	NVIDIA GPU	44.0	GB	Intel Xeon Gold 6342 CPU @ 2.80GHz (icelake-server)	503.5	GB	Linux
+483	2025.04.07 09:41:00	38.8	665	ms	2012	490	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 SUPER	GPU	NVIDIA GPU	12.0	GB	13th Gen Intel Core i5-13600K (alderlake)	31.8	GB	Windows
+954	2025.05.29 21:11:00	46.2	723	ms	1816	488	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA A40	GPU	NVIDIA GPU	44.0	GB	Intel Xeon Gold 6338N CPU @ 2.20GHz (icelake-server)	503.4	GB	Linux
+1112	2025.06.25 11:12:00	40.9	680	ms	1852	481	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3090	GPU	NVIDIA GPU	24.0	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	191.6	GB	Windows
+145	2025.03.28 22:21:00	52.0	802	ms	1595	470	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3080	GPU	NVIDIA GPU	10.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	31.3	GB	Linux
+153	2025.03.28 22:30:00	42.6	752	ms	1752	463	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070	GPU	NVIDIA GPU	12.0	GB	Intel Xeon CPU E5-2690 v2 @ 3.00GHz (ivybridge)	62.8	GB	Linux
+754	2025.04.22 00:08:00	23.7	558	ms	2291	460	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5080	GPU	NVIDIA GPU	15.0	GB	AMD Ryzen 9 9950X 16-Core Processor	60.4	GB	Linux
+752	2025.04.21 23:58:00	23.9	565	ms	2275	458	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5080	GPU	NVIDIA GPU	15.0	GB	AMD Ryzen 9 9950X 16-Core Processor	60.4	GB	Linux
+58	2025.03.28 20:48:00	50.9	846	ms	1524	451	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A5000	GPU	NVIDIA GPU	24.0	GB	AMD EPYC 7B13 64-Core Processor (znver3)	251.5	GB	Linux
+89	2025.03.28 21:23:00	20.5	529	ms	2351	450	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA H100 NVL	GPU	NVIDIA GPU	93.0	GB	AMD EPYC 9374F 32-Core Processor (znver4)	1448.6	GB	Linux
+527	2025.04.07 20:48:00	16.9	521	ms	2471	431	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 7 9800X3D 8-Core Processor	47.6	GB	Windows
+232	2025.04.04 16:20:00	24.3	754	ms	2451	429	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5090	GPU	NVIDIA GPU	31.0	GB	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	62.4	GB	Linux
+195	2025.04.03 19:54:00	13.6	502	ms	2868	427	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA L40S	GPU	NVIDIA GPU	45.0	GB	Intel Xeon Platinum 8458P (sapphirerapids)	62.8	GB	Linux
+370	2025.04.06 13:52:00	35.0	798	ms	1642	416	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070	GPU	NVIDIA GPU	12.0	GB	13th Gen Intel Core i5-13600K (alderlake)	31.8	GB	Windows
+317	2025.04.05 23:57:00	24.9	718	ms	1793	396	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 SUPER	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	61.9	GB	Linux
+59	2025.03.28 20:49:00	43.8	979	ms	1330	390	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A4500	GPU	NVIDIA GPU	20.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	251.6	GB	Linux
+921	2025.05.19 16:22:00	48.7	1020	ms	1161	381	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Tesla V100-SXM2-32GB	GPU	NVIDIA GPU	32.0	GB	Intel Xeon Gold 6152 CPU @ 2.10GHz (skylake-avx512)	503.5	GB	Linux
+1170	2025.07.02 02:30:00	33.7	945	ms	1418	370	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5060 Ti	GPU	NVIDIA GPU	15.0	GB	AMD Ryzen 5 5500 (znver3)	31.2	GB	Linux
+1154	2025.06.29 19:10:00	32.9	944	ms	1419	367	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5060 Ti	GPU	NVIDIA GPU	15.0	GB	13th Gen Intel Core i5-1340P (alderlake)	62.4	GB	Linux
+573	2025.04.08 09:30:00	42.9	1060	ms	1178	363	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Quadro RTX 8000	GPU	NVIDIA GPU	47.0	GB	QEMU Virtual CPU version 2.5+	295.0	GB	Linux
+83	2025.03.28 21:19:00	31.4	952	ms	1408	359	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 4000 Ada Generation	GPU	NVIDIA GPU	20.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	251.6	GB	Linux
+118	2025.03.28 21:58:00	42.2	1080	ms	1166	357	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 2080 Ti	GPU	NVIDIA GPU	11.0	GB	AMD Ryzen 5 3600 6-Core Processor (znver2)	62.7	GB	Linux
+632	2025.04.09 08:37:00	32.8	968	ms	1337	356	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 3500 Ada Generation Laptop GPU	GPU	NVIDIA GPU	12.0	GB	13th Gen Intel Core i9-13980HX (alderlake)	191.7	GB	Windows
+1103	2025.06.24 19:52:00	34.3	1010	ms	1320	355	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5060 Ti	GPU	NVIDIA GPU	15.0	GB	Intel Xeon CPU E5-1620 v3 @ 3.50GHz (haswell)	15.5	GB	Linux
+670	2025.04.10 15:05:00	37.3	1070	ms	1170	344	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 2080 Ti	GPU	NVIDIA GPU	11.0	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	95.9	GB	Windows
+1012	2025.06.07 01:21:00	13.1	658	ms	1973	340	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4090	GPU	NVIDIA GPU	24.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	63.6	GB	Windows
+115	2025.03.28 21:53:00	42.2	1210	ms	962	323	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA TITAN V	GPU	NVIDIA GPU	12.0	GB	AMD EPYC 7K62 48-Core Processor (znver2)	125.6	GB	Linux
+10	2025.03.19 22:30:00	26.9	1070	ms	1266	317	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4060 Ti	GPU	NVIDIA GPU	16.0	GB	AMD EPYC 7352 24-Core Processor (znver2)	125.64	GB	Linux
+402	2025.04.06 18:09:00	34.8	1190	ms	1086	317	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A4000	GPU	NVIDIA GPU	16.0	GB	AMD Ryzen Threadripper 3960X 24-Core Processor (znver2)	251.5	GB	Linux
+448	2025.04.07 00:21:00	26.8	1070	ms	1260	316	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4060 Ti	GPU	NVIDIA GPU	16.0	GB	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	94.1	GB	Linux
+73	2025.03.28 21:07:00	20.8	954	ms	1438	315	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA A100 80GB PCIe	GPU	NVIDIA GPU	79.0	GB	AMD EPYC 9374F 32-Core Processor (znver4)	1511.6	GB	Linux
+47	2025.03.28 19:03:00	34.1	1200	ms	1100	315	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A4000	GPU	NVIDIA GPU	16.0	GB	AMD EPYC 7702 64-Core Processor (znver2)	503.5	GB	Linux
+572	2025.04.08 09:16:00	26.2	1090	ms	1260	312	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4060 Ti	GPU	NVIDIA GPU	16.0	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	31.2	GB	Linux
+151	2025.03.28 22:26:00	27.0	1150	ms	1205	305	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4060 Ti	GPU	NVIDIA GPU	16.0	GB	AMD EPYC 7K62 48-Core Processor (znver2)	503.5	GB	Linux
+841	2025.05.07 19:02:00	24.5	1090	ms	1241	303	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4060 Ti	GPU	NVIDIA GPU	16.0	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows
+178	2025.03.30 20:19:00	20.8	1070	ms	1264	290	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 5070	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 7 9800X3D 8-Core Processor	123.5	GB	Linux
+447	2025.04.07 00:20:00	23.5	1210	ms	1119	280	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA L4	GPU	NVIDIA GPU	22.0	GB	AMD EPYC 7713P 64-Core Processor (znver3)	125.4	GB	Linux
+75	2025.03.28 21:08:00	23.6	1270	ms	1072	271	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA L4	GPU	NVIDIA GPU	22.0	GB	AMD EPYC 7713 64-Core Processor (znver3)	503.5	GB	Linux
+423	2025.04.06 20:31:00	19.9	1160	ms	1133	269	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA A10	GPU	NVIDIA GPU	22.0	GB	AMD EPYC 9554 64-Core Processor (znver4)	43.0	GB	Linux
+159	2025.03.28 23:20:00	24.9	1340	ms	1037	268	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 4000 SFF Ada Generation	GPU	NVIDIA GPU	20.0	GB	Intel Xeon CPU E5-2690 v4 @ 2.60GHz (broadwell)	251.8	GB	Linux
+513	2025.04.07 19:06:00	29.7	1560	ms	835	251	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	Intel Xeon CPU E5-2680 v4 @ 2.40GHz (broadwell)	125.8	GB	Linux
+1082	2025.06.20 00:30:00	41.1	3580	ms	1307	247	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3080	GPU	NVIDIA GPU	10.0	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	63.9	GB	Windows
+1024	2025.06.09 17:51:00	28.4	1550	ms	821	247	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A5000 Laptop GPU	GPU	NVIDIA GPU	16.0	GB	Intel Xeon W-11855M CPU @ 3.20GHz (tigerlake)	31.1	GB	Linux
+820	2025.05.04 12:29:00	28.1	1580	ms	832	245	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows
+895	2025.05.17 04:33:00	28.4	1520	ms	779	244	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3080 Laptop GPU	GPU	NVIDIA GPU	16.0	GB	AMD Ryzen 9 5900HX with Radeon Graphics (znver3)	31.9	GB	Windows
+838	2025.05.07 12:05:00	10.9	976	ms	1299	244	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4070 SUPER	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.1	GB	Windows
+46	2025.03.28 18:59:00	29.2	1650	ms	799	242	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	AMD EPYC 7402P 24-Core Processor (znver2)	251.6	GB	Linux
+894	2025.05.17 03:38:00	27.4	1580	ms	793	240	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3080 Laptop GPU	GPU	NVIDIA GPU	16.0	GB	AMD Ryzen 9 5900HX with Radeon Graphics (znver3)	31.9	GB	Windows
+1097	2025.06.24 03:55:00	28.6	1660	ms	793	239	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	12th Gen Intel Core i7-12700K (alderlake)	31.1	GB	Linux
+1038	2025.06.12 21:46:00	27.1	1630	ms	798	237	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.9	GB	Windows
+1207	2025.07.10 21:54:00	26.9	1620	ms	791	236	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.9	GB	Windows
+500	2025.04.07 15:40:00	26.0	1610	ms	803	235	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	31.9	GB	Windows
+474	2025.04.07 05:21:00	27.4	1730	ms	761	229	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	62.7	GB	Linux
+797	2025.05.03 14:11:00	27.6	1720	ms	752	229	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+404	2025.04.06 18:49:00	35.9	2029	ms	579	217	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Ultra 24P+8E+80GPU	GPU	Apple GPU	512.0	GB	Apple M3 Ultra 24P+8E	512.0	GB	Darwin
+1051	2025.06.14 06:28:00	35.9	2090	ms	568	214	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Ultra 24P+8E+80GPU	GPU	Apple GPU	512.0	GB	Apple M3 Ultra 24P+8E	512.0	GB	Darwin
+130	2025.03.28 22:12:00	29.1	2350	ms	713	207	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	31.3	GB	Linux
+717	2025.04.14 07:39:00	20.3	1790	ms	748	204	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 2000 Ada Generation	GPU	NVIDIA GPU	16.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	47.0	GB	Linux
+74	2025.03.28 21:07:00	21.0	1830	ms	733	203	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX 2000 Ada Generation	GPU	NVIDIA GPU	16.0	GB	AMD EPYC 7443 24-Core Processor (znver3)	251.5	GB	Linux
+582	2025.04.08 10:42:00	24.5	2400	ms	612	184	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6900 XT	GPU	AMD GPU	16.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	31.9	GB	Windows
+479	2025.04.07 08:03:00	34.4	2670	ms	445	179	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Ultra 20P+8E+60GPU	GPU	Apple GPU	96.0	GB	Apple M3 Ultra 20P+8E	96.0	GB	Darwin
+493	2025.04.07 12:10:00	31.6	2670	ms	485	179	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 7900 XTX	GPU	AMD GPU	24.0	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	31.9	GB	Windows
+1000	2025.06.04 20:23:00	27.9	2570	ms	502	176	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Radeon RX 7900 XTX	GPU	AMD GPU	24.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.3	GB	Linux
+1025	2025.06.10 00:02:00	24.2	2570	ms	574	176	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6900 XT	GPU	AMD GPU	16.0	GB	AMD Ryzen 7 5800X3D 8-Core Processor (znver3)	31.9	GB	Windows
+1031	2025.06.11 06:02:00	22.2	2460	ms	593	175	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6900 XT	GPU	AMD GPU	16.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	31.3	GB	Linux
+1063	2025.06.16 01:14:00	19.7	2410	ms	531	163	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA RTX A2000 12GB	GPU	NVIDIA GPU	12.0	GB	Intel Xeon CPU E3-1245 v5 @ 3.50GHz (skylake)	31.9	GB	Windows
+1087	2025.06.20 23:04:00	33.3	3100	ms	377	159	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Ultra 16P+4E+64GPU	GPU	Apple GPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin
+475	2025.04.07 05:26:00	20.5	2880	ms	505	153	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6800 XT	GPU	AMD GPU	16.0	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	62.7	GB	Linux
+883	2025.05.15 19:16:00	20.0	2920	ms	492	150	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6800 XT	GPU	AMD GPU	16.0	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	31.2	GB	Linux
+1059	2025.06.15 01:13:00	21.1	2820	ms	449	150	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce GTX 1080 Ti	GPU	NVIDIA GPU	11.0	GB	AMD FX(tm)-8320 Eight-Core Processor (bdver2)	7.5	GB	Linux
+578	2025.04.08 10:06:00	30.8	3590	ms	343	143	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	Apple GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin
+1058	2025.06.15 00:57:00	20.2	2960	ms	424	142	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce GTX 1080 Ti	GPU	NVIDIA GPU	11.0	GB	AMD FX(tm)-8320 Eight-Core Processor (bdver2)	7.5	GB	Linux
+498	2025.04.07 15:14:00	30.8	3680	ms	338	141	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	Apple GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin
+1030	2025.06.11 04:59:00	19.6	3050	ms	412	138	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce GTX 1080 Ti	GPU	NVIDIA GPU	11.0	GB	AMD FX(tm)-8320 Eight-Core Processor (bdver2)	7.5	GB	Linux
+1191	2025.07.07 12:47:00	28.0	3600	ms	328	137	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	Apple GPU	48.0	GB	Apple M4 Max 12P+4E	48.0	GB	Darwin
+494	2025.04.07 12:11:00	19.5	3530	ms	404	131	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6800	GPU	AMD GPU	16.0	GB	12th Gen Intel Core i5-12400F (alderlake)	15.8	GB	Windows
+394	2025.04.06 17:10:00	28.3	3870	ms	308	131	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	Apple GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin
+769	2025.04.26 03:53:00	13.3	2760	ms	450	130	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Tesla T4	GPU	NVIDIA GPU	15.0	GB	Intel Xeon CPU @ 2.00GHz (skylake-avx512)	31.4	GB	Linux
+933	2025.05.23 09:39:00	26.5	3990	ms	299	126	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	Apple GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin
+308	2025.04.05 23:10:00	27.8	4030	ms	290	126	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Ultra 16P+4E+48GPU	GPU	Apple GPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin
+502	2025.04.07 16:09:00	26.6	4000	ms	301	126	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	Apple GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin
+395	2025.04.06 17:11:00	27.7	4059	ms	289	125	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Ultra 16P+4E+48GPU	GPU	Apple GPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin
+787	2025.04.30 14:18:00	27.3	4450	ms	280	120	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 10P+4E+32GPU	GPU	Apple GPU	36.0	GB	Apple M4 Max 10P+4E	36.0	GB	Darwin
+607	2025.04.08 15:35:00	23.0	4220	ms	316	120	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 7800 XT	GPU	AMD GPU	16.0	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	63.9	GB	Windows
+1003	2025.06.05 23:16:00	23.0	4160	ms	302	119	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD  Radeon RX 7800 XT	GPU	AMD GPU	16.0	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	31.9	GB	Windows
+162	2025.03.30 19:38:00	26.4	4460	ms	277	118	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 10P+4E+32GPU	GPU	Apple GPU	36.0	GB	Apple M4 Max 10P+4E	36.0	GB	Darwin
+887	2025.05.16 13:02:00	23.0	4350	ms	302	117	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 7800 XT	GPU	AMD GPU	16.0	GB	13th Gen Intel Core i7-13700 (alderlake)	31.8	GB	Windows
+515	2025.04.07 19:27:00	25.2	4800	ms	252	110	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M2 Max 8P+4E+38GPU	GPU	Apple GPU	96.0	GB	Apple M2 Max 8P+4E	96.0	GB	Darwin
+526	2025.04.07 20:47:00	23.1	4820	ms	255	107	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 12P+4E+40GPU	GPU	Apple GPU	128.0	GB	Apple M4 Max 12P+4E	128.0	GB	Darwin
+687	2025.04.10 21:12:00	22.2	4830	ms	248	105	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Max 10P+4E+32GPU	GPU	Apple GPU	36.0	GB	Apple M4 Max 10P+4E	36.0	GB	Darwin
+1106	2025.06.25 02:38:00	14.9	4280	ms	303	102	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Quadro P5000	GPU	NVIDIA GPU	16.0	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	62.5	GB	Linux
+791	2025.05.01 06:46:00	20.9	5090	ms	242	100	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Max 10P+4E+30GPU	GPU	Apple GPU	96.0	GB	Apple M3 Max 10P+4E	96.0	GB	Darwin
+949	2025.05.27 19:13:00	15.7	4940	ms	316	100	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6700 XT	GPU	AMD GPU	12.0	GB	AMD Ryzen 7 5700X 8-Core Processor (znver3)	31.3	GB	Linux
+792	2025.05.01 17:50:00	20.7	5230	ms	236	98	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Max 10P+4E+30GPU	GPU	Apple GPU	96.0	GB	Apple M3 Max 10P+4E	96.0	GB	Darwin
+947	2025.05.26 08:34:00	20.5	5430	ms	230	95	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Max 10P+4E+30GPU	GPU	Apple GPU	36.0	GB	Apple M3 Max 10P+4E	36.0	GB	Darwin
+746	2025.04.20 02:21:00	13.4	5600	ms	357	95	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060	GPU	NVIDIA GPU	12.0	GB	Intel Xeon CPU E5-2670 v3 @ 2.30GHz (haswell)	63.9	GB	Windows
+1086	2025.06.20 22:36:00	19.0	5380	ms	222	92	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Max 10P+4E+30GPU	GPU	Apple GPU	36.0	GB	Apple M3 Max 10P+4E	36.0	GB	Darwin
+113	2025.03.28 21:50:00	20.5	5710	ms	204	90	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Tesla P100-SXM2-16GB	GPU	NVIDIA GPU	16.0	GB	Intel Xeon Gold 6138 CPU @ 2.00GHz (skylake-avx512)	376.5	GB	Linux
+1110	2025.06.25 09:50:00	19.6	6040	ms	197	86	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Max 8P+2E+32GPU	GPU	Apple GPU	32.0	GB	Apple M1 Max 8P+2E	32.0	GB	Darwin
+892	2025.05.16 21:48:00	20.5	6520	ms	191	84	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Max 8P+2E+32GPU	GPU	Apple GPU	32.0	GB	Apple M1 Max 8P+2E	32.0	GB	Darwin
+230	2025.04.04 15:48:00	7.5	5550	ms	430	83	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3060 Ti	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 5 5600 6-Core Processor (znver3)	63.9	GB	Windows
+799	2025.05.03 14:26:00	18.5	6180	ms	188	83	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Max 8P+2E+32GPU	GPU	Apple GPU	64.0	GB	Apple M1 Max 8P+2E	64.0	GB	Darwin
+1101	2025.06.24 09:47:00	18.1	6480	ms	195	82	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	Apple GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin
+777	2025.04.27 03:43:00	18.0	6600	ms	192	81	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	Apple GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin
+877	2025.05.15 01:59:00	18.1	6660	ms	189	80	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	Apple GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin
+566	2025.04.08 07:55:00	18.0	6660	ms	189	80	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	Apple GPU	24.0	GB	Apple M4 Pro 10P+4E	24.0	GB	Darwin
+1177	2025.07.04 19:03:00	18.2	6820	ms	187	79	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	Apple GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin
+649	2025.04.09 18:46:00	3.0	3110	ms	496	78	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6900 XT	GPU	AMD GPU	16.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows
+815	2025.05.04 10:29:00	17.1	6850	ms	180	77	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	Apple GPU	48.0	GB	Apple M4 Pro 10P+4E	48.0	GB	Darwin
+369	2025.04.06 13:42:00	17.8	6960	ms	180	77	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	Apple GPU	64.0	GB	Apple M4 Pro 10P+4E	64.0	GB	Darwin
+900	2025.05.18 19:26:00	18.1	7130	ms	178	77	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Max 8P+2E+32GPU	GPU	Apple GPU	32.0	GB	Apple M1 Max 8P+2E	32.0	GB	Darwin
+784	2025.04.29 18:54:00	20.9	8170	ms	171	76	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD EPYC 9454P 48-Core Processor (znver4)	CPU	AMD CPU	251.4	GB	AMD EPYC 9454P 48-Core Processor (znver4)	251.4	GB	Linux
+371	2025.04.06 13:54:00	17.7	7100	ms	178	76	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 10P+4E+20GPU	GPU	Apple GPU	64.0	GB	Apple M4 Pro 10P+4E	64.0	GB	Darwin
+952	2025.05.29 11:35:00	17.2	7410	ms	170	73	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Max 8P+2E+32GPU	GPU	Apple GPU	64.0	GB	Apple M1 Max 8P+2E	64.0	GB	Darwin
+829	2025.05.05 23:00:00	17.5	7670	ms	160	72	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Max 8P+2E+24GPU	GPU	Apple GPU	64.0	GB	Apple M1 Max 8P+2E	64.0	GB	Darwin
+672	2025.04.10 18:28:00	16.8	7840	ms	161	70	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 8P+4E+16GPU	GPU	Apple GPU	48.0	GB	Apple M4 Pro 8P+4E	48.0	GB	Darwin
+922	2025.05.20 17:26:00	26.1	10270	ms	132	70	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD EPYC 9135 16-Core Processor	CPU	AMD CPU	251.3	GB	AMD EPYC 9135 16-Core Processor	251.3	GB	Linux
+943	2025.05.25 09:42:00	16.6	8250	ms	153	67	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 Pro 8P+4E+16GPU	GPU	Apple GPU	24.0	GB	Apple M4 Pro 8P+4E	24.0	GB	Darwin
+472	2025.04.07 04:42:00	5.1	8070	ms	376	62	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 3070	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 5 5600X 6-Core Processor (znver3)	31.9	GB	Windows
+702	2025.04.12 17:34:00	2.5	4040	ms	368	61	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon RX 6800	GPU	AMD GPU	16.0	GB	AMD Ryzen 5 8500G w/ Radeon 740M Graphics (znver4)	31.1	GB	Windows
+428	2025.04.06 21:28:00	12.2	8550	ms	151	60	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 6P+6E+18GPU	GPU	Apple GPU	36.0	GB	Apple M3 Pro 6P+6E	36.0	GB	Darwin
+930	2025.05.22 08:17:00	14.1	9100	ms	137	60	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M2 Pro 8P+4E+19GPU	GPU	Apple GPU	32.0	GB	Apple M2 Pro 8P+4E	32.0	GB	Darwin
+581	2025.04.08 10:27:00	12.1	8570	ms	149	59	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 6P+6E+18GPU	GPU	Apple GPU	36.0	GB	Apple M3 Pro 6P+6E	36.0	GB	Darwin
+401	2025.04.06 17:43:00	11.6	8970	ms	144	57	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 6P+6E+18GPU	GPU	Apple GPU	18.0	GB	Apple M3 Pro 6P+6E	18.0	GB	Darwin
+867	2025.05.14 08:47:00	12.2	10560	ms	121	52	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 5P+6E+14GPU	GPU	Apple GPU	36.0	GB	Apple M3 Pro 5P+6E	36.0	GB	Darwin
+337	2025.04.06 01:30:00	3.5	7990	ms	327	52	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	NVIDIA GeForce RTX 4060 Ti	GPU	NVIDIA GPU	8.0	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows
+263	2025.04.05 01:27:00	12.0	10750	ms	117	51	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 5P+6E+14GPU	GPU	Apple GPU	18.0	GB	Apple M3 Pro 5P+6E	18.0	GB	Darwin
+1174	2025.07.02 18:39:00	11.9	10830	ms	117	51	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 5P+6E+14GPU	GPU	Apple GPU	18.0	GB	Apple M3 Pro 5P+6E	18.0	GB	Darwin
+1099	2025.06.24 09:25:00	12.0	10730	ms	119	51	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 Pro 5P+6E+14GPU	GPU	Apple GPU	36.0	GB	Apple M3 Pro 5P+6E	36.0	GB	Darwin
+929	2025.05.22 07:55:00	11.9	11840	ms	107	48	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 8P+2E+16GPU	GPU	Apple GPU	16.0	GB	Apple M1 Pro 8P+2E	16.0	GB	Darwin
+814	2025.05.04 10:27:00	11.9	11740	ms	108	48	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 8P+2E+16GPU	GPU	Apple GPU	32.0	GB	Apple M1 Pro 8P+2E	32.0	GB	Darwin
+1006	2025.06.06 10:24:00	11.6	12000	ms	105	47	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 8P+2E+16GPU	GPU	Apple GPU	32.0	GB	Apple M1 Pro 8P+2E	32.0	GB	Darwin
+1062	2025.06.15 21:28:00	11.2	12600	ms	99	44	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 8P+2E+16GPU	GPU	Apple GPU	32.0	GB	Apple M1 Pro 8P+2E	32.0	GB	Darwin
+1098	2025.06.24 08:55:00	11.0	13240	ms	95	43	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 6P+2E+14GPU	GPU	Apple GPU	16.0	GB	Apple M1 Pro 6P+2E	16.0	GB	Darwin
+923	2025.05.20 17:32:00	7.5	11600	ms	120	43	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 9950X3D 16-Core Processor	CPU	AMD CPU	92.0	GB	AMD Ryzen 9 9950X3D 16-Core Processor	92.0	GB	Linux
+504	2025.04.07 16:28:00	10.8	13390	ms	94	42	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 6P+2E+14GPU	GPU	Apple GPU	16.0	GB	Apple M1 Pro 6P+2E	16.0	GB	Darwin
+964	2025.05.31 22:59:00	10.8	13390	ms	92	42	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Pro 6P+2E+14GPU	GPU	Apple GPU	16.0	GB	Apple M1 Pro 6P+2E	16.0	GB	Darwin
+38	2025.03.28 18:09:00	9.6	13390	ms	96	41	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 4P+6E+10GPU	GPU	Apple GPU	16.0	GB	Apple M4 4P+6E	16.0	GB	Darwin
+311	2025.04.05 23:32:00	5.8	15140	ms	90	33	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	CPU	AMD CPU	61.9	GB	AMD Ryzen 9 7950X3D 16-Core Processor (znver4)	61.9	GB	Linux
+956	2025.05.30 19:49:00	8.1	16850	ms	71	32	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 4P+6E+10GPU	GPU	Apple GPU	32.0	GB	Apple M4 4P+6E	32.0	GB	Darwin
+778	2025.04.27 22:10:00	8.0	17300	ms	71	32	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M4 4P+6E+10GPU	GPU	Apple GPU	32.0	GB	Apple M4 4P+6E	32.0	GB	Darwin
+396	2025.04.06 17:16:00	7.3	18030	ms	70	31	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M2 4P+4E+10GPU	GPU	Apple GPU	24.0	GB	Apple M2 4P+4E	24.0	GB	Darwin
+1118	2025.06.25 18:18:00	14.4	27080	ms	53	30	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Radeon Graphics	GPU	AMD GPU	32.0	GB	Intel Core i9-14900K (alderlake)	94.0	GB	Linux
+562	2025.04.08 06:48:00	6.3	17710	ms	67	29	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 4P+4E+10GPU	GPU	Apple GPU	24.0	GB	Apple M3 4P+4E	24.0	GB	Darwin
+1205	2025.07.09 22:40:00	8.2	22240	ms	60	28	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen Threadripper 3960X 24-Core Processor (znver2)	CPU	AMD CPU	62.7	GB	AMD Ryzen Threadripper 3960X 24-Core Processor (znver2)	62.7	GB	Linux
+1041	2025.06.12 23:10:00	8.6	24120	ms	56	27	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon w5-3425 (sapphirerapids)	CPU	Intel CPU	63.3	GB	Intel Xeon w5-3425 (sapphirerapids)	63.3	GB	Windows
+987	2025.06.03 10:22:00	6.1	22740	ms	65	26	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M3 4P+4E+10GPU	GPU	Apple GPU	24.0	GB	Apple M3 4P+4E	24.0	GB	Darwin
+208	2025.04.03 23:27:00	9.3	27050	ms	51	26	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	CPU	Intel CPU	94.3	GB	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	94.3	GB	Linux
+655	2025.04.09 23:20:00	5.5	23990	ms	60	24	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	AMD CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+650	2025.04.09 19:01:00	5.7	26010	ms	61	24	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 7945HX with Radeon Graphics (znver4)	CPU	AMD CPU	23.3	GB	AMD Ryzen 9 7945HX with Radeon Graphics (znver4)	23.3	GB	Linux
+721	2025.04.14 14:08:00	7.1	26300	ms	51	24	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	CPU	AMD CPU	26.5	GB	AMD Ryzen AI 9 HX 370 w/ Radeon 890M	26.5	GB	Linux
+1057	2025.06.14 23:22:00	5.4	24550	ms	53	23	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 4P+4E+8GPU	GPU	Apple GPU	16.0	GB	Apple M1 4P+4E	16.0	GB	Darwin
+318	2025.04.05 23:59:00	8.0	32940	ms	39	21	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 Ultra 16P+4E	CPU	Apple CPU	128.0	GB	Apple M1 Ultra 16P+4E	128.0	GB	Darwin
+528	2025.04.07 21:02:00	6.1	29880	ms	46	21	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	CPU	AMD CPU	62.3	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	62.3	GB	Windows
+583	2025.04.08 10:52:00	5.8	33680	ms	41	19	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 7840HS w/ Radeon 780M Graphics (znver4)	CPU	AMD CPU	30.7	GB	AMD Ryzen 7 7840HS w/ Radeon 780M Graphics (znver4)	30.7	GB	Linux
+1037	2025.06.12 19:09:00	5.1	33990	ms	45	19	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	AMD CPU	31.3	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	31.3	GB	Windows
+1180	2025.07.04 20:15:00	4.4	30790	ms	44	19	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon CPU E5-2680 v4 @ 2.40GHz (broadwell)	CPU	Intel CPU	125.8	GB	Intel Xeon CPU E5-2680 v4 @ 2.40GHz (broadwell)	125.8	GB	Linux
+1065	2025.06.16 17:11:00	6.1	38790	ms	36	18	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core Ultra 9 285K (arrowlake-s)	CPU	Intel CPU	127.3	GB	Intel Core Ultra 9 285K (arrowlake-s)	127.3	GB	Windows
+226	2025.04.04 05:06:00	4.8	31760	ms	41	18	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Apple M1 4P+4E+7GPU	GPU	Apple GPU	16.0	GB	Apple M1 4P+4E	16.0	GB	Darwin
+320	2025.04.06 00:17:00	5.6	35700	ms	38	18	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	CPU	AMD CPU	31.6	GB	AMD Ryzen 7 7800X3D 8-Core Processor (znver4)	31.6	GB	Windows
+969	2025.06.02 03:45:00	8.6	47140	ms	29	17	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon Gold 5218 CPU @ 2.30GHz (cascadelake)	CPU	Intel CPU	754.5	GB	Intel Xeon Gold 5218 CPU @ 2.30GHz (cascadelake)	754.5	GB	Linux
+803	2025.05.03 16:34:00	4.4	34940	ms	38	17	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	AMD CPU	125.7	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	125.7	GB	Linux
+846	2025.05.09 03:35:00	4.3	38420	ms	37	16	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 5800X 8-Core Processor (znver3)	CPU	AMD CPU	92.2	GB	AMD Ryzen 7 5800X 8-Core Processor (znver3)	92.2	GB	Linux
+993	2025.06.04 10:22:00	5.8	49800	ms	28	15	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon CPU E5-2697A v4 @ 2.60GHz (broadwell)	CPU	Intel CPU	125.7	GB	Intel Xeon CPU E5-2697A v4 @ 2.60GHz (broadwell)	125.7	GB	Linux
+608	2025.04.08 16:17:00	5.0	45940	ms	30	15	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5900X 12-Core Processor (znver3)	CPU	AMD CPU	63.9	GB	AMD Ryzen 9 5900X 12-Core Processor (znver3)	63.9	GB	Windows
+968	2025.06.01 22:12:00	3.1	35240	ms	38	15	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	AMD CPU	95.9	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	95.9	GB	Windows
+629	2025.04.09 03:57:00	4.7	42830	ms	31	15	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics (znver4)	CPU	AMD CPU	61.5	GB	AMD Ryzen 7 PRO 8840U w/ Radeon 780M Graphics (znver4)	61.5	GB	Linux
+524	2025.04.07 20:38:00	4.6	46610	ms	30	14	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 5700G with Radeon Graphics (znver3)	CPU	AMD CPU	31.2	GB	AMD Ryzen 7 5700G with Radeon Graphics (znver3)	31.2	GB	Linux
+1021	2025.06.09 00:36:00	4.2	45420	ms	31	14	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	CPU	AMD CPU	47.9	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	47.9	GB	Windows
+209	2025.04.03 23:31:00	7.0	64220	ms	21	13	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	CPU	Intel CPU	31.3	GB	Intel Xeon Platinum 8280 CPU @ 2.70GHz (cascadelake)	31.3	GB	Linux
+567	2025.04.08 08:05:00	3.6	44830	ms	31	13	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5950X 16-Core Processor (znver3)	CPU	AMD CPU	92.3	GB	AMD Ryzen 9 5950X 16-Core Processor (znver3)	92.3	GB	Linux
+343	2025.04.06 01:57:00	4.2	58230	ms	23	12	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 3900X 12-Core Processor (znver2)	CPU	AMD CPU	64.0	GB	AMD Ryzen 9 3900X 12-Core Processor (znver2)	64.0	GB	Windows
+506	2025.04.07 17:06:00	5.3	64879	ms	22	12	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core Ultra 7 265K (arrowlake-s)	CPU	Intel CPU	30.7	GB	Intel Core Ultra 7 265K (arrowlake-s)	30.7	GB	Linux
+893	2025.05.17 01:55:00	4.5	59670	ms	23	12	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 9 5900HX with Radeon Graphics (znver3)	CPU	AMD CPU	31.9	GB	AMD Ryzen 9 5900HX with Radeon Graphics (znver3)	31.9	GB	Windows
+439	2025.04.06 23:04:00	4.1	61510	ms	23	12	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 3700X 8-Core Processor (znver2)	CPU	AMD CPU	31.3	GB	AMD Ryzen 7 3700X 8-Core Processor (znver2)	31.3	GB	Linux
+534	2025.04.07 21:50:00	3.4	65040	ms	22	11	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 PRO 4750G with Radeon Graphics (znver2)	CPU	AMD CPU	46.4	GB	AMD Ryzen 7 PRO 4750G with Radeon Graphics (znver2)	46.4	GB	Linux
+1064	2025.06.16 01:23:00	4.1	70720	ms	20	11	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 4800U with Radeon Graphics (znver2)	CPU	AMD CPU	30.3	GB	AMD Ryzen 7 4800U with Radeon Graphics (znver2)	30.3	GB	Linux
+210	2025.04.03 23:38:00	5.1	84330	ms	17	10	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	DO-Premium-Intel (skylake-avx512)	CPU	Intel CPU	31.3	GB	DO-Premium-Intel (skylake-avx512)	31.3	GB	Linux
+197	2025.04.03 20:09:00	4.5	81350	ms	17	10	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon CPU E5-2697 v2 @ 2.70GHz (ivybridge)	CPU	Intel CPU	251.8	GB	Intel Xeon CPU E5-2697 v2 @ 2.70GHz (ivybridge)	251.8	GB	Linux
+574	2025.04.08 09:55:00	2.9	64670	ms	22	10	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 PRO 5750GE with Radeon Graphics (znver3)	CPU	AMD CPU	15.0	GB	AMD Ryzen 7 PRO 5750GE with Radeon Graphics (znver3)	15.0	GB	Linux
+454	2025.04.07 01:33:00	4.7	78020	ms	18	10	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	CPU	AMD CPU	94.1	GB	AMD Ryzen 5 4600G with Radeon Graphics (znver2)	94.1	GB	Linux
+1107	2025.06.25 03:23:00	5.3	81740	ms	17	10	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	CPU	Intel CPU	62.5	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	62.5	GB	Linux
+635	2025.04.09 09:20:00	3.1	66600	ms	20	10	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	CPU	AMD CPU	31.9	GB	AMD Ryzen 7 5700X3D 8-Core Processor (znver3)	31.9	GB	Windows
+756	2025.04.22 07:50:00	4.5	86830	ms	16	9	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon CPU E5-2630 v4 @ 2.20GHz (broadwell)	CPU	Intel CPU	127.9	GB	Intel Xeon CPU E5-2630 v4 @ 2.20GHz (broadwell)	127.9	GB	Windows
+631	2025.04.09 08:25:00	3.6	89140	ms	15	9	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	13th Gen Intel Core i9-13980HX (alderlake)	CPU	Intel CPU	191.7	GB	13th Gen Intel Core i9-13980HX (alderlake)	191.7	GB	Windows
+816	2025.05.04 10:56:00	4.1	87080	ms	16	9	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	CPU	Intel CPU	31.9	GB	11th Gen Intel Core i7-11700F @ 2.50GHz (rocketlake)	31.9	GB	Windows
+204	2025.04.03 22:07:00	4.8	111060	ms	12	8	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	DO-Premium-AMD (znver2)	CPU	Other	31.3	GB	DO-Premium-AMD (znver2)	31.3	GB	Linux
+603	2025.04.08 14:07:00	3.3	94400	ms	15	8	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	13th Gen Intel Core i7-13620H (alderlake)	CPU	Intel CPU	31.1	GB	13th Gen Intel Core i7-13620H (alderlake)	31.1	GB	Linux
+1216	2025.07.14 12:02:00	4.6	116840	ms	13	8	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon Silver 4210R CPU @ 2.40GHz (cascadelake)	CPU	Intel CPU	62.4	GB	Intel Xeon Silver 4210R CPU @ 2.40GHz (cascadelake)	62.4	GB	Linux
+1181	2025.07.04 20:15:00	4.2	117370	ms	12	8	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon Silver 4110 CPU @ 2.10GHz (skylake-avx512)	CPU	Intel CPU	30.8	GB	Intel Xeon Silver 4110 CPU @ 2.10GHz (skylake-avx512)	30.8	GB	Linux
+1096	2025.06.23 18:13:00	3.6	122840	ms	11	7	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	CPU	Intel CPU	63.7	GB	Intel Xeon W-2235 CPU @ 3.80GHz (cascadelake)	63.7	GB	Windows
+361	2025.04.06 09:15:00	3.8	136080	ms	10	7	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	CPU	Intel CPU	15.7	GB	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	15.7	GB	Windows
+525	2025.04.07 20:43:00	4.1	117570	ms	12	7	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon Silver 4110 CPU @ 2.10GHz (skylake-avx512)	CPU	Intel CPU	30.8	GB	Intel Xeon Silver 4110 CPU @ 2.10GHz (skylake-avx512)	30.8	GB	Linux
+931	2025.05.22 10:39:00	3.1	126790	ms	12	7	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	12th Gen Intel Core i7-1280P (alderlake)	CPU	Intel CPU	15.3	GB	12th Gen Intel Core i7-1280P (alderlake)	15.3	GB	Linux
+1211	2025.07.12 11:16:00	3.4	145260	ms	9	6	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	CPU	Intel CPU	15.3	GB	11th Gen Intel Core i7-1185G7 @ 3.00GHz (tigerlake)	15.3	GB	Linux
+724	2025.04.15 03:55:00	2.7	185910	ms	7	5	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core Ultra 7 155U (alderlake)	CPU	Intel CPU	63.5	GB	Intel Core Ultra 7 155U (alderlake)	63.5	GB	Windows
+456	2025.04.07 02:24:00	2.6	183560	ms	8	5	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	CPU	Intel CPU	31.2	GB	Intel Core i5-8500T CPU @ 2.10GHz (skylake)	31.2	GB	Windows
+1169	2025.07.01 19:40:00	3.0	213280	ms	7	5	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Xeon CPU E5-1620 v4 @ 3.50GHz (broadwell)	CPU	Intel CPU	31.9	GB	Intel Xeon CPU E5-1620 v4 @ 3.50GHz (broadwell)	31.9	GB	FreeBSD
+948	2025.05.26 17:55:00	3.3	195980	ms	7	5	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core Ultra 7 268V (arrowlake-s)	CPU	Intel CPU	30.4	GB	Intel Core Ultra 7 268V (arrowlake-s)	30.4	GB	Linux
+589	2025.04.08 11:36:00	2.2	206650	ms	7	4	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core i5-8300H CPU @ 2.30GHz (skylake)	CPU	Intel CPU	23.9	GB	Intel Core i5-8300H CPU @ 2.30GHz (skylake)	23.9	GB	Windows
+835	2025.05.06 14:17:00	2.1	242770	ms	6	4	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	CPU	Intel CPU	15.3	GB	11th Gen Intel Core i5-1145G7 @ 2.60GHz (tigerlake)	15.3	GB	Linux
+1137	2025.06.27 11:15:00	2.0	243740	ms	6	4	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M		CPU	Other	24.4	GB		24.4	GB	Linux
+1217	2025.07.14 12:24:00	1.6	308340	ms	5	3	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core i5-10310U CPU @ 1.70GHz (skylake)	CPU	Intel CPU	30.7	GB	Intel Core i5-10310U CPU @ 1.70GHz (skylake)	30.7	GB	Linux
+1166	2025.07.01 01:46:00	1.3	423430	ms	3	2	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	Intel Core i7-6600U CPU @ 2.60GHz (skylake)	CPU	Intel CPU	15.7	GB	Intel Core i7-6600U CPU @ 2.60GHz (skylake)	15.7	GB	FreeBSD
+1206	2025.07.10 10:58:00	1.2	370380	ms	3	2	Qwen2.5 14B Instruct	Q4_K - Medium	14800	M	13th Gen Intel Core i5-1335U (alderlake)	CPU	Intel CPU	63.2	GB	13th Gen Intel Core i5-1335U (alderlake)	63.2	GB	Windows

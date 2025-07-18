@@ -146,6 +146,27 @@ def normalize_ram(ram: str) -> Tuple[str, str]:
         ram_unit = 'GB'
     return ram, ram_unit
 
+def get_accel_group(accel_type, accel_name) -> str:
+    """ Get the accelerator group based on type and name """
+    if accel_type == 'GPU':
+        if (accel_name.startswith('NVIDIA') or
+            accel_name.startswith('Tesla') or
+            accel_name.startswith('Quadro')):
+            return 'NVIDIA GPU'
+        elif (accel_name.startswith('AMD') or
+              accel_name.startswith('Radeon')):
+            return 'AMD GPU'
+        elif accel_name.startswith('Apple'):
+            return 'Apple GPU'
+    elif accel_type == 'CPU':
+        if accel_name.startswith('Apple'):
+            return 'Apple CPU'
+        elif accel_name.startswith('AMD'):
+            return 'AMD CPU'
+        elif 'Intel' in accel_name:
+            return 'Intel CPU'
+    return 'Other'
+
 def extract_test_data_from_html(html_content):
     """Extract test data from HTML content"""
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -159,6 +180,7 @@ def extract_test_data_from_html(html_content):
         try:
             test_num, test_date = extract_test_num_and_date(card)
             accel_name, accel_type, accel_ram, accel_ram_unit = extract_accelerator_info(card)
+            accel_group = get_accel_group(accel_type, accel_name)
             model_name, quant, params, params_unit = extract_model_name_quant_params(card)
             gen_tps, ttft, ttft_unit, prompt_tps, localscore = extract_perf_metrics(card)
             system_cpu, system_ram, system_ram_unit, system_os = extract_system_info(card)
@@ -177,6 +199,7 @@ def extract_test_data_from_html(html_content):
                 'model_params_unit': params_unit,
                 'accel_name': accel_name,
                 'accel_type': accel_type,
+                'accel_group': accel_group,
                 'accel_ram': accel_ram,
                 'accel_ram_unit': accel_ram_unit,
                 'system_cpu': system_cpu,

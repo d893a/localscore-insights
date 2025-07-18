@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from dataclasses import dataclass, field
 from matplotlib.patches import Patch
+from dataclasses import dataclass, field
 
 models = [
     ("Llama 3.2 1B Instruct", "Q4_K - Medium", "1B"),
@@ -34,27 +34,6 @@ accel_group_colors = {
     "AMD CPU":      "#f26522",
     "Intel CPU":    "#0068b5",
     "Other":        "#e0e0e0" }
-
-def get_accel_group(accel_type, accel_name) -> str:
-    """ Get the accelerator group based on type and name """
-    if accel_type == 'GPU':
-        if (accel_name.startswith('NVIDIA') or
-            accel_name.startswith('Tesla') or
-            accel_name.startswith('Quadro')):
-            return 'NVIDIA GPU'
-        elif (accel_name.startswith('AMD') or
-              accel_name.startswith('Radeon')):
-            return 'AMD GPU'
-        elif accel_name.startswith('Apple'):
-            return 'Apple GPU'
-    elif accel_type == 'CPU':
-        if accel_name.startswith('Apple'):
-            return 'Apple CPU'
-        elif accel_name.startswith('AMD'):
-            return 'AMD CPU'
-        elif 'Intel' in accel_name:
-            return 'Intel CPU'
-    return 'Other'
 
 def create_chart(df_all, chart: ChartInfo):
     df_model = df_all[(df_all['model_name'] == chart.model_name) &
@@ -102,8 +81,6 @@ def create_chart(df_all, chart: ChartInfo):
 if __name__ == "__main__":
     df_all = pd.read_csv("localscore_results.tsv", sep='\t', na_filter=False)
     df_all = df_all[df_all['ttft'] < 1_000_000] # remove outliers
-    df_all['accel_group'] = df_all.apply(
-        lambda row: get_accel_group(row['accel_type'], row['accel_name']), axis=1)
 
     charts = [
         ChartInfo(
