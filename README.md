@@ -2,9 +2,29 @@
 
 [LocalScore](https://www.localscore.ai/latest) is a benchmarking tool to measure how fast Large Language Models run on a specific hardware.
 
-The benchmark results are [downloaded](localscore_download_results.bat) and [concatenated](html_to_tsv.py) into a single table: [localscore_results.tsv](localscore_results.tsv) As of 2025.07.14 13:28:00 it contains 1218 results.
+The benchmark results are [downloaded](localscore_download_results.bat) and [concatenated](html_to_tsv.py) into a single table: [localscore_results.tsv](localscore_results.tsv) As of 2025.07.14 13:28:00, it contains 1218 results.
+
+We examined 3 models:
+-   [Qwen2.5 14B Instruct Q4_K - Medium](https://huggingface.co/bartowski/Qwen2.5-14B-Instruct-GGUF/resolve/main/Qwen2.5-14B-Instruct-Q4_K_M.gguf): 14B parameters, ~10GB memory.
+-   [Meta Llama 3.1 8B Instruct Q4_K - Medium](https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf): 8B parameters, ~6GB memory.
+-   [Llama 3.2 1B Instruct Q4_K - Medium](https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_K_M.gguf): 1B parameters, ~2GB memory.
 
 The insights are [compiled](create_charts.py) into the following charts.
+
+## Summary of observations
+
+-   For prompt processing: (14B parameter model, ttft < 3 seconds / prompt_tps > 1400 tokens/s):
+    -   The majority of NVIDIA GPUs produce the first token within 3 seconds (~1400 token/s), even for the 14B parameter model.
+    -   AMD GPUs perform consistently, albeit at the level of low-end NVIDIA GPUs.
+    -   Some Apple GPUs (M3 Ultra, M4 Max) are on par with AMD GPUs, but the majority of Apple GPUs are in the performance range of AMD CPUs.
+    -   AMD CPUs perform poorly in prompt processing, mostly below the performance of Apple GPUs.
+    -   Intel CPUs are 10x slower than Apple GPUs, and 100x slower than NVIDIA GPUs.
+
+-   For token generation: (14B parameter model, gen_tps > 10 tokens/s):
+    -   All NVIDIA GPUs and AMD GPUs produce output at a rate of at least 10 tokens/s.
+    -   The majority of Apple GPUs generate tokens above 10 tokens/s.
+    -   The AMD EPYC 9135 16-Core and the AMD EPYC 9454P 48-Core with (12-channel) 256GB RAM achieve around 26 and 21 tokens/s respectively, surpassing capable NVIDIA and AMD GPUs.
+    -   Most of the AMD CPUs and Intel CPUs perform poorly, below 10 tokens/s. (Only for the 1B model can they produce output above 10 tokens/s.)
 
 ## Time to first token
 
@@ -83,7 +103,7 @@ The Apple GPUs seem to aim to fill the gap between the performance of NVIDIA GPU
         | 1560      | NVIDIA GeForce RTX 3060                      | 12.0      |
         | 1790      | NVIDIA RTX 2000 Ada Generation               | 16.0      |
 
-    -   NVIDIA GPUs an par with other hardware:
+    -   NVIDIA GPUs on par with other hardware:
         | ttft [ms] | accel_name                      | VRAM [GB] |
         |-----------|---------------------------------|----------:|
         | 2410      | NVIDIA RTX A2000 12GB           | 12.0      |
@@ -297,7 +317,7 @@ Data: [localscore.gen_tps.14B.tsv](localscore.gen_tps.14B.tsv)
 
 ![localscore.gen_tps.14B.png](localscore.gen_tps.14B.png)
 
-Token generation throughput for the 14B parameter model. The threshold value was chosen to be larger than the reading speed -- assuming that an everage person could read the output tokens at a speed of 300 words per minute (5 words per seconds), which is around 5 tokens per second for English text.
+Token generation throughput for the 14B parameter model. The threshold value was chosen to be larger than the reading speed -- assuming that an average person could read the output tokens at a speed of 300 words per minute (5 words per seconds), which is around 5 tokens per second for English text.
 
 ### 8B parameter model: Meta Llama 3.1 8B Instruct Q4_K - Medium
 
@@ -401,11 +421,11 @@ In the case of the hybrid GPU+CPU setup, the prompt processing throughput varies
 
 In the CPU-only case, the prompt processing throughput is uniformly around 30–40 tokens/s. The time to get the first token depends on the length of the input, ranging from 670 ms to 52.12 seconds. Again, the notable exception is the (pp4096+tg256) case, which takes 120.12 seconds to produce the first token. The CPU-only method takes 8–12 times more time to generate the first token (with the exception of pp4096+tg256, which takes 2.5 times as long).
 
-The situation is reversed for token generation. The CPU-only method produces output at a rate of 5-6 tokens/s -- around 1.6 faster than the GPU+CPU method.
+The situation is reversed for token generation. The CPU-only method produces output at a rate of 5-6 tokens/s -- around 1.6 times faster than the GPU+CPU method.
 
 The slow token generation of the GPU+CPU method may be attributed to the extra time needed to move the model weights from the system RAM into the VRAM again and again for each generated token. For prompt processing, the required time is determined by the size of the input prompt and dominated by the available computational power rather than the memory bandwidth.
 
-In conclusion, a GPU with even a small amount of VRAM can contribute positively to the overall system performance.
+In conclusion, a GPU with even a small amount of VRAM can contribute positively to overall system performance.
 
 ## Price of the hardware
 
