@@ -365,7 +365,9 @@ Data: [localscore.localscore.1B.tsv](assets/localscore.localscore.1B.tsv)
 LocalScore values for the 1 B parameter model.
 
 
-## Hybrid system
+## Hybrid setups
+
+### Hybrid setup: NVIDIA GeForce RTX 4060 Ti + CPU
 
 The benchmark results show a hybrid system, too. [Test #337](https://www.localscore.ai/result/337) features an AMD Ryzen 7 7800X3D 8-Core Processor (znver4) with 32 GB of system RAM, plus an NVIDIA GeForce RTX 4060 Ti with 8 GB VRAM. The model under test is [*Qwen2.5 14B Instruct Q4_K - Medium*](https://arxiv.org/html/2409.12186v2) with 14.8B parameters. The file size is 8,988,110,976 bytes, which does not fit into the GPU memory.
 
@@ -425,7 +427,53 @@ The situation is reversed for token generation. The CPU-only method produces out
 
 The slow token generation of the GPU+CPU method may be attributed to the extra time needed to move the model weights from the system RAM into the VRAM again and again for each generated token. For prompt processing, the required time is determined by the size of the input prompt and dominated by the available computational power rather than the memory bandwidth.
 
-In conclusion, a GPU with even a small amount of VRAM can contribute positively to overall system performance.
+### Hybrid setup: CPU only; NVIDIA GeForce RTX 1050 4GB + CPU; RTX 1050 8GB only
+
+Tests [#1218](https://www.localscore.ai/result/1218), [#1249](https://www.localscore.ai/result/1249), and [#602](https://www.localscore.ai/result/602) show related setups for the 1B parameter model (which requires around 2 GB of memory to run):
+-   Test [#1218](https://www.localscore.ai/result/1218): AMD Phenom(tm) II X4 955 Processor (amdfam10) 16GB RAM, no GPU:
+    -   All processing is performed by the CPU
+        | TEST NAME      | PROMPT<br>(tokens/s) | GENERATION<br>(tokens/s) | TTFT       |
+        |----------------|---------------------:|-------------------------:|-----------:|
+        | pp1024+tg16    |                   7  |                      4.0 | 152.25 sec |
+        | pp4096+tg256   |                   4  |                      2.2 | 934.39 sec |
+        | pp2048+tg256   |                   6  |                      3.7 | 338.99 sec |
+        | pp2048+tg768   |                   6  |                      3.4 | 333.44 sec |
+        | pp1024+tg1024  |                   7  |                      4.1 | 147.76 sec |
+        | pp1280+tg3072  |                   7  |                      3.3 | 188.84 sec |
+        | pp384+tg1152   |                   8  |                      4.5 |  50.14 sec |
+        | pp64+tg1024    |                   8  |                      4.6 |   7.81 sec |
+        | pp16+tg1536    |                   8  |                      4.2 |   2.20 sec |
+-   Test [#1249](https://www.localscore.ai/result/1249): AMD Phenom(tm) II X4 945 Processor (amdfam10) 8GB RAM + NVIDIA GeForce GTX 1050 GPU 2GB VRAM:
+    -   The model with the context does not fit into the GPU memory.
+    -   The GPU only partially contributes to the overall performance, showing a ~20x speedup in prompt processing and a ~3.5x speedup in token generation.
+        | TEST NAME      | PROMPT<br>(tokens/s) | GENERATION<br>(tokens/s) | TTFT      |
+        |----------------|---------------------:|-------------------------:|----------:|
+        | pp1024+tg16    |                 124  |                    13.6  | 8.30 sec  |
+        | pp4096+tg256   |                 117  |                     9.5  | 35.16 sec |
+        | pp2048+tg256   |                 123  |                    12.4  | 16.69 sec |
+        | pp2048+tg768   |                 123  |                    12.0  | 16.72 sec |
+        | pp1024+tg1024  |                 125  |                    13.7  | 8.23 sec  |
+        | pp1280+tg3072  |                 124  |                    11.3  | 10.40 sec |
+        | pp384+tg1152   |                 126  |                    15.1  | 3.11 sec  |
+        | pp64+tg1024    |                 111  |                    16.2  | 631 ms    |
+        | pp16+tg1536    |                  88  |                    15.6  | 237 ms    |
+-   Test [#602](https://www.localscore.ai/result/602): Intel Core i5-8300H CPU @ 2.30GHz (skylake) 24 GB RAM + NVIDIA GeForce GTX 1050 GPU 4GB VRAM:
+    -   All processing is done in the GPU memory.
+    -   Prompt processing speedup is ~7x compared to the hybrid setup; ~100-150x compared to the CPU-only setup.
+    -   Token generation speedup is ~2.6x compared to the hybrid setup; ~9x compared to the CPU-only setup.
+        | TEST NAME      | PROMPT<br>(tokens/s) | GENERATION<br>(tokens/s) | TTFT      |
+        |----------------|---------------------:|-------------------------:|----------:|
+        | pp1024+tg16    |                 1016 |                    41.3  | 1.03 sec  |
+        | pp4096+tg256   |                  787 |                    23.9  | 5.25 sec  |
+        | pp2048+tg256   |                  913 |                    34.5  | 2.27 sec  |
+        | pp2048+tg768   |                  881 |                    32.3  | 2.35 sec  |
+        | pp1024+tg1024  |                  910 |                    36.9  | 1.15 sec  |
+        | pp1280+tg3072  |                  866 |                    28.1  | 1.50 sec  |
+        | pp384+tg1152   |                  882 |                    38.0  | 461 ms    |
+        | pp64+tg1024    |                  643 |                    41.5  | 120 ms    |
+        | pp16+tg1536    |                  231 |                    38.5  | 88 ms     |
+
+In conclusion, a GPU with even a small amount of VRAM can improve overall system performance.
 
 ## Hardware price
 
