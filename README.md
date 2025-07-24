@@ -2,14 +2,14 @@
 
 [LocalScore](https://www.localscore.ai/latest) is a benchmarking tool to measure how fast Large Language Models run on a specific hardware.
 
-The benchmark results are [downloaded](localscore_download_results.bat) and [concatenated](html_to_tsv.py) into a single table: [localscore_results.tsv](localscore_results.tsv) As of 2025.07.14 13:28:00, it contains 1218 results.
+The benchmark results are [downloaded](scripts/localscore_download_results.bat) and [concatenated](scripts/html_to_tsv.py) into a single table: [localscore_results.tsv](assets/localscore_results.tsv) As of 2025.07.14 13:28:00, it contains 1218 results.
 
 We examined 3 models:
 -   [Qwen2.5 14B Instruct Q4_K - Medium](https://huggingface.co/bartowski/Qwen2.5-14B-Instruct-GGUF/resolve/main/Qwen2.5-14B-Instruct-Q4_K_M.gguf): 14B parameters, ~10GB memory.
 -   [Meta Llama 3.1 8B Instruct Q4_K - Medium](https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf): 8B parameters, ~6GB memory.
 -   [Llama 3.2 1B Instruct Q4_K - Medium](https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_K_M.gguf): 1B parameters, ~2GB memory.
 
-The insights are [compiled](create_charts.py) into the following charts.
+The insights are [compiled](scripts/create_charts.py) into the following charts.
 
 ## Summary of observations
 
@@ -32,9 +32,9 @@ Prompt processing and the time to produce the first token is primarily determine
 
 ### 14B parameter model: Qwen2.5 14B Instruct Q4_K - Medium
 
-Data: [localscore.ttft.14B.tsv](localscore.ttft.14B.tsv)
+Data: [localscore.ttft.14B.tsv](assets/localscore.ttft.14B.tsv)
 
-![localscore.ttft.14B.png](localscore.ttft.14B.png)
+![localscore.ttft.14B.png](assets/localscore.ttft.14B.png)
 
 The figure shows the time-to-first-token benchmark results for the 14 B parameter model. In the charts a threshold of 3 seconds was chosen arbitrarily as an upper limit for good performance for creating the first token. (Indicated by a red line.)
 
@@ -171,9 +171,9 @@ The Apple GPUs seem to aim to fill the gap between the performance of NVIDIA GPU
 
 ### 8B parameter model: Meta Llama 3.1 8B Instruct Q4_K - Medium
 
-Data: [localscore.ttft.8B.tsv](localscore.ttft.8B.tsv)
+Data: [localscore.ttft.8B.tsv](assets/localscore.ttft.8B.tsv)
 
-![localscore.ttft.8B.png](localscore.ttft.8B.png)
+![localscore.ttft.8B.png](assets/localscore.ttft.8B.png)
 
 Observations:
 
@@ -204,9 +204,9 @@ Observations:
 
 ### 1B parameter model: Llama 3.2 1B Instruct Q4_K - Medium
 
-Data: [localscore.ttft.1B.tsv](localscore.ttft.1B.tsv)
+Data: [localscore.ttft.1B.tsv](assets/localscore.ttft.1B.tsv)
 
-![localscore.ttft.1B.png](localscore.ttft.1B.png)
+![localscore.ttft.1B.png](assets/localscore.ttft.1B.png)
 
 Observations:
 
@@ -239,9 +239,9 @@ Prompt processing is primarily determined by the processing units' tensor multip
 
 ### 14B parameter model: Qwen2.5 14B Instruct Q4_K - Medium
 
-Data: [localscore.prompt_tps.14B.tsv](localscore.prompt_tps.14B.tsv)
+Data: [localscore.prompt_tps.14B.tsv](assets/localscore.prompt_tps.14B.tsv)
 
-![localscore.prompt_tps.14B.png](localscore.prompt_tps.14B.png)
+![localscore.prompt_tps.14B.png](assets/localscore.prompt_tps.14B.png)
 
 Prompt processing throughput for the 14B parameter model.
 
@@ -292,17 +292,17 @@ GPUs processing the input at a rate of at least 1000 tokens per second:
 
 ### 8B parameter model: Meta Llama 3.1 8B Instruct Q4_K - Medium
 
-Data: [localscore.prompt_tps.8B.tsv](localscore.prompt_tps.8B.tsv)
+Data: [localscore.prompt_tps.8B.tsv](assets/localscore.prompt_tps.8B.tsv)
 
-![localscore.prompt_tps.8B.png](localscore.prompt_tps.8B.png)
+![localscore.prompt_tps.8B.png](assets/localscore.prompt_tps.8B.png)
 
 Prompt processing throughput for the 8 B parameter model.
 
 ### 1B parameter model: Llama 3.2 1B Instruct Q4_K - Medium
 
-Data: [localscore.prompt_tps.1B.tsv](localscore.prompt_tps.1B.tsv)
+Data: [localscore.prompt_tps.1B.tsv](assets/localscore.prompt_tps.1B.tsv)
 
-![localscore.prompt_tps.1B.png](localscore.prompt_tps.1B.png)
+![localscore.prompt_tps.1B.png](assets/localscore.prompt_tps.1B.png)
 
 Prompt processing throughput for the 1 B parameter model.
 
@@ -313,25 +313,25 @@ Performance is primarily determined by the memory bandwidth of the GPU/CPU. GPUs
 
 ### 14B parameter model: Qwen2.5 14B Instruct Q4_K - Medium
 
-Data: [localscore.gen_tps.14B.tsv](localscore.gen_tps.14B.tsv)
+Data: [localscore.gen_tps.14B.tsv](assets/localscore.gen_tps.14B.tsv)
 
-![localscore.gen_tps.14B.png](localscore.gen_tps.14B.png)
+![localscore.gen_tps.14B.png](assets/localscore.gen_tps.14B.png)
 
 Token generation throughput for the 14B parameter model. The threshold value was chosen to be larger than the reading speed -- assuming that an average person could read the output tokens at a speed of 300 words per minute (5 words per seconds), which is around 5 tokens per second for English text.
 
 ### 8B parameter model: Meta Llama 3.1 8B Instruct Q4_K - Medium
 
-Data: [localscore.gen_tps.8B.tsv](localscore.gen_tps.8B.tsv)
+Data: [localscore.gen_tps.8B.tsv](assets/localscore.gen_tps.8B.tsv)
 
-![localscore.gen_tps.8B.png](localscore.gen_tps.8B.png)
+![localscore.gen_tps.8B.png](assets/localscore.gen_tps.8B.png)
 
 Token generation throughput for the 8 B parameter model.
 
 ### 1B parameter model: Llama 3.2 1B Instruct Q4_K - Medium
 
-Data: [localscore.gen_tps.1B.tsv](localscore.gen_tps.1B.tsv)
+Data: [localscore.gen_tps.1B.tsv](assets/localscore.gen_tps.1B.tsv)
 
-![localscore.gen_tps.1B.png](localscore.gen_tps.1B.png)
+![localscore.gen_tps.1B.png](assets/localscore.gen_tps.1B.png)
 
 Token generation throughput for the 1 B parameter model.
 
@@ -342,25 +342,25 @@ The LocalScore website calculates a 'localscore' value for each test. The weight
 
 ### 14B parameter model: Qwen2.5 14B Instruct Q4_K - Medium
 
-Data: [localscore.localscore.14B.tsv](localscore.localscore.14B.tsv)
+Data: [localscore.localscore.14B.tsv](assets/localscore.localscore.14B.tsv)
 
-![localscore.localscore.14B.png](localscore.localscore.14B.png)
+![localscore.localscore.14B.png](assets/localscore.localscore.14B.png)
 
 LocalScore values for the 14B parameter model.
 
 ### 8B parameter model: Meta Llama 3.1 8B Instruct Q4_K - Medium
 
-Data: [localscore.localscore.8B.tsv](localscore.localscore.8B.tsv)
+Data: [localscore.localscore.8B.tsv](assets/localscore.localscore.8B.tsv)
 
-![localscore.localscore.8B.png](localscore.localscore.8B.png)
+![localscore.localscore.8B.png](assets/localscore.localscore.8B.png)
 
 LocalScore values for the 8 B parameter model.
 
 ### 1B parameter model: Llama 3.2 1B Instruct Q4_K - Medium
 
-Data: [localscore.localscore.1B.tsv](localscore.localscore.1B.tsv)
+Data: [localscore.localscore.1B.tsv](assets/localscore.localscore.1B.tsv)
 
-![localscore.localscore.1B.png](localscore.localscore.1B.png)
+![localscore.localscore.1B.png](assets/localscore.localscore.1B.png)
 
 LocalScore values for the 1 B parameter model.
 
