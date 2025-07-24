@@ -26,6 +26,8 @@ The insights are [compiled](scripts/create_charts.py) into the following charts.
     -   The AMD EPYC 9135 16-Core and the AMD EPYC 9454P 48-Core with (12-channel) 256GB RAM achieve around 26 and 21 tokens/s respectively, surpassing capable NVIDIA and AMD GPUs.
     -   Most of the AMD CPUs and Intel CPUs perform poorly, below 10 tokens/s. (Only for the 1B model can they produce output above 10 tokens/s.)
 
+-   A GPU with even a small amount of VRAM can dramatically improve overall system performance
+
 ## Time to first token
 
 Prompt processing and the time to produce the first token is primarily determined by the processing units' tensor multiplication-and-add throughput. GPUs have more processing units -- especially dedicated tensor cores -- this contributes the most to the overall performance. CPUs in general do not have sufficient number of cores to parallelize the computation.
